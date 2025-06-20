@@ -1,0 +1,134 @@
+Method list (CPU)
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                         Method                                                                          |   Time (ms)    |  Own Time (ms)  |  Samples  |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                                 |  38,703   99%  |              0  |    4,064  |
+|  Run.runBenchmark()                                                                                                                                     |  38,703   99%  |              0  |    4,064  |
+|  Run.doRuns(Benchmark)                                                                                                                                  |  38,693   99%  |              0  |    4,063  |
+|  Run.measure(Benchmark, int)                                                                                                                            |  38,693   99%  |              0  |    4,063  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                                      |  38,678   99%  |              0  |    4,061  |
+|  Richards.benchmark()                                                                                                                                   |  38,678   99%  |              0  |    4,061  |
+|  richards.Scheduler.start()                                                                                                                             |  38,678   99%  |          < 0.1  |    4,061  |
+|  richards.Scheduler.schedule()                                                                                                                          |  38,665   99%  |         10,865  |    4,060  |
+|  richards.TaskControlBlock.runTask()                                                                                                                    |  23,886   62%  |          7,054  |    2,515  |
+|  richards.Scheduler$HandlerProcessFunction.apply(Packet, RBObject)                                                                                      |   7,654   20%  |          2,873  |      801  |
+|  richards.Scheduler.queuePacket(Packet)                                                                                                                 |   4,214   11%  |            770  |      440  |
+|  richards.Scheduler$DeviceProcessFunction.apply(Packet, RBObject)                                                                                       |   4,186   11%  |          1,669  |      445  |
+|  richards.TaskState.isTaskHoldingOrWaiting()                                                                                                            |   2,937    8%  |          2,937  |      303  |
+|  richards.Scheduler$IdleProcessFunction.apply(Packet, RBObject)                                                                                         |   2,509    6%  |          1,133  |      263  |
+|  richards.TaskControlBlock.addInputAndCheckPriority(Packet, TaskControlBlock)                                                                           |   1,783    5%  |          1,114  |      186  |
+|  richards.Scheduler$WorkerProcessFunction.apply(Packet, RBObject)                                                                                       |   1,334    3%  |            873  |      140  |
+|  richards.Scheduler.findTask(int)                                                                                                                       |   1,228    3%  |          1,228  |      127  |
+|  richards.RBObject.append(Packet, Packet)                                                                                                               |     942    2%  |            468  |       98  |
+|  richards.TaskState.isWaitingWithPacket()                                                                                                               |     847    2%  |            847  |       90  |
+|  richards.Scheduler.release(int)                                                                                                                        |     816    2%  |             79  |       88  |
+|  richards.Scheduler.holdSelf()                                                                                                                          |     738    2%  |            579  |       76  |
+|  richards.TaskControlBlock.getLink()                                                                                                                    |     687    2%  |            687  |       73  |
+|  richards.Packet.setLink(Packet)                                                                                                                        |     680    2%  |            680  |       73  |
+|  richards.DeviceTaskDataRecord.setPending(Packet)                                                                                                       |     603    2%  |            603  |       64  |
+|  richards.HandlerTaskDataRecord.deviceInAdd(Packet)                                                                                                     |     533    1%  |            259  |       55  |
+|  richards.TaskControlBlock.getIdentity()                                                                                                                |     448    1%  |            448  |       47  |
+|  richards.IdleTaskDataRecord.setControl(int)                                                                                                            |     398    1%  |            398  |       39  |
+|  richards.HandlerTaskDataRecord.workInAdd(Packet)                                                                                                       |     389    1%  |            119  |       43  |
+|  richards.Packet.setIdentity(int)                                                                                                                       |     362    1%  |            362  |       38  |
+|  richards.TaskState.setTaskHolding(boolean)                                                                                                             |     360    1%  |            360  |       41  |
+|  richards.Packet.getDatum()                                                                                                                             |     331    1%  |            331  |       36  |
+|  richards.HandlerTaskDataRecord.deviceIn(Packet)                                                                                                        |     328    1%  |            328  |       35  |
+|  richards.Packet.getIdentity()                                                                                                                          |     250    1%  |            250  |       27  |
+|  richards.HandlerTaskDataRecord.workIn(Packet)                                                                                                          |     184    0%  |            184  |       19  |
+|  richards.TaskState.running()                                                                                                                           |     169    0%  |            169  |       17  |
+|  richards.TaskState.setPacketPending(boolean)                                                                                                           |     168    0%  |            168  |       18  |
+|  richards.IdleTaskDataRecord.setCount(int)                                                                                                              |     159    0%  |            159  |       16  |
+|  richards.Packet.setDatum(int)                                                                                                                          |     134    0%  |            134  |       14  |
+|  richards.TaskState.packetPending()                                                                                                                     |     129    0%  |            129  |       13  |
+|  richards.DeviceTaskDataRecord.getPending()                                                                                                             |      99    0%  |             99  |       10  |
+|  richards.TaskControlBlock.getPriority()                                                                                                                |      99    0%  |             99  |       10  |
+|  richards.HandlerTaskDataRecord.deviceIn()                                                                                                              |      91    0%  |             91  |        9  |
+|  richards.WorkerTaskDataRecord.getCount()                                                                                                               |      69    0%  |             69  |        7  |
+|  java.lang.invoke.DirectMethodHandle.make(MemberName) DirectMethodHandle.java                                                                           |      25    0%  |              0  |        2  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                           |      25    0%  |              0  |        2  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java              |      25    0%  |              0  |        2  |
+|  com.sun.management.GarbageCollectionNotificationInfo.<init>(CompositeData) GarbageCollectionNotificationInfo.java                                      |      15    0%  |              0  |        1  |
+|  com.sun.management.GarbageCollectionNotificationInfo.from(CompositeData) GarbageCollectionNotificationInfo.java                                        |      15    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectionNotifInfoCompositeData.validateCompositeData(CompositeData) GarbageCollectionNotifInfoCompositeData.java  |      15    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.createGCNotification(long, String, String, String, GcInfo) GarbageCollectorExtImpl.java            |      15    0%  |              0  |        1  |
+|  com.yourkit.am.av.invoke(Object, Object[]) a                                                                                                           |      15    0%  |              0  |        1  |
+|  com.yourkit.probes.GcPauseCounter$GcListener.handleNotification(Notification, Object) a                                                                |      15    0%  |              0  |        1  |
+|  com.yourkit.probes.ReflectionUtilImpl.callMethod1(Class, Object, String, Object, CallStatus) a                                                         |      15    0%  |              0  |        1  |
+|  com.yourkit.runtime.JniMethod.callObjectMethodImpl(Class, Object, long, long, Object[], long[]) a                                                      |      15    0%  |              0  |        1  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                         |      15    0%  |              0  |        1  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                      |      15    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.makeAllocator(MemberName) DirectMethodHandle.java                                                                  |      15    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder              |      15    0%  |              0  |        1  |
+|  java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite() InnerClassLambdaMetafactory.java                                                          |      15    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                        |      15    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaMetafactory.metafactory(MethodHandles$Lookup, String, MethodType, MethodType, MethodHandle, MethodType) LambdaMetafactory.java  |      15    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.findConstructor(Class, MethodType) MethodHandles.java                                                            |      15    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.getDirectConstructor(Class, MemberName) MethodHandles.java                                                       |      15    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.getDirectConstructorCommon(Class, MemberName, boolean) MethodHandles.java                                        |      15    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.changeReturnType(Class) MethodType.java                                                                                    |      15    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.makeImpl(Class, Class[], boolean) MethodType.java                                                                          |      15    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.methodType(Class, Class[], boolean) MethodType.java                                                                        |      15    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType$ConcurrentWeakInternSet.add(Object) MethodType.java                                                                        |      15    0%  |              0  |        1  |
+|  java.util.concurrent.ConcurrentHashMap.casTabAt(ConcurrentHashMap$Node[], int, ConcurrentHashMap$Node, ConcurrentHashMap$Node) ConcurrentHashMap.java  |      15    0%  |             15  |        1  |
+|  java.util.concurrent.ConcurrentHashMap.putIfAbsent(Object, Object) ConcurrentHashMap.java                                                              |      15    0%  |              0  |        1  |
+|  java.util.concurrent.ConcurrentHashMap.putVal(Object, Object, boolean) ConcurrentHashMap.java                                                          |      15    0%  |              0  |        2  |
+|  sun.management.LazyCompositeData.isTypeMatched(CompositeType, CompositeType) LazyCompositeData.java                                                    |      15    0%  |              0  |        1  |
+|  sun.management.NotificationEmitterSupport.sendNotification(Notification) NotificationEmitterSupport.java                                               |      15    0%  |              0  |        1  |
+|  Run.printResult(long, int)                                                                                                                             |      14    0%  |          < 0.1  |        2  |
+|  richards.RBObject.<init>()                                                                                                                             |      12    0%  |             12  |        1  |
+|  richards.TaskState.<init>()                                                                                                                            |      12    0%  |              0  |        1  |
+|  richards.TaskState.createWaitingWithPacket()                                                                                                           |      12    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, long) DirectMethodHandle$Holder                                                |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x00000008000c4c00.invoke(Object, long) LambdaForm$MH                                                                   |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x000000080010a400.invoke(Object, Object, int, long) LambdaForm$MH                                                      |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x000000080010ac00.linkToTargetMethod(Object, int, long, Object) LambdaForm$MH                                          |       9    0%  |              0  |        1  |
+|  java.lang.String.getBytes(byte[], int, byte) String.java                                                                                               |       9    0%  |              0  |        1  |
+|  java.lang.StringConcatHelper.newArrayWithSuffix(String, long) StringConcatHelper.java                                                                  |       9    0%  |              0  |        1  |
+|  java.lang.System.arraycopy(Object, int, Object, int, int) System.java (native)                                                                         |       9    0%  |              9  |        1  |
+|  richards.Packet.getData()                                                                                                                              |       9    0%  |              9  |        1  |
+|  richards.HandlerTaskDataRecord.workIn()                                                                                                                |       9    0%  |              9  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(byte, Class, MemberName, Class) DirectMethodHandle.java                                                       |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(Class, MemberName) DirectMethodHandle.java                                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.makePreparedLambdaForm(MethodType, int) DirectMethodHandle.java                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName, boolean) DirectMethodHandle.java                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MethodType, int) DirectMethodHandle.java                                                        |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName) DirectMethodHandle.java                                                             |       9    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers.basicInvoker() Invokers.java                                                                                                 |       9    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers.callSiteForm(MethodType, boolean) Invokers.java                                                                              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers.linkToTargetMethod(MethodType) Invokers.java                                                                                 |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$Name.<init>(MethodType, Object[]) LambdaForm.java                                                                          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$NamedFunction.<init>(MethodType) LambdaForm.java                                                                           |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MemberName$Factory.resolve(byte, MemberName, Class, int, boolean) MemberName.java                                                     |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MemberName$Factory.resolveOrFail(byte, MemberName, Class, int, Class) MemberName.java                                                 |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.resolve(MemberName, Class, int, boolean) MethodHandleNatives.java (native)                                        |       9    0%  |              9  |        1  |
+|  Run.reportBenchmark()                                                                                                                                  |       9    0%  |              0  |        1  |
+|  richards.WorkerTaskDataRecord.setCount(int)                                                                                                            |       8    0%  |              8  |        1  |
+|  com.yourkit.probes.builtin.Files.writeOnEnter(FileOutputStream, int) a                                                                                 |       4    0%  |              4  |        1  |
+|  com.yourkit.probes.builtin.Files$FileOutputStream_write_arrayRange_Probe.onEnter(FileOutputStream, int) a                                              |       4    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                                                                         |       4    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                                                                   |       4    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.implFlush() BufferedOutputStream.java                                                                                     |       4    0%  |              0  |        1  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                                                                 |       4    0%  |              0  |        1  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                                                                       |       4    0%  |              0  |        1  |
+|  java.io.PrintStream.implWrite(byte[], int, int) PrintStream.java                                                                                       |       4    0%  |              0  |        1  |
+|  java.io.PrintStream.implWriteln(String) PrintStream.java                                                                                               |       4    0%  |              0  |        1  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                                   |       4    0%  |              0  |        1  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                                                                           |       4    0%  |              0  |        1  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                                   |       4    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                                                              |       4    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                                                                          |       4    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.lockedFlushBuffer() StreamEncoder.java                                                                                        |       4    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                                                               |       4    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.getAllPoolNames() GarbageCollectorExtImpl.java                                                     |       0    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.getGcInfoBuilder() GarbageCollectorExtImpl.java                                                    |       0    0%  |              0  |        1  |
+|  java.lang.invoke.MemberName.hashCode() MemberName.java                                                                                                 |       0    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkMethodHandleConstant(Class, int, Class, String, Object) MethodHandleNatives.java                              |       0    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.linkMethodHandleConstant(byte, Class, String, Object) MethodHandles.java                                         |       0    0%  |              0  |        1  |
+|  java.util.concurrent.ConcurrentHashMap.put(Object, Object) ConcurrentHashMap.java                                                                      |       0    0%  |              0  |        1  |
+|  java.util.Objects.hash(Object[]) Objects.java                                                                                                          |       0    0%  |              0  |        1  |
+|  sun.management.ManagementFactoryHelper.getAllMemoryPoolNames() ManagementFactoryHelper.java                                                            |       0    0%  |              0  |        1  |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 25, 2025 10:55:20

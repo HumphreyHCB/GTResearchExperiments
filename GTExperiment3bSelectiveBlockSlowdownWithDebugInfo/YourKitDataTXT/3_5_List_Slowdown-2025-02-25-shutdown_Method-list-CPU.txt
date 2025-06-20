@@ -1,0 +1,53 @@
+Method list (CPU)
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                         Method                                                                         |   Time (ms)    |  Own Time (ms)  |  Samples  |
++--------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                                |  91,501  100%  |              0  |    9,481  |
+|  Run.runBenchmark()                                                                                                                                    |  91,501  100%  |              0  |    9,481  |
+|  Run.doRuns(Benchmark)                                                                                                                                 |  91,491   99%  |              0  |    9,480  |
+|  Run.measure(Benchmark, int)                                                                                                                           |  91,491   99%  |          < 0.1  |    9,480  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                                     |  91,481   99%  |              9  |    9,479  |
+|  List.benchmark()                                                                                                                                      |  91,461   99%  |              9  |    9,477  |
+|  List.tail(List$Element, List$Element, List$Element)                                                                                                   |  90,828   99%  |          6,965  |    9,412  |
+|  List.isShorterThan(List$Element, List$Element)                                                                                                        |  75,132   82%  |         40,712  |    7,800  |
+|  List$Element.getNext()                                                                                                                                |  43,150   47%  |         43,150  |    4,458  |
+|  List.makeList(int)                                                                                                                                    |     497    1%  |            387  |       51  |
+|  List$Element.length()                                                                                                                                 |     124    0%  |            124  |       13  |
+|  java.lang.Integer.valueOf(int) Integer.java                                                                                                           |     109    0%  |            109  |       11  |
+|  List.verifyResult(Object)                                                                                                                             |       9    0%  |              9  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, long) DirectMethodHandle$Holder                                               |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x00000008000c4c00.invoke(Object, long) LambdaForm$MH                                                                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x000000080014a000.invoke(Object, Object, int, long) LambdaForm$MH                                                     |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x000000080014a800.linkToTargetMethod(Object, int, long, Object) LambdaForm$MH                                         |       9    0%  |              0  |        1  |
+|  java.lang.StringConcatHelper.newArray(long) StringConcatHelper.java                                                                                   |       9    0%  |              0  |        1  |
+|  java.lang.StringConcatHelper.newArrayWithSuffix(String, long) StringConcatHelper.java                                                                 |       9    0%  |              0  |        1  |
+|  jdk.internal.misc.Unsafe.allocateUninitializedArray(Class, int) Unsafe.java                                                                           |       9    0%  |              9  |        1  |
+|  Run.printResult(long, int)                                                                                                                            |       9    0%  |              0  |        1  |
+|  java.lang.ClassLoader.defineClass0(ClassLoader, Class, String, byte[], int, int, ProtectionDomain, boolean, int, Object) ClassLoader.java (native)    |       9    0%  |              9  |        1  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                        |       9    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle.<init>(MethodType, LambdaForm) BoundMethodHandle.java                                                              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LL.copyWithExtendL(MethodType, LambdaForm, Object) java/lang/invoke/BoundMethodHandle$Species_LL           |       9    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LLL.<init>(MethodType, LambdaForm, Object, Object, Object) java/lang/invoke/BoundMethodHandle$Species_LLL  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LLL.make(MethodType, LambdaForm, Object, Object, Object) java/lang/invoke/BoundMethodHandle$Species_LLL    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                     |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder                 |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                     |       9    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(LambdaForm, MethodType) InvokerBytecodeGenerator.java                                |       9    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.loadMethod(byte[]) InvokerBytecodeGenerator.java                                                            |       9    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                               |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.compileToBytecode() LambdaForm.java                                                                                       |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.prepare() LambdaForm.java                                                                                                 |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandle.<init>(MethodType, LambdaForm) MethodHandle.java                                                                        |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java             |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.argumentsWithCombiner(boolean, MethodHandle, int, MethodHandle, int[]) MethodHandles.java                              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.foldArgumentsWithCombiner(MethodHandle, int, MethodHandle, int[]) MethodHandles.java                                   |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(boolean, Object) MethodHandles.java                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, String[]) StringConcatFactory.java                                              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java     |       9    0%  |              0  |        1  |
+|  java.lang.System$2.defineClass(ClassLoader, Class, String, byte[], ProtectionDomain, boolean, int, Object) System.java                                |       9    0%  |              0  |        1  |
+|  Run.reportBenchmark()                                                                                                                                 |       9    0%  |              0  |        1  |
++--------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 25, 2025 10:55:52

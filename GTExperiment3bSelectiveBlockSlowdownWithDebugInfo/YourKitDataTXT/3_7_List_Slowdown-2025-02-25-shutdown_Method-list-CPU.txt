@@ -1,0 +1,52 @@
+Method list (CPU)
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                                Method                                                                                 |   Time (ms)    |  Own Time (ms)  |  Samples  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                                               |  92,041  100%  |              0  |    9,496  |
+|  Run.runBenchmark()                                                                                                                                                   |  92,041  100%  |          < 0.1  |    9,496  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                                                    |  92,031   99%  |              0  |    9,495  |
+|  List.benchmark()                                                                                                                                                     |  92,031   99%  |             19  |    9,495  |
+|  Run.doRuns(Benchmark)                                                                                                                                                |  92,031   99%  |              0  |    9,495  |
+|  Run.measure(Benchmark, int)                                                                                                                                          |  92,031   99%  |              0  |    9,495  |
+|  List.tail(List$Element, List$Element, List$Element)                                                                                                                  |  91,558   99%  |          7,320  |    9,446  |
+|  List.isShorterThan(List$Element, List$Element)                                                                                                                       |  75,913   82%  |         40,872  |    7,825  |
+|  List$Element.getNext()                                                                                                                                               |  43,365   47%  |         43,365  |    4,466  |
+|  List.makeList(int)                                                                                                                                                   |     358    0%  |            268  |       37  |
+|  List$Element.length()                                                                                                                                                |      93    0%  |             93  |       10  |
+|  java.lang.Integer.valueOf(int) Integer.java                                                                                                                          |      89    0%  |             89  |        9  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                                       |       9    0%  |              0  |        1  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder                                |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                                              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormBuffer.clearDuplicatesAndNulls() LambdaFormBuffer.java                                                                                    |       9    0%  |              9  |        1  |
+|  java.lang.invoke.LambdaFormBuffer.endEdit() LambdaFormBuffer.java                                                                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.filterArgumentsForm(int, MethodType, int[]) LambdaFormEditor.java                                                                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.makeArgumentCombinationForm(int, MethodType, int[], boolean, boolean) LambdaFormEditor.java                                        |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                                         |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java                            |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.argumentsWithCombiner(boolean, MethodHandle, int, MethodHandle, int[]) MethodHandles.java                                             |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.filterArgumentsWithCombiner(MethodHandle, int, MethodHandle, int[]) MethodHandles.java                                                |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.filterInPrependers(MethodHandle, String[], Class[]) StringConcatFactory.java                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, String[]) StringConcatFactory.java                                                             |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java                    |       9    0%  |              0  |        1  |
+|  Run.reportBenchmark()                                                                                                                                                |       9    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectionNotifInfoCompositeData.getCompositeData() GarbageCollectionNotifInfoCompositeData.java                                  |       0    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectionNotifInfoCompositeData.toCompositeData(GarbageCollectionNotificationInfo) GarbageCollectionNotifInfoCompositeData.java  |       0    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.createGCNotification(long, String, String, String, GcInfo) GarbageCollectorExtImpl.java                          |       0    0%  |              0  |        1  |
+|  com.sun.management.internal.GcInfoCompositeData.getCompositeData() GcInfoCompositeData.java                                                                          |       0    0%  |              0  |        1  |
+|  com.sun.management.internal.GcInfoCompositeData.toCompositeData(GcInfo) GcInfoCompositeData.java                                                                     |       0    0%  |              0  |        1  |
+|  java.util.TreeMap.addEntryToEmptyMap(Object, Object) TreeMap.java                                                                                                    |       0    0%  |              0  |        1  |
+|  java.util.TreeMap.compare(Object, Object) TreeMap.java                                                                                                               |       0    0%  |              0  |        1  |
+|  java.util.TreeMap.put(Object, Object) TreeMap.java                                                                                                                   |       0    0%  |              0  |        1  |
+|  java.util.TreeMap.put(Object, Object, boolean) TreeMap.java                                                                                                          |       0    0%  |              0  |        1  |
+|  javax.management.openmbean.CompositeDataSupport.<init>(CompositeType, String[], Object[]) CompositeDataSupport.java                                                  |       0    0%  |              0  |        1  |
+|  javax.management.openmbean.CompositeDataSupport.makeMap(String[], Object[]) CompositeDataSupport.java                                                                |       0    0%  |              0  |        1  |
+|  sun.management.MappedMXBeanType$CompositeDataMXBeanType.toOpenTypeData(Object) MappedMXBeanType.java                                                                 |       0    0%  |              0  |        1  |
+|  sun.management.MappedMXBeanType$MapMXBeanType.toOpenTypeData(Object) MappedMXBeanType.java                                                                           |       0    0%  |              0  |        1  |
+|  sun.management.MemoryUsageCompositeData.getCompositeData() MemoryUsageCompositeData.java                                                                             |       0    0%  |              0  |        1  |
+|  sun.management.MemoryUsageCompositeData.toCompositeData(MemoryUsage) MemoryUsageCompositeData.java                                                                   |       0    0%  |              0  |        1  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 25, 2025 10:56:03

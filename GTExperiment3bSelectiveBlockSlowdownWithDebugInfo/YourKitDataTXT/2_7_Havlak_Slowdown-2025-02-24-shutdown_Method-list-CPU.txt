@@ -1,0 +1,91 @@
+Method list (CPU)
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+-------------+-----------------+-----------+
+|                                                                      Method                                                                       |  Time (ms)  |  Own Time (ms)  |  Samples  |
++---------------------------------------------------------------------------------------------------------------------------------------------------+-------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                           |  187  100%  |          < 0.1  |       18  |
+|  Havlak.innerBenchmarkLoop(int)                                                                                                                   |  186   99%  |          < 0.1  |       16  |
+|  Run.doRuns(Benchmark)                                                                                                                            |  186   99%  |              0  |       16  |
+|  Run.measure(Benchmark, int)                                                                                                                      |  186   99%  |              0  |       16  |
+|  Run.runBenchmark()                                                                                                                               |  186   99%  |              0  |       16  |
+|  havlak.LoopTesterApp.main(int, int, int, int, int)                                                                                               |  170   91%  |          < 0.1  |       15  |
+|  havlak.LoopTesterApp.findLoops(LoopStructureGraph)                                                                                               |  148   79%  |              0  |       14  |
+|  havlak.HavlakLoopFinder.findLoops()                                                                                                              |  143   76%  |              4  |       13  |
+|  havlak.LoopTesterApp.addDummyLoops(int)                                                                                                          |  142   76%  |             22  |       13  |
+|  som.Vector.forEach(ForEachInterface)                                                                                                             |   52   28%  |              0  |        3  |
+|  havlak.HavlakLoopFinder.stepEProcessNonBackPreds(int, Vector, Vector, UnionFindNode)                                                             |   32   17%  |              0  |        3  |
+|  java.lang.ClassLoader.loadClass(String) ClassLoader.java                                                                                         |   28   15%  |              0  |        4  |
+|  jdk.internal.loader.BuiltinClassLoader.defineClass(String, Resource) BuiltinClassLoader.java                                                     |   28   15%  |              0  |        4  |
+|  jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(String) BuiltinClassLoader.java                                                |   28   15%  |              0  |        4  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClass(String, boolean) BuiltinClassLoader.java                                                        |   28   15%  |              0  |        4  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(String, boolean) BuiltinClassLoader.java                                                  |   28   15%  |              0  |        4  |
+|  jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(String, boolean) ClassLoaders.java                                                     |   28   15%  |              0  |        4  |
+|  havlak.HavlakLoopFinder.lambda$stepEProcessNonBackPreds$1(int, Vector, Vector, Object)                                                           |   22   12%  |             22  |        1  |
+|  havlak.HavlakLoopFinder$$Lambda.0x00000008000c9d78.apply(Object)                                                                                 |   22   12%  |              0  |        1  |
+|  som.Set.forEach(ForEachInterface)                                                                                                                |   22   12%  |              0  |        1  |
+|  som.Vector.append(Object)                                                                                                                        |   22   12%  |             22  |        1  |
+|  havlak.LoopStructureGraph.createNewLoop(BasicBlock, boolean)                                                                                     |   20   11%  |              5  |        2  |
+|  som.Set.<init>()                                                                                                                                 |   19   10%  |             14  |        2  |
+|  havlak.HavlakLoopFinder.identifyEdges(int)                                                                                                       |   18   10%  |              0  |        1  |
+|  havlak.HavlakLoopFinder.processEdges(BasicBlock, int)                                                                                            |   18   10%  |              0  |        1  |
+|  havlak.HavlakLoopFinder$2.apply(BasicBlock)                                                                                                      |   18   10%  |              0  |        1  |
+|  havlak.HavlakLoopFinder$2.apply(Object)                                                                                                          |   18   10%  |              0  |        1  |
+|  som.Dictionary.at(Dictionary$CustomHash)                                                                                                         |   18   10%  |              0  |        1  |
+|  som.Dictionary.getBucket(int)                                                                                                                    |   18   10%  |             18  |        1  |
+|  java.util.jar.JarFile.getManifest() JarFile.java                                                                                                 |   15    8%  |              0  |        1  |
+|  java.util.jar.JarFile.getManifestFromReference() JarFile.java                                                                                    |   15    8%  |              0  |        1  |
+|  java.util.jar.Manifest.<init>(InputStream, String) Manifest.java                                                                                 |   15    8%  |              0  |        1  |
+|  java.util.jar.Manifest.<init>(JarVerifier, InputStream, String) Manifest.java                                                                    |   15    8%  |             15  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader$2.getManifest() URLClassPath.java                                                                     |   15    8%  |              0  |        1  |
+|  havlak.SimpleLoop.<init>(BasicBlock, boolean)                                                                                                    |   14    7%  |              0  |        1  |
+|  som.IdentitySet.<init>()                                                                                                                         |   14    7%  |              0  |        1  |
+|  java.lang.ClassLoader.defineClass(String, byte[], int, int, ProtectionDomain) ClassLoader.java                                                   |   13    7%  |              0  |        2  |
+|  java.lang.ClassLoader.defineClass1(ClassLoader, String, byte[], int, int, ProtectionDomain, String) ClassLoader.java (native)                    |   13    7%  |             13  |        2  |
+|  java.security.SecureClassLoader.defineClass(String, byte[], int, int, CodeSource) SecureClassLoader.java                                         |   13    7%  |              0  |        2  |
+|  havlak.HavlakLoopFinder.initAllNodes()                                                                                                           |   11    6%  |              0  |        1  |
+|  havlak.HavlakLoopFinder$1.apply(Object)                                                                                                          |   11    6%  |             11  |        1  |
+|  som.Vector.<init>(int)                                                                                                                           |    9    5%  |              9  |        2  |
+|  havlak.HavlakLoopFinder.stepD(int, Vector)                                                                                                       |    9    5%  |              9  |        1  |
+|  havlak.UnionFindNode.<init>()                                                                                                                    |    6    3%  |              6  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(byte, Class, MemberName, Class) DirectMethodHandle.java                                                 |    5    3%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.makePreparedLambdaForm(MethodType, int) DirectMethodHandle.java                                              |    5    3%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName, boolean) DirectMethodHandle.java                                              |    5    3%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MethodType, int) DirectMethodHandle.java                                                  |    5    3%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.clinit(ClassWriter, String, List) InvokerBytecodeGenerator.java                                        |    5    3%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(LambdaForm, MethodType) InvokerBytecodeGenerator.java                           |    5    3%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCodeBytes() InvokerBytecodeGenerator.java                                            |    5    3%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.compileToBytecode() LambdaForm.java                                                                                  |    5    3%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkMethodHandleConstant(Class, int, Class, String, Object) MethodHandleNatives.java                        |    5    3%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.getDirectMethodCommon(byte, Class, MemberName, boolean, boolean, MethodHandles$Lookup) MethodHandles.java  |    5    3%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.getDirectMethodForConstant(byte, Class, MemberName) MethodHandles.java                                     |    5    3%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.getDirectMethodNoSecurityManager(byte, Class, MemberName, MethodHandles$Lookup) MethodHandles.java         |    5    3%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.linkMethodHandleConstant(byte, Class, String, Object) MethodHandles.java                                   |    5    3%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.Frame.execute(int, int, Symbol, SymbolTable) Frame.java                                                           |    5    3%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.MethodWriter.visitLdcInsn(Object) MethodWriter.java                                                               |    5    3%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.SymbolTable.addType(String) SymbolTable.java                                                                      |    5    3%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.SymbolTable.addTypeInternal(SymbolTable$Entry) SymbolTable.java                                                   |    5    3%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.SymbolTable.put(SymbolTable$Entry) SymbolTable.java                                                               |    5    3%  |              5  |        1  |
+|  java.lang.invoke.DirectMethodHandle.allocateInstance(Object) DirectMethodHandle.java                                                             |    4    2%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$DMH.0x00000008000cac00.newInvokeSpecial(Object, Object, int, Object, Object) LambdaForm$DMH                          |    4    2%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x00000008000cb400.linkToTargetMethod(Object, int, Object, Object, Object) LambdaForm$MH                          |    4    2%  |              0  |        1  |
+|  jdk.internal.misc.Unsafe.allocateInstance(Class) Unsafe.java (native)                                                                            |    4    2%  |              4  |        1  |
+|  som.Set.<init>(int)                                                                                                                              |    4    2%  |              0  |        1  |
+|  havlak.HavlakLoopFinder.<init>(ControlFlowGraph, LoopStructureGraph)                                                                             |    4    2%  |              0  |        1  |
+|  som.Vector.<init>()                                                                                                                              |    4    2%  |              0  |        1  |
+|  Harness.processArguments(String[])                                                                                                               |    1    1%  |              0  |        2  |
+|  com.yourkit.probes.builtin.Files.readOnEnter(RandomAccessFile) a                                                                                 |    0    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.Files$RandomAccessFile_read_array_Probe.onEnter(RandomAccessFile) a                                                   |    0    0%  |              0  |        1  |
+|  com.yourkit.probes.Table.createRow(int) a                                                                                                        |    0    0%  |              0  |        1  |
+|  com.yourkit.probes.Table.createRow() a                                                                                                           |    0    0%  |              0  |        1  |
+|  java.io.RandomAccessFile.read(byte[], int, int) RandomAccessFile.java                                                                            |    0    0%  |              0  |        1  |
+|  java.io.RandomAccessFile.readFully(byte[], int, int) RandomAccessFile.java                                                                       |    0    0%  |              0  |        1  |
+|  java.util.zip.InflaterInputStream.read(byte[], int, int) InflaterInputStream.java                                                                |    0    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$Source.readFullyAt(byte[], int, int, long) ZipFile.java                                                                    |    0    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$ZipFileInflaterInputStream.fill() ZipFile.java                                                                             |    0    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$ZipFileInputStream.initDataOffset() ZipFile.java                                                                           |    0    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$ZipFileInputStream.read(byte[], int, int) ZipFile.java                                                                     |    0    0%  |              0  |        1  |
+|  jdk.internal.loader.Resource.getBytes() Resource.java                                                                                            |    0    0%  |              0  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader$2.getBytes() URLClassPath.java                                                                        |    0    0%  |              0  |        1  |
++---------------------------------------------------------------------------------------------------------------------------------------------------+-------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 25, 2025 10:55:04

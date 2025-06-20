@@ -1,0 +1,66 @@
+Method list (CPU)
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+|                                                                       Method                                                                        |   Time (ms)   |  Own Time (ms)  |  Samples  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                             |  4,837  100%  |              0  |      511  |
+|  Run.runBenchmark()                                                                                                                                 |  4,833   99%  |          < 0.1  |      510  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                                  |  4,823   99%  |              0  |      509  |
+|  List.benchmark()                                                                                                                                   |  4,823   99%  |          < 0.1  |      509  |
+|  Run.doRuns(Benchmark)                                                                                                                              |  4,823   99%  |              0  |      509  |
+|  Run.measure(Benchmark, int)                                                                                                                        |  4,823   99%  |              0  |      509  |
+|  List.tail(List$Element, List$Element, List$Element)                                                                                                |  4,763   98%  |            307  |      503  |
+|  List.isShorterThan(List$Element, List$Element)                                                                                                     |  3,972   82%  |          1,936  |      418  |
+|  List$Element.getNext()                                                                                                                             |  2,520   52%  |          2,520  |      261  |
+|  List.makeList(int)                                                                                                                                 |     50    1%  |             40  |        5  |
+|  java.lang.Integer.valueOf(int) Integer.java                                                                                                        |      9    0%  |              9  |        1  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                     |      9    0%  |              0  |        1  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                  |      9    0%  |              0  |        1  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder              |      9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                  |      9    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                            |      9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormBuffer.growNames(int, int) LambdaFormBuffer.java                                                                        |      9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormBuffer.insertName(int, LambdaForm$Name, boolean) LambdaFormBuffer.java                                                  |      9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormBuffer.insertParameter(int, LambdaForm$Name) LambdaFormBuffer.java                                                      |      9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.filterArgumentsForm(int, MethodType, int[]) LambdaFormEditor.java                                                |      9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.makeArgumentCombinationForm(int, MethodType, int[], boolean, boolean) LambdaFormEditor.java                      |      9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                       |      9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java          |      9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.argumentsWithCombiner(boolean, MethodHandle, int, MethodHandle, int[]) MethodHandles.java                           |      9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.filterArgumentsWithCombiner(MethodHandle, int, MethodHandle, int[]) MethodHandles.java                              |      9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.filterInPrependers(MethodHandle, String[], Class[]) StringConcatFactory.java                                  |      9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, String[]) StringConcatFactory.java                                           |      9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java  |      9    0%  |              0  |        1  |
+|  java.util.Arrays.copyOf(Object[], int) Arrays.java                                                                                                 |      9    0%  |              0  |        1  |
+|  java.util.Arrays.copyOf(Object[], int, Class) Arrays.java                                                                                          |      9    0%  |              9  |        1  |
+|  Run.reportBenchmark()                                                                                                                              |      9    0%  |              0  |        1  |
+|  List$Element.length()                                                                                                                              |      9    0%  |              9  |        1  |
+|  com.yourkit.probes.builtin.Files.readOnEnter(RandomAccessFile) a                                                                                   |      3    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.Files$RandomAccessFile_read_array_Probe.onEnter(RandomAccessFile) a                                                     |      3    0%  |              0  |        1  |
+|  com.yourkit.probes.Table.createRow(int) a                                                                                                          |      3    0%  |              0  |        1  |
+|  com.yourkit.probes.Table.createRow() a                                                                                                             |      3    0%  |              3  |        1  |
+|  Harness.processArguments(String[])                                                                                                                 |      3    0%  |              0  |        1  |
+|  java.io.RandomAccessFile.read(byte[], int, int) RandomAccessFile.java                                                                              |      3    0%  |              0  |        1  |
+|  java.lang.ClassLoader.loadClass(String) ClassLoader.java                                                                                           |      3    0%  |              0  |        1  |
+|  java.util.zip.InflaterInputStream.read(byte[], int, int) InflaterInputStream.java                                                                  |      3    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$Source.readAt(byte[], int, int, long) ZipFile.java                                                                           |      3    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$ZipFileInflaterInputStream.fill() ZipFile.java                                                                               |      3    0%  |              0  |        1  |
+|  java.util.zip.ZipFile$ZipFileInputStream.read(byte[], int, int) ZipFile.java                                                                       |      3    0%  |              0  |        1  |
+|  jdk.internal.loader.BuiltinClassLoader.defineClass(String, Resource) BuiltinClassLoader.java                                                       |      3    0%  |              0  |        1  |
+|  jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(String) BuiltinClassLoader.java                                                  |      3    0%  |              0  |        1  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClass(String, boolean) BuiltinClassLoader.java                                                          |      3    0%  |              0  |        1  |
+|  jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(String, boolean) BuiltinClassLoader.java                                                    |      3    0%  |              0  |        1  |
+|  jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(String, boolean) ClassLoaders.java                                                       |      3    0%  |              0  |        1  |
+|  jdk.internal.loader.Resource.getBytes() Resource.java                                                                                              |      3    0%  |              0  |        1  |
+|  jdk.internal.loader.URLClassPath$JarLoader$2.getBytes() URLClassPath.java                                                                          |      3    0%  |              0  |        1  |
+|  java.lang.Class.getDeclaredMethods0(boolean) Class.java (native)                                                                                   |      0    0%  |              0  |        1  |
+|  java.lang.Class.getMethod(String, Class[]) Class.java                                                                                              |      0    0%  |              0  |        1  |
+|  java.lang.Class.getMethod0(String, Class[]) Class.java                                                                                             |      0    0%  |              0  |        1  |
+|  java.lang.Class.getMethodsRecursive(String, Class[], boolean) Class.java                                                                           |      0    0%  |              0  |        1  |
+|  java.lang.Class.privateGetDeclaredMethods(boolean) Class.java                                                                                      |      0    0%  |              0  |        1  |
+|  jdk.internal.misc.MainMethodFinder.findMainMethod(Class) MainMethodFinder.java                                                                     |      0    0%  |              0  |        1  |
+|  sun.launcher.LauncherHelper.checkAndLoadMain(boolean, int, String) LauncherHelper.java                                                             |      0    0%  |              0  |        1  |
+|  sun.launcher.LauncherHelper.validateMainClass(Class) LauncherHelper.java                                                                           |      0    0%  |              0  |        1  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 25, 2025 10:55:40

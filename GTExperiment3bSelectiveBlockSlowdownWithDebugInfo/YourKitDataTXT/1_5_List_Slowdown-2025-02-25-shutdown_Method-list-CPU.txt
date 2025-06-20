@@ -1,0 +1,65 @@
+Method list (CPU)
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                       Method                                                                        |   Time (ms)    |  Own Time (ms)  |  Samples  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                             |  93,417  100%  |              0  |    9,611  |
+|  Run.runBenchmark()                                                                                                                                 |  93,417  100%  |          < 0.1  |    9,611  |
+|  Run.doRuns(Benchmark)                                                                                                                              |  93,407   99%  |              0  |    9,610  |
+|  Run.measure(Benchmark, int)                                                                                                                        |  93,407   99%  |          < 0.1  |    9,610  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                                  |  93,382   99%  |              9  |    9,607  |
+|  List.benchmark()                                                                                                                                   |  93,362   99%  |              9  |    9,605  |
+|  List.tail(List$Element, List$Element, List$Element)                                                                                                |  92,794   99%  |          7,732  |    9,548  |
+|  List.isShorterThan(List$Element, List$Element)                                                                                                     |  82,043   88%  |         46,472  |    8,449  |
+|  List$Element.getNext()                                                                                                                             |  38,589   41%  |         38,589  |    3,973  |
+|  List.makeList(int)                                                                                                                                 |     478    1%  |            348  |       48  |
+|  java.lang.Integer.valueOf(int) Integer.java                                                                                                        |     149    0%  |            149  |       15  |
+|  List$Element.length()                                                                                                                              |      59    0%  |             59  |        6  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                                                                     |      24    0%  |              0  |        3  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                                                               |      24    0%  |              0  |        3  |
+|  java.io.BufferedOutputStream.implFlush() BufferedOutputStream.java                                                                                 |      24    0%  |              0  |        3  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                                                             |      24    0%  |              0  |        3  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                                                                   |      24    0%  |              0  |        3  |
+|  java.io.PrintStream.implWrite(byte[], int, int) PrintStream.java                                                                                   |      24    0%  |              0  |        3  |
+|  java.io.PrintStream.implWriteln(String) PrintStream.java                                                                                           |      24    0%  |              0  |        3  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                               |      24    0%  |              0  |        3  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                                                                       |      24    0%  |              0  |        3  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                               |      24    0%  |              0  |        3  |
+|  Run.printResult(long, int)                                                                                                                         |      24    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                                                          |      24    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                                                                      |      24    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.lockedFlushBuffer() StreamEncoder.java                                                                                    |      24    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                                                           |      24    0%  |              0  |        3  |
+|  com.yourkit.probes.builtin.Files.writeOnEnter(FileOutputStream, int) a                                                                             |      14    0%  |              0  |        2  |
+|  com.yourkit.probes.builtin.Files$FileOutputStream_write_arrayRange_Probe.onEnter(FileOutputStream, int) a                                          |      14    0%  |              0  |        2  |
+|  com.yourkit.probes.Table.createRow(int) a                                                                                                          |      14    0%  |              0  |        2  |
+|  com.yourkit.probes.Table.createRow() a                                                                                                             |      14    0%  |             14  |        2  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                     |       9    0%  |              0  |        1  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                            |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                       |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.dropArgumentsTrusted(MethodHandle, int, Class[]) MethodHandles.java                                                 |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.checkPtypes(Class[]) MethodType.java                                                                                   |       9    0%  |              9  |        1  |
+|  java.lang.invoke.MethodType.insertParameterTypes(int, Class[]) MethodType.java                                                                     |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.makeImpl(Class, Class[], boolean) MethodType.java                                                                      |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.methodType(Class, Class[], boolean) MethodType.java                                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodTypeForm.canonicalize(MethodType, int) MethodTypeForm.java                                                                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodTypeForm.findForm(MethodType) MethodTypeForm.java                                                                           |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, String[]) StringConcatFactory.java                                           |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java  |       9    0%  |              0  |        1  |
+|  List.verifyResult(Object)                                                                                                                          |       9    0%  |              9  |        1  |
+|  Run.reportBenchmark()                                                                                                                              |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.FilesLW$FileStreamsTelemetry$FileOutputStream_write_arrayRange_Probe.onReturn(int) a                                    |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.IoCounter.update(long) a                                                                                                        |       9    0%  |              0  |        1  |
+|  java.util.concurrent.atomic.AtomicLong.addAndGet(long) AtomicLong.java                                                                             |       9    0%  |              9  |        1  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.getAllPoolNames() GarbageCollectorExtImpl.java                                                 |       0    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.getGcInfoBuilder() GarbageCollectorExtImpl.java                                                |       0    0%  |              0  |        1  |
+|  java.util.stream.AbstractPipeline.evaluateToArrayNode(IntFunction) AbstractPipeline.java                                                           |       0    0%  |              0  |        1  |
+|  java.util.stream.ReferencePipeline.toArray(IntFunction) ReferencePipeline.java                                                                     |       0    0%  |              0  |        1  |
+|  sun.management.ManagementFactoryHelper.getAllMemoryPoolNames() ManagementFactoryHelper.java                                                        |       0    0%  |              0  |        1  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 25, 2025 10:54:00

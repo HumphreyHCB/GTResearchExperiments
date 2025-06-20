@@ -1,0 +1,77 @@
+Method list (CPU)
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                       Method                                                                        |   Time (ms)    |  Own Time (ms)  |  Samples  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                             |  94,378  100%  |          < 0.1  |    9,716  |
+|  Run.doRuns(Benchmark)                                                                                                                              |  94,368   99%  |              0  |    9,715  |
+|  Run.measure(Benchmark, int)                                                                                                                        |  94,368   99%  |          < 0.1  |    9,715  |
+|  Run.runBenchmark()                                                                                                                                 |  94,368   99%  |              0  |    9,715  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                                  |  94,348   99%  |              0  |    9,712  |
+|  List.benchmark()                                                                                                                                   |  94,348   99%  |             29  |    9,712  |
+|  List.tail(List$Element, List$Element, List$Element)                                                                                                |  93,704   99%  |          7,950  |    9,646  |
+|  List.isShorterThan(List$Element, List$Element)                                                                                                     |  83,025   88%  |         46,622  |    8,545  |
+|  List$Element.getNext()                                                                                                                             |  39,131   41%  |         39,131  |    4,038  |
+|  List.makeList(int)                                                                                                                                 |     599    1%  |            489  |       61  |
+|  java.lang.Integer.valueOf(int) Integer.java                                                                                                        |     109    0%  |            109  |       11  |
+|  java.io.PrintStream.implWriteln(String) PrintStream.java                                                                                           |      19    0%  |              0  |        2  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                               |      19    0%  |              0  |        2  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                               |      19    0%  |              0  |        2  |
+|  Run.printResult(long, int)                                                                                                                         |      19    0%  |              0  |        3  |
+|  List$Element.length()                                                                                                                              |      14    0%  |             14  |        2  |
+|  com.yourkit.probes.builtin.Files.writeOnEnter(FileOutputStream, int) a                                                                             |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.Files$FileOutputStream_write_arrayRange_Probe.onEnter(FileOutputStream, int) a                                          |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.ProbeConstants.shouldIgnoreRow(int) a                                                                                           |       9    0%  |              9  |        1  |
+|  com.yourkit.probes.Table.createRow(int) a                                                                                                          |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.Table.shouldIgnoreRow(int) a                                                                                                    |       9    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                                                                     |       9    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                                                               |       9    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.implFlush() BufferedOutputStream.java                                                                                 |       9    0%  |              0  |        1  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                                                             |       9    0%  |              0  |        1  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                                                                   |       9    0%  |              0  |        1  |
+|  java.io.PrintStream.implWrite(byte[], int, int) PrintStream.java                                                                                   |       9    0%  |              0  |        1  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                                                                       |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                                                          |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                                                                      |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.lockedFlushBuffer() StreamEncoder.java                                                                                    |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                                                           |       9    0%  |              0  |        1  |
+|  java.io.BufferedWriter.flushBuffer() BufferedWriter.java                                                                                           |       9    0%  |              0  |        1  |
+|  java.io.BufferedWriter.implFlushBuffer() BufferedWriter.java                                                                                       |       9    0%  |              0  |        1  |
+|  java.io.OutputStreamWriter.write(char[], int, int) OutputStreamWriter.java                                                                         |       9    0%  |              0  |        1  |
+|  java.nio.Buffer.<init>(int, int, int, int, MemorySegment) Buffer.java                                                                              |       9    0%  |              0  |        1  |
+|  java.nio.CharBuffer.<init>(int, int, int, int, char[], int, MemorySegment) CharBuffer.java                                                         |       9    0%  |              0  |        1  |
+|  java.nio.CharBuffer.limit(int) CharBuffer.java                                                                                                     |       9    0%  |              9  |        1  |
+|  java.nio.CharBuffer.wrap(char[], int, int) CharBuffer.java                                                                                         |       9    0%  |              0  |        1  |
+|  java.nio.HeapCharBuffer.<init>(char[], int, int, MemorySegment) HeapCharBuffer.java                                                                |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implWrite(char[], int, int) StreamEncoder.java                                                                            |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.lockedWrite(char[], int, int) StreamEncoder.java                                                                          |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.write(char[], int, int) StreamEncoder.java                                                                                |       9    0%  |              0  |        1  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                     |       9    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle.<init>(MethodType, LambdaForm) BoundMethodHandle.java                                                           |       9    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_L.<init>(MethodType, LambdaForm, Object) BoundMethodHandle.java                                         |       9    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_L.copyWith(MethodType, LambdaForm) BoundMethodHandle.java                                               |       9    0%  |              0  |        1  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.addMethod() InvokerBytecodeGenerator.java                                                                |       9    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(LambdaForm, MethodType) InvokerBytecodeGenerator.java                             |       9    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCodeBytes() InvokerBytecodeGenerator.java                                              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                            |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.compileToBytecode() LambdaForm.java                                                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.prepare() LambdaForm.java                                                                                              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandle.<init>(MethodType, LambdaForm) MethodHandle.java                                                                     |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                       |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.dropArgumentsTrusted(MethodHandle, int, Class[]) MethodHandles.java                                                 |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, String[]) StringConcatFactory.java                                           |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java  |       9    0%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.AnnotationWriter.create(SymbolTable, String, AnnotationWriter) AnnotationWriter.java                                |       9    0%  |              9  |        1  |
+|  jdk.internal.org.objectweb.asm.MethodWriter.visitAnnotation(String, boolean) MethodWriter.java                                                     |       9    0%  |              0  |        1  |
+|  Run.printTotal()                                                                                                                                   |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, long) DirectMethodHandle$Holder                                            |       0    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x000000080014a000.invoke(Object, Object, int, long) LambdaForm$MH                                                  |       0    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x000000080014a800.linkToTargetMethod(Object, int, long, Object) LambdaForm$MH                                      |       0    0%  |              0  |        1  |
+|  java.lang.StringConcatHelper.newString(byte[], long) StringConcatHelper.java                                                                       |       0    0%  |              0  |        1  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 25, 2025 10:53:44

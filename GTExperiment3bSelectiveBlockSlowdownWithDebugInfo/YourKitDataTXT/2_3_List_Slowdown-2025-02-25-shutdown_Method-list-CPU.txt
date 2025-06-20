@@ -1,0 +1,43 @@
+Method list (CPU)
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                                Method                                                                                 |   Time (ms)    |  Own Time (ms)  |  Samples  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                                                    |  91,447   99%  |              9  |    9,431  |
+|  Harness.main(String[])                                                                                                                                               |  91,447   99%  |              0  |    9,432  |
+|  Run.doRuns(Benchmark)                                                                                                                                                |  91,447   99%  |              0  |    9,432  |
+|  Run.measure(Benchmark, int)                                                                                                                                          |  91,447   99%  |              0  |    9,432  |
+|  Run.runBenchmark()                                                                                                                                                   |  91,447   99%  |              0  |    9,432  |
+|  List.benchmark()                                                                                                                                                     |  91,427   99%  |             22  |    9,429  |
+|  List.tail(List$Element, List$Element, List$Element)                                                                                                                  |  90,828   99%  |          6,977  |    9,367  |
+|  List.isShorterThan(List$Element, List$Element)                                                                                                                       |  76,067   83%  |         40,220  |    7,842  |
+|  List$Element.getNext()                                                                                                                                               |  43,630   48%  |         43,630  |    4,508  |
+|  List.makeList(int)                                                                                                                                                   |     517    1%  |            407  |       53  |
+|  java.lang.Integer.valueOf(int) Integer.java                                                                                                                          |     129    0%  |            129  |       13  |
+|  List$Element.length()                                                                                                                                                |      38    0%  |             38  |        4  |
+|  com.sun.management.internal.GarbageCollectionNotifInfoCompositeData.getCompositeData() GarbageCollectionNotifInfoCompositeData.java                                  |      14    0%  |              0  |        2  |
+|  com.sun.management.internal.GarbageCollectionNotifInfoCompositeData.toCompositeData(GarbageCollectionNotificationInfo) GarbageCollectionNotifInfoCompositeData.java  |      14    0%  |              0  |        2  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.createGCNotification(long, String, String, String, GcInfo) GarbageCollectorExtImpl.java                          |      14    0%  |              0  |        2  |
+|  com.sun.management.internal.GcInfoCompositeData.getCompositeData() GcInfoCompositeData.java                                                                          |      14    0%  |              0  |        2  |
+|  com.sun.management.internal.GcInfoCompositeData.toCompositeData(GcInfo) GcInfoCompositeData.java                                                                     |      14    0%  |              0  |        2  |
+|  javax.management.openmbean.TabularDataSupport.checkValueAndIndex(CompositeData) TabularDataSupport.java                                                              |      14    0%  |              0  |        1  |
+|  javax.management.openmbean.TabularDataSupport.internalCalculateIndex(CompositeData) TabularDataSupport.java                                                          |      14    0%  |             14  |        1  |
+|  javax.management.openmbean.TabularDataSupport.internalPut(CompositeData) TabularDataSupport.java                                                                     |      14    0%  |              0  |        1  |
+|  javax.management.openmbean.TabularDataSupport.put(CompositeData) TabularDataSupport.java                                                                             |      14    0%  |              0  |        1  |
+|  sun.management.MappedMXBeanType$MapMXBeanType.toOpenTypeData(Object) MappedMXBeanType.java                                                                           |      14    0%  |              0  |        2  |
+|  List.verifyResult(Object)                                                                                                                                            |       9    0%  |              9  |        1  |
+|  java.io.BufferedWriter.flushBuffer() BufferedWriter.java                                                                                                             |       0    0%  |              0  |        1  |
+|  java.io.BufferedWriter.implFlushBuffer() BufferedWriter.java                                                                                                         |       0    0%  |              0  |        1  |
+|  java.io.OutputStreamWriter.write(char[], int, int) OutputStreamWriter.java                                                                                           |       0    0%  |              0  |        1  |
+|  java.io.PrintStream.implWriteln(String) PrintStream.java                                                                                                             |       0    0%  |              0  |        1  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                                                 |       0    0%  |              0  |        1  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                                                 |       0    0%  |              0  |        1  |
+|  javax.management.openmbean.CompositeDataSupport.<init>(CompositeType, String[], Object[]) CompositeDataSupport.java                                                  |       0    0%  |              0  |        1  |
+|  javax.management.openmbean.CompositeDataSupport.<init>(SortedMap, CompositeType) CompositeDataSupport.java                                                           |       0    0%  |              0  |        1  |
+|  javax.management.openmbean.CompositeType.isValue(Object) CompositeType.java                                                                                          |       0    0%  |              0  |        1  |
+|  Run.printResult(long, int)                                                                                                                                           |       0    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.lockedWrite(char[], int, int) StreamEncoder.java                                                                                            |       0    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.write(char[], int, int) StreamEncoder.java                                                                                                  |       0    0%  |              0  |        1  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 25, 2025 10:54:44

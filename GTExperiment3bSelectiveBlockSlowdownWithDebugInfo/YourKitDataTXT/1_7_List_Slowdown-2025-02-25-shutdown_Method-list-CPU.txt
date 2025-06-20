@@ -1,0 +1,66 @@
+Method list (CPU)
+
++---------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                   Method                                                                    |   Time (ms)    |  Own Time (ms)  |  Samples  |
++---------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                     |  93,349  100%  |              0  |    9,609  |
+|  Run.doRuns(Benchmark)                                                                                                                      |  93,349  100%  |              0  |    9,609  |
+|  Run.measure(Benchmark, int)                                                                                                                |  93,349  100%  |              0  |    9,609  |
+|  Run.runBenchmark()                                                                                                                         |  93,349  100%  |              0  |    9,609  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                          |  93,308   99%  |              0  |    9,605  |
+|  List.benchmark()                                                                                                                           |  93,308   99%  |             29  |    9,605  |
+|  List.tail(List$Element, List$Element, List$Element)                                                                                        |  92,694   99%  |          7,322  |    9,543  |
+|  List.isShorterThan(List$Element, List$Element)                                                                                             |  82,423   88%  |         47,553  |    8,487  |
+|  List$Element.getNext()                                                                                                                     |  37,818   41%  |         37,818  |    3,897  |
+|  List.makeList(int)                                                                                                                         |     574    1%  |            409  |       58  |
+|  java.lang.Integer.valueOf(int) Integer.java                                                                                                |     164    0%  |            164  |       17  |
+|  Run.printResult(long, int)                                                                                                                 |      40    0%  |          < 0.1  |        4  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                       |      28    0%  |              9  |        3  |
+|  com.yourkit.probes.builtin.Files.writeOnEnter(FileOutputStream, int) a                                                                     |      18    0%  |              0  |        2  |
+|  com.yourkit.probes.builtin.Files$FileOutputStream_write_arrayRange_Probe.onEnter(FileOutputStream, int) a                                  |      18    0%  |              0  |        2  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                                                             |      18    0%  |              0  |        2  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                                                       |      18    0%  |              0  |        2  |
+|  java.io.BufferedOutputStream.implFlush() BufferedOutputStream.java                                                                         |      18    0%  |              0  |        2  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                                                     |      18    0%  |              0  |        2  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                                                           |      18    0%  |              0  |        2  |
+|  java.io.PrintStream.implWrite(byte[], int, int) PrintStream.java                                                                           |      18    0%  |              0  |        2  |
+|  java.io.PrintStream.implWriteln(String) PrintStream.java                                                                                   |      18    0%  |              0  |        2  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                                                               |      18    0%  |              0  |        2  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                       |      18    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                                                  |      18    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                                                              |      18    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.lockedFlushBuffer() StreamEncoder.java                                                                            |      18    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                                                   |      18    0%  |              0  |        2  |
+|  java.lang.invoke.DirectMethodHandle.make(MemberName) DirectMethodHandle.java                                                               |      11    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(Class, MemberName) DirectMethodHandle.java                                                        |      11    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(byte, Class, MemberName, Class) DirectMethodHandle.java                                           |      11    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.makePreparedLambdaForm(MethodType, int) DirectMethodHandle.java                                        |      11    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName) DirectMethodHandle.java                                                 |      11    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName, boolean) DirectMethodHandle.java                                        |      11    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MethodType, int) DirectMethodHandle.java                                            |      11    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.clinit(ClassWriter, String, List) InvokerBytecodeGenerator.java                                  |      11    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(LambdaForm, MethodType) InvokerBytecodeGenerator.java                     |      11    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCodeBytes() InvokerBytecodeGenerator.java                                      |      11    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers.basicInvoker() Invokers.java                                                                                     |      11    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers.callSiteForm(MethodType, boolean) Invokers.java                                                                  |      11    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers.linkToTargetMethod(MethodType) Invokers.java                                                                     |      11    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.compileToBytecode() LambdaForm.java                                                                            |      11    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$Name.<init>(MethodType, Object[]) LambdaForm.java                                                              |      11    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$NamedFunction.<init>(MethodType) LambdaForm.java                                                               |      11    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, Object, Object, Object, Object, Object[]) MethodHandleNatives.java               |      11    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java  |      11    0%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.MethodWriter.visitTypeInsn(int, String) MethodWriter.java                                                   |      11    0%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.Symbol.<init>(int, int, String, String, String, long) Symbol.java                                           |      11    0%  |             11  |        1  |
+|  jdk.internal.org.objectweb.asm.SymbolTable.addConstantClass(String) SymbolTable.java                                                       |      11    0%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.SymbolTable.addConstantUtf8(String) SymbolTable.java                                                        |      11    0%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.SymbolTable.addConstantUtf8Reference(int, String) SymbolTable.java                                          |      11    0%  |              0  |        1  |
+|  jdk.internal.org.objectweb.asm.SymbolTable$Entry.<init>(int, int, String, int) SymbolTable.java                                            |      11    0%  |              0  |        1  |
+|  com.yourkit.probes.Table.createRow(int) a                                                                                                  |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.Table.createRow() a                                                                                                     |       9    0%  |              9  |        1  |
+|  List$Element.length()                                                                                                                      |       9    0%  |              9  |        1  |
+|  com.yourkit.probes.IntColumn.setValue(int, int) a                                                                                          |       8    0%  |              8  |        1  |
+|  com.yourkit.probes.IntColumn.setValueIfPositive(int, int) a                                                                                |       8    0%  |              0  |        1  |
+|  com.yourkit.probes.TableIntBytes.setBytes(int, int) a                                                                                      |       8    0%  |              0  |        1  |
++---------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 25, 2025 10:54:12
