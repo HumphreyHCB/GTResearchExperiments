@@ -1,0 +1,78 @@
+Method list (CPU)
+
++-------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                   Method                                                    |   Time (ms)    |  Own Time (ms)  |  Samples  |
++-------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                     |  38,243  100%  |              0  |    3,991  |
+|  Run.doRuns(Benchmark)                                                                                      |  38,243  100%  |              0  |    3,991  |
+|  Run.measure(Benchmark, int)                                                                                |  38,243  100%  |              0  |    3,991  |
+|  Run.runBenchmark()                                                                                         |  38,243  100%  |              0  |    3,991  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                          |  38,233   99%  |              9  |    3,990  |
+|  Richards.benchmark()                                                                                       |  38,223   99%  |              0  |    3,989  |
+|  richards.Scheduler.start()                                                                                 |  38,223   99%  |          < 0.1  |    3,989  |
+|  richards.Scheduler.schedule()                                                                              |  38,200   99%  |          6,015  |    3,986  |
+|  richards.TaskControlBlock.runTask()                                                                        |  23,344   61%  |          6,163  |    2,430  |
+|  richards.Scheduler$HandlerProcessFunction.apply(Packet, RBObject)                                          |   8,289   22%  |          3,462  |      859  |
+|  richards.TaskState.isTaskHoldingOrWaiting()                                                                |   7,859   21%  |          7,859  |      822  |
+|  richards.Scheduler$DeviceProcessFunction.apply(Packet, RBObject)                                           |   4,288   11%  |          1,773  |      446  |
+|  richards.Scheduler.queuePacket(Packet)                                                                     |   3,419    9%  |            495  |      355  |
+|  richards.Scheduler$IdleProcessFunction.apply(Packet, RBObject)                                             |   2,313    6%  |          1,074  |      240  |
+|  richards.TaskControlBlock.addInputAndCheckPriority(Packet, TaskControlBlock)                               |   1,601    4%  |          1,054  |      164  |
+|  richards.Scheduler$WorkerProcessFunction.apply(Packet, RBObject)                                           |   1,183    3%  |            788  |      120  |
+|  richards.RBObject.append(Packet, Packet)                                                                   |   1,024    3%  |            362  |      105  |
+|  richards.Packet.setLink(Packet)                                                                            |     969    3%  |            969  |       99  |
+|  richards.Scheduler.findTask(int)                                                                           |     822    2%  |            822  |       89  |
+|  richards.Scheduler.holdSelf()                                                                              |     805    2%  |            676  |       83  |
+|  richards.TaskControlBlock.getLink()                                                                        |     781    2%  |            781  |       80  |
+|  richards.Scheduler.release(int)                                                                            |     760    2%  |             79  |       80  |
+|  richards.TaskState.isWaitingWithPacket()                                                                   |     750    2%  |            750  |       77  |
+|  richards.HandlerTaskDataRecord.deviceInAdd(Packet)                                                         |     704    2%  |            494  |       72  |
+|  richards.DeviceTaskDataRecord.setPending(Packet)                                                           |     625    2%  |            625  |       68  |
+|  richards.HandlerTaskDataRecord.workInAdd(Packet)                                                           |     588    2%  |            129  |       62  |
+|  richards.Packet.getDatum()                                                                                 |     473    1%  |            473  |       49  |
+|  richards.TaskState.setTaskHolding(boolean)                                                                 |     433    1%  |            433  |       44  |
+|  richards.HandlerTaskDataRecord.deviceIn(Packet)                                                            |     411    1%  |            411  |       41  |
+|  richards.IdleTaskDataRecord.setControl(int)                                                                |     349    1%  |            349  |       35  |
+|  richards.TaskControlBlock.getIdentity()                                                                    |     328    1%  |            328  |       34  |
+|  richards.Packet.getIdentity()                                                                              |     325    1%  |            325  |       35  |
+|  richards.TaskState.running()                                                                               |     270    1%  |            270  |       27  |
+|  richards.HandlerTaskDataRecord.deviceIn()                                                                  |     243    1%  |            243  |       27  |
+|  richards.TaskState.setPacketPending(boolean)                                                               |     189    0%  |            189  |       20  |
+|  richards.HandlerTaskDataRecord.workIn(Packet)                                                              |     172    0%  |            172  |       18  |
+|  richards.IdleTaskDataRecord.setCount(int)                                                                  |     128    0%  |            128  |       14  |
+|  richards.Packet.setIdentity(int)                                                                           |     124    0%  |            124  |       13  |
+|  richards.Packet.setDatum(int)                                                                              |     112    0%  |            112  |       13  |
+|  richards.TaskState.packetPending()                                                                         |      84    0%  |             84  |        9  |
+|  richards.Packet.getLink()                                                                                  |      69    0%  |             69  |        7  |
+|  richards.DeviceTaskDataRecord.getPending()                                                                 |      29    0%  |             29  |        3  |
+|  richards.HandlerTaskDataRecord.workIn()                                                                    |      29    0%  |             29  |        3  |
+|  richards.WorkerTaskDataRecord.getCount()                                                                   |      29    0%  |             29  |        3  |
+|  richards.Scheduler.createIdler(int, int, Packet, TaskState)                                                |      10    0%  |              0  |        1  |
+|  richards.Scheduler.createTask(int, int, Packet, TaskState, ProcessFunction, RBObject)                      |      10    0%  |             10  |        1  |
+|  com.yourkit.probes.builtin.Files.writeOnEnter(FileOutputStream, int) a                                     |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.Files$FileOutputStream_write_arrayRange_Probe.onEnter(FileOutputStream, int) a  |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.Table.createRow(int) a                                                                  |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.Table.createRow() a                                                                     |       9    0%  |              9  |        1  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                             |       9    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                       |       9    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.implFlush() BufferedOutputStream.java                                         |       9    0%  |              0  |        1  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                     |       9    0%  |              0  |        1  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                           |       9    0%  |              0  |        1  |
+|  java.io.PrintStream.implWrite(byte[], int, int) PrintStream.java                                           |       9    0%  |              0  |        1  |
+|  java.io.PrintStream.implWriteln(String) PrintStream.java                                                   |       9    0%  |              0  |        1  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                       |       9    0%  |              0  |        1  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                               |       9    0%  |              0  |        1  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                       |       9    0%  |              0  |        1  |
+|  Run.printResult(long, int)                                                                                 |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                  |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                              |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.lockedFlushBuffer() StreamEncoder.java                                            |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                   |       9    0%  |              0  |        1  |
+|  richards.Packet.getData()                                                                                  |       9    0%  |              9  |        1  |
+|  richards.Scheduler.createDevice(int, int, Packet, TaskState)                                               |       9    0%  |              0  |        1  |
+|  richards.Scheduler$DeviceProcessFunction.<init>(Scheduler)                                                 |       9    0%  |              9  |        1  |
+|  richards.TaskState.<init>()                                                                                |       2    0%  |              2  |        1  |
+|  richards.TaskState.createWaitingWithPacket()                                                               |       2    0%  |              0  |        1  |
++-------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 19, 2025 11:32:22

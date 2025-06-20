@@ -1,0 +1,44 @@
+Method list (CPU)
+
++-----------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                            Method                                             |   Time (ms)    |  Own Time (ms)  |  Samples  |
++-----------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                       |  91,109  100%  |              0  |    9,439  |
+|  Run.doRuns(Benchmark)                                                                        |  91,109  100%  |              0  |    9,439  |
+|  Run.measure(Benchmark, int)                                                                  |  91,109  100%  |              0  |    9,439  |
+|  Run.runBenchmark()                                                                           |  91,109  100%  |              0  |    9,439  |
+|  Benchmark.innerBenchmarkLoop(int)                                                            |  91,094   99%  |              9  |    9,437  |
+|  List.benchmark()                                                                             |  91,084   99%  |             19  |    9,436  |
+|  List.tail(List$Element, List$Element, List$Element)                                          |  90,507   99%  |         11,914  |    9,375  |
+|  List.isShorterThan(List$Element, List$Element)                                               |  75,975   83%  |         39,546  |    7,879  |
+|  List$Element.getNext()                                                                       |  39,045   43%  |         39,045  |    4,045  |
+|  List.makeList(int)                                                                           |     457    1%  |            392  |       49  |
+|  List$Element.length()                                                                        |      89    0%  |             89  |        9  |
+|  java.lang.Integer.valueOf(int) Integer.java                                                  |      74    0%  |             74  |        8  |
+|  java.io.PrintStream.implWriteln(String) PrintStream.java                                     |      14    0%  |          < 0.1  |        2  |
+|  java.io.PrintStream.println(String) PrintStream.java                                         |      14    0%  |              0  |        2  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                         |      14    0%  |              0  |        2  |
+|  Run.printResult(long, int)                                                                   |      14    0%  |              0  |        2  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                               |       9    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                         |       9    0%  |              9  |        1  |
+|  java.io.BufferedOutputStream.implFlush() BufferedOutputStream.java                           |       9    0%  |              0  |        1  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                             |       9    0%  |              0  |        1  |
+|  java.io.PrintStream.implWrite(byte[], int, int) PrintStream.java                             |       9    0%  |              0  |        1  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                 |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                    |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.lockedFlushBuffer() StreamEncoder.java                              |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                     |       9    0%  |              0  |        1  |
+|  java.io.BufferedWriter.flushBuffer() BufferedWriter.java                                     |       4    0%  |              0  |        1  |
+|  java.io.BufferedWriter.implFlushBuffer() BufferedWriter.java                                 |       4    0%  |              0  |        1  |
+|  java.io.OutputStreamWriter.write(char[], int, int) OutputStreamWriter.java                   |       4    0%  |              0  |        1  |
+|  java.nio.charset.CharsetEncoder.encode(CharBuffer, ByteBuffer, boolean) CharsetEncoder.java  |       4    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implWrite(CharBuffer) StreamEncoder.java                            |       4    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implWrite(char[], int, int) StreamEncoder.java                      |       4    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.lockedWrite(char[], int, int) StreamEncoder.java                    |       4    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.write(char[], int, int) StreamEncoder.java                          |       4    0%  |              0  |        1  |
+|  sun.nio.cs.US_ASCII$Encoder.encodeArrayLoop(CharBuffer, ByteBuffer) US_ASCII.java            |       4    0%  |              4  |        1  |
+|  sun.nio.cs.US_ASCII$Encoder.encodeLoop(CharBuffer, ByteBuffer) US_ASCII.java                 |       4    0%  |              0  |        1  |
++-----------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 19, 2025 11:33:09

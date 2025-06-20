@@ -1,0 +1,117 @@
+Method list (CPU)
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                         Method                                                                          |   Time (ms)    |  Own Time (ms)  |  Samples  |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                                 |  93,521   99%  |              0  |    9,637  |
+|  Run.runBenchmark()                                                                                                                                     |  93,521   99%  |          < 0.1  |    9,637  |
+|  Run.doRuns(Benchmark)                                                                                                                                  |  93,511   99%  |              0  |    9,636  |
+|  Run.measure(Benchmark, int)                                                                                                                            |  93,511   99%  |          < 0.1  |    9,636  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                                      |  93,471   99%  |              0  |    9,632  |
+|  List.benchmark()                                                                                                                                       |  93,471   99%  |             19  |    9,632  |
+|  List.tail(List$Element, List$Element, List$Element)                                                                                                    |  92,771   99%  |          8,113  |    9,557  |
+|  List.isShorterThan(List$Element, List$Element)                                                                                                         |  82,205   88%  |         46,540  |    8,469  |
+|  List$Element.getNext()                                                                                                                                 |  38,116   41%  |         38,116  |    3,923  |
+|  List.makeList(int)                                                                                                                                     |     617    1%  |            428  |       66  |
+|  java.lang.Integer.valueOf(int) Integer.java                                                                                                            |     188    0%  |            188  |       19  |
+|  List$Element.length()                                                                                                                                  |      62    0%  |             62  |        7  |
+|  Run.printResult(long, int)                                                                                                                             |      39    0%  |              0  |        4  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                                                                       |      29    0%  |              0  |        3  |
+|  java.io.PrintStream.implWriteln(String) PrintStream.java                                                                                               |      29    0%  |              0  |        3  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                                   |      29    0%  |              0  |        3  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                                   |      29    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                                                              |      29    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                                                                          |      29    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.lockedFlushBuffer() StreamEncoder.java                                                                                        |      29    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                                                               |      29    0%  |          < 0.1  |        3  |
+|  com.yourkit.probes.builtin.Files.writeOnEnter(FileOutputStream, int) a                                                                                 |      19    0%  |              0  |        2  |
+|  com.yourkit.probes.builtin.Files$FileOutputStream_write_arrayRange_Probe.onEnter(FileOutputStream, int) a                                              |      19    0%  |              0  |        2  |
+|  com.yourkit.probes.Table.createRow(int) a                                                                                                              |      19    0%  |              0  |        2  |
+|  com.yourkit.probes.Table.createRow() a                                                                                                                 |      19    0%  |             19  |        2  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                                                                         |      19    0%  |              0  |        2  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                                                                   |      19    0%  |              0  |        2  |
+|  java.io.BufferedOutputStream.implFlush() BufferedOutputStream.java                                                                                     |      19    0%  |              0  |        2  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                                                                 |      19    0%  |              0  |        2  |
+|  java.io.PrintStream.implWrite(byte[], int, int) PrintStream.java                                                                                       |      19    0%  |              0  |        2  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                                                                           |      19    0%  |              0  |        2  |
+|  java.nio.Buffer.clear() Buffer.java                                                                                                                    |       9    0%  |              9  |        1  |
+|  java.nio.ByteBuffer.clear() ByteBuffer.java                                                                                                            |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x000000080014a800.linkToTargetMethod(Object, int, long, Object) LambdaForm$MH                                          |       9    0%  |              9  |        1  |
+|  java.lang.ClassLoader.defineClass0(ClassLoader, Class, String, byte[], int, int, ProtectionDomain, boolean, int, Object) ClassLoader.java (native)     |       9    0%  |              9  |        1  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                         |       9    0%  |              0  |        1  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                      |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(byte, Class, MemberName, Class) DirectMethodHandle.java                                                       |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(Class, MemberName) DirectMethodHandle.java                                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(MemberName) DirectMethodHandle.java                                                                           |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.makePreparedLambdaForm(MethodType, int) DirectMethodHandle.java                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName, boolean) DirectMethodHandle.java                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MethodType, int) DirectMethodHandle.java                                                        |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName) DirectMethodHandle.java                                                             |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                      |       9    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(LambdaForm, MethodType) InvokerBytecodeGenerator.java                                 |       9    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.loadMethod(byte[]) InvokerBytecodeGenerator.java                                                             |       9    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers.basicInvoker() Invokers.java                                                                                                 |       9    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                                |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.compileToBytecode() LambdaForm.java                                                                                        |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$Name.<init>(MethodType, Object[]) LambdaForm.java                                                                          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$NamedFunction.<init>(MethodType) LambdaForm.java                                                                           |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.foldArgumentsForm(int, boolean, MethodType, int[]) LambdaFormEditor.java                                             |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.makeArgumentCombinationForm(int, MethodType, int[], boolean, boolean) LambdaFormEditor.java                          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                           |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.argumentsWithCombiner(boolean, MethodHandle, int, MethodHandle, int[]) MethodHandles.java                               |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.foldArgumentsWithCombiner(MethodHandle, int, MethodHandle, int[]) MethodHandles.java                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(boolean, Object) MethodHandles.java                                                     |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.filterAndFoldInMixers(MethodHandle, long, Class[]) StringConcatFactory.java                                       |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.foldInLastMixers(MethodHandle, long, int, Class[], int) StringConcatFactory.java                                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, String[]) StringConcatFactory.java                                               |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java      |       9    0%  |              0  |        1  |
+|  java.lang.System$2.defineClass(ClassLoader, Class, String, byte[], ProtectionDomain, boolean, int, Object) System.java                                 |       9    0%  |              0  |        1  |
+|  Run.reportBenchmark()                                                                                                                                  |       9    0%  |              0  |        1  |
+|  com.sun.management.GarbageCollectionNotificationInfo.<init>(CompositeData) GarbageCollectionNotificationInfo.java                                      |       8    0%  |              0  |        1  |
+|  com.sun.management.GarbageCollectionNotificationInfo.from(CompositeData) GarbageCollectionNotificationInfo.java                                        |       8    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectionNotifInfoCompositeData.validateCompositeData(CompositeData) GarbageCollectionNotifInfoCompositeData.java  |       8    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.createGCNotification(long, String, String, String, GcInfo) GarbageCollectorExtImpl.java            |       8    0%  |              0  |        1  |
+|  com.yourkit.am.av.invoke(Object, Object[]) a                                                                                                           |       8    0%  |              0  |        1  |
+|  com.yourkit.probes.GcPauseCounter$GcListener.handleNotification(Notification, Object) a                                                                |       8    0%  |              0  |        1  |
+|  com.yourkit.probes.ReflectionUtilImpl.callMethod1(Class, Object, String, Object, CallStatus) a                                                         |       8    0%  |              0  |        1  |
+|  com.yourkit.runtime.JniMethod.callObjectMethodImpl(Class, Object, long, long, Object[], long[]) a                                                      |       8    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.findMethodHandleType(Class, Class[]) MethodHandleNatives.java                                                     |       8    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.makeImpl(Class, Class[], boolean) MethodType.java                                                                          |       8    0%  |              8  |        1  |
+|  java.lang.invoke.MethodType.methodType(Class, Class[], boolean) MethodType.java                                                                        |       8    0%  |              0  |        1  |
+|  sun.management.LazyCompositeData.isTypeMatched(CompositeType, CompositeType) LazyCompositeData.java                                                    |       8    0%  |              0  |        1  |
+|  sun.management.NotificationEmitterSupport.sendNotification(Notification) NotificationEmitterSupport.java                                               |       8    0%  |              0  |        1  |
+|  com.sun.management.GcInfo.<init>(GcInfoBuilder, long, long, long, MemoryUsage[], MemoryUsage[], Object[]) GcInfo.java                                  |       0    0%  |              0  |        1  |
+|  com.sun.management.internal.GcInfoCompositeData.<clinit>() GcInfoCompositeData.java                                                                    |       0    0%  |              0  |        1  |
+|  java.lang.Class.getGenericInfo() Class.java                                                                                                            |       0    0%  |              0  |        1  |
+|  java.lang.Class.getTypeParameters() Class.java                                                                                                         |       0    0%  |              0  |        1  |
+|  java.lang.reflect.Method.getGenericReturnType() Method.java                                                                                            |       0    0%  |              0  |        1  |
+|  sun.management.MappedMXBeanType.getMappedType(Type) MappedMXBeanType.java                                                                              |       0    0%  |              0  |        1  |
+|  sun.management.MappedMXBeanType.newMappedType(Type) MappedMXBeanType.java                                                                              |       0    0%  |              0  |        1  |
+|  sun.management.MappedMXBeanType$CompositeDataMXBeanType.<init>(Class) MappedMXBeanType.java                                                            |       0    0%  |              0  |        1  |
+|  sun.management.MappedMXBeanType$MapMXBeanType.<init>(ParameterizedType) MappedMXBeanType.java                                                          |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.factory.CoreReflectionFactory.makeParameterizedType(Type, Type[], Type) CoreReflectionFactory.java                                |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.parser.SignatureParser.advance() SignatureParser.java                                                                             |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.parser.SignatureParser.parseClassSig(String) SignatureParser.java                                                                 |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.parser.SignatureParser.parseClassSignature() SignatureParser.java                                                                 |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.parser.SignatureParser.parseClassTypeSignature() SignatureParser.java                                                             |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.parser.SignatureParser.parsePackageNameAndSimpleClassTypeSignature() SignatureParser.java                                         |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.parser.SignatureParser.parseSuperInterfaces() SignatureParser.java                                                                |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.parser.SignatureParser.skipIdentifier() SignatureParser.java                                                                      |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.<init>(Class, Type[], Type) ParameterizedTypeImpl.java                                    |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.make(Class, Type[], Type) ParameterizedTypeImpl.java                                      |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl.validateConstructorArguments() ParameterizedTypeImpl.java                                 |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.repository.AbstractRepository.<init>(String, GenericsFactory) AbstractRepository.java                                             |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.repository.ClassRepository.<init>(String, GenericsFactory) ClassRepository.java                                                   |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.repository.ClassRepository.make(String, GenericsFactory) ClassRepository.java                                                     |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.repository.ClassRepository.parse(String) ClassRepository.java                                                                     |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.repository.ClassRepository.parse(String) ClassRepository.java                                                                     |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.repository.GenericDeclRepository.<init>(String, GenericsFactory) GenericDeclRepository.java                                       |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.repository.MethodRepository.computeReturnType() MethodRepository.java                                                             |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.repository.MethodRepository.getReturnType() MethodRepository.java                                                                 |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.tree.ClassTypeSignature.accept(TypeTreeVisitor) ClassTypeSignature.java                                                           |       0    0%  |              0  |        1  |
+|  sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(ClassTypeSignature) Reifier.java                                                          |       0    0%  |              0  |        1  |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 19, 2025 11:32:04

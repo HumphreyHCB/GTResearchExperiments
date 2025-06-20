@@ -1,0 +1,224 @@
+Method list (CPU)
+
++------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+-----------------+-----------+
+|                                                                        Method                                                                        |    Time (ms)    |  Own Time (ms)  |  Samples  |
++------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                              |  100,701   99%  |              0  |   10,208  |
+|  Run.doRuns(Benchmark)                                                                                                                               |  100,701   99%  |              0  |   10,208  |
+|  Run.measure(Benchmark, int)                                                                                                                         |  100,701   99%  |              0  |   10,208  |
+|  Run.runBenchmark()                                                                                                                                  |  100,701   99%  |              0  |   10,208  |
+|  Havlak.innerBenchmarkLoop(int)                                                                                                                      |  100,610   99%  |              9  |   10,198  |
+|  havlak.LoopTesterApp.main(int, int, int, int, int)                                                                                                  |  100,600   99%  |             18  |   10,197  |
+|  havlak.LoopTesterApp.findLoops(LoopStructureGraph)                                                                                                  |   63,872   63%  |              9  |    6,506  |
+|  havlak.HavlakLoopFinder.findLoops()                                                                                                                 |   63,381   63%  |          4,877  |    6,456  |
+|  som.Vector.forEach(ForEachInterface)                                                                                                                |   60,695   60%  |          4,155  |    6,134  |
+|  som.Set.add(Object)                                                                                                                                 |   38,046   38%  |             88  |    3,828  |
+|  havlak.LoopStructureGraph.calculateNestingLevel()                                                                                                   |   36,476   36%  |              0  |    3,665  |
+|  som.Vector.hasSome(TestInterface)                                                                                                                   |   35,775   36%  |         35,173  |    3,598  |
+|  havlak.LoopStructureGraph$1.apply(Object)                                                                                                           |   35,124   35%  |            701  |    3,529  |
+|  som.Set.hasSome(TestInterface)                                                                                                                      |   35,114   35%  |             29  |    3,531  |
+|  havlak.SimpleLoop.setParent(SimpleLoop)                                                                                                             |   34,989   35%  |             58  |    3,516  |
+|  havlak.SimpleLoop.addChildLoop(SimpleLoop)                                                                                                          |   34,930   35%  |             29  |    3,510  |
+|  som.IdentitySet.contains(Object)                                                                                                                    |   34,563   34%  |              0  |    3,475  |
+|  havlak.LoopStructureGraph$1.apply(SimpleLoop)                                                                                                       |   34,422   34%  |             37  |    3,458  |
+|  havlak.LoopTesterApp.addDummyLoops(int)                                                                                                             |   21,188   21%  |             29  |    2,148  |
+|  havlak.HavlakLoopFinder.initAllNodes()                                                                                                              |   18,552   18%  |             19  |    1,882  |
+|  havlak.HavlakLoopFinder.doDFS(BasicBlock, int)                                                                                                      |   14,458   14%  |          8,039  |    1,467  |
+|  som.Vector.<init>(int)                                                                                                                              |   14,115   14%  |         14,115  |    1,436  |
+|  som.Vector.<init>()                                                                                                                                 |   12,374   12%  |              0  |    1,260  |
+|  som.Set.forEach(ForEachInterface)                                                                                                                   |    9,598   10%  |             39  |      975  |
+|  havlak.HavlakLoopFinder.stepEProcessNonBackPreds(int, Vector, Vector, UnionFindNode)                                                                |    8,473    8%  |             38  |      862  |
+|  havlak.HavlakLoopFinder.identifyEdges(int)                                                                                                          |    8,001    8%  |            695  |      819  |
+|  havlak.HavlakLoopFinder$$Lambda.0x00000008000c9d78.apply(Object)                                                                                    |    7,684    8%  |            185  |      780  |
+|  havlak.HavlakLoopFinder.lambda$stepEProcessNonBackPreds$1(int, Vector, Vector, Object)                                                              |    7,498    7%  |          1,598  |      762  |
+|  havlak.HavlakLoopFinder.processEdges(BasicBlock, int)                                                                                               |    7,306    7%  |            406  |      747  |
+|  som.Vector.append(Object)                                                                                                                           |    6,616    7%  |          6,404  |      673  |
+|  havlak.HavlakLoopFinder$2.apply(Object)                                                                                                             |    5,998    6%  |            807  |      614  |
+|  havlak.HavlakLoopFinder$2.apply(BasicBlock)                                                                                                         |    5,190    5%  |            881  |      532  |
+|  havlak.HavlakLoopFinder.stepD(int, Vector)                                                                                                          |    4,857    5%  |          1,171  |      498  |
+|  havlak.UnionFindNode.findSet()                                                                                                                      |    4,733    5%  |            853  |      482  |
+|  havlak.HavlakLoopFinder$1.apply(Object)                                                                                                             |    3,502    3%  |            880  |      354  |
+|  som.Dictionary.atPut(Dictionary$CustomHash, Object)                                                                                                 |    3,096    3%  |            977  |      314  |
+|  havlak.UnionFindNode.initNode(BasicBlock, int)                                                                                                      |    3,065    3%  |          3,065  |      313  |
+|  havlak.HavlakLoopFinder.setLoopAttributes(int, Vector, SimpleLoop)                                                                                  |    2,930    3%  |             69  |      300  |
+|  som.Dictionary.at(Dictionary$CustomHash)                                                                                                            |    2,906    3%  |          1,769  |      297  |
+|  havlak.HavlakLoopFinder$1.apply(BasicBlock)                                                                                                         |    2,622    3%  |             39  |      265  |
+|  som.Set.<init>()                                                                                                                                    |    2,535    3%  |              0  |      256  |
+|  som.Set.<init>(int)                                                                                                                                 |    2,535    3%  |            814  |      256  |
+|  havlak.HavlakLoopFinder$4.apply(Object)                                                                                                             |    2,470    2%  |            126  |      254  |
+|  som.Vector.at(int)                                                                                                                                  |    2,445    2%  |          2,445  |      249  |
+|  havlak.HavlakLoopFinder$4.apply(UnionFindNode)                                                                                                      |    2,343    2%  |            159  |      241  |
+|  havlak.LoopStructureGraph.createNewLoop(BasicBlock, boolean)                                                                                        |    2,208    2%  |            138  |      224  |
+|  havlak.HavlakLoopFinder$5.apply(Object)                                                                                                             |    1,640    2%  |            223  |      166  |
+|  havlak.SimpleLoop.<init>(BasicBlock, boolean)                                                                                                       |    1,619    2%  |            440  |      164  |
+|  som.Vector.size()                                                                                                                                   |    1,458    1%  |          1,458  |      149  |
+|  havlak.HavlakLoopFinder$5.apply(Integer)                                                                                                            |    1,416    1%  |            129  |      143  |
+|  havlak.LoopStructureGraph.calculateNestingLevelRec(SimpleLoop, int)                                                                                 |    1,232    1%  |              7  |      124  |
+|  havlak.LoopStructureGraph$2.apply(Object)                                                                                                           |    1,103    1%  |            299  |      111  |
+|  havlak.LoopStructureGraph$2.apply(SimpleLoop)                                                                                                       |    1,053    1%  |             59  |      106  |
+|  havlak.SimpleLoop.addNode(BasicBlock)                                                                                                               |    1,012    1%  |             19  |      104  |
+|  java.lang.Integer.valueOf(int) Integer.java                                                                                                         |      780    1%  |            780  |       78  |
+|  som.Dictionary.resize()                                                                                                                             |      745    1%  |             70  |       75  |
+|  som.IdentitySet.<init>()                                                                                                                            |      736    1%  |              0  |       74  |
+|  som.Dictionary.transferEntries(Dictionary$Entry[])                                                                                                  |      674    1%  |            664  |       68  |
+|  som.Dictionary.insertBucketEntry(Dictionary$CustomHash, Object, int, Dictionary$Entry)                                                              |      625    1%  |            545  |       63  |
+|  som.Set.contains(Object)                                                                                                                            |      551    1%  |              0  |       56  |
+|  som.Dictionary.getBucketIdx(int)                                                                                                                    |      497    0%  |            497  |       51  |
+|  havlak.HavlakLoopFinder.<init>(ControlFlowGraph, LoopStructureGraph)                                                                                |      481    0%  |             59  |       48  |
+|  som.Dictionary.getBucket(int)                                                                                                                       |      472    0%  |            272  |       48  |
+|  havlak.HavlakLoopFinder.isAncestor(int, int)                                                                                                        |      469    0%  |            469  |       48  |
+|  som.IdentityDictionary$IdEntry.match(int, Object)                                                                                                   |      438    0%  |            438  |       44  |
+|  havlak.BasicBlock.getNumPred()                                                                                                                      |      428    0%  |              0  |       44  |
+|  havlak.HavlakLoopFinder$$Lambda.0x00000008000cbc00.test(Object)                                                                                     |      391    0%  |            391  |       39  |
+|  havlak.UnionFindNode.union(UnionFindNode)                                                                                                           |      388    0%  |            388  |       40  |
+|  som.Set.size()                                                                                                                                      |      382    0%  |              0  |       39  |
+|  som.IdentityDictionary.newEntry(Dictionary$CustomHash, Object, int)                                                                                 |      380    0%  |            380  |       38  |
+|  som.Dictionary.hash(Dictionary$CustomHash)                                                                                                          |      375    0%  |            375  |       39  |
+|  som.Vector.removeAll()                                                                                                                              |      249    0%  |            249  |       26  |
+|  som.Vector.removeFirst()                                                                                                                            |      227    0%  |            227  |       23  |
+|  java.util.Arrays.copyOf(Object[], int) Arrays.java                                                                                                  |      211    0%  |          < 0.1  |       22  |
+|  havlak.LoopTesterApp.constructCFG(int, int, int)                                                                                                    |      201    0%  |              0  |       21  |
+|  java.util.Arrays.copyOf(Object[], int, Class) Arrays.java                                                                                           |      201    0%  |            119  |       21  |
+|  havlak.LoopTesterApp.buildBaseLoop(int)                                                                                                             |      191    0%  |              9  |       20  |
+|  havlak.BasicBlockEdge.<init>(ControlFlowGraph, int, int)                                                                                            |      181    0%  |             29  |       19  |
+|  som.Set.lambda$contains$1(Object, Object)                                                                                                           |      179    0%  |             49  |       18  |
+|  som.Set$$Lambda.0x00000008000c94d8.test(Object)                                                                                                     |      179    0%  |              0  |       18  |
+|  havlak.LoopTesterApp.buildDiamond(int)                                                                                                              |      151    0%  |              9  |       16  |
+|  java.lang.Integer.equals(Object) Integer.java                                                                                                       |      129    0%  |            129  |       13  |
+|  havlak.ControlFlowGraph.createNode(int)                                                                                                             |       97    0%  |             39  |       10  |
+|  Run.printResult(long, int)                                                                                                                          |       90    0%  |          < 0.1  |       10  |
+|  havlak.UnionFindNode.getBb()                                                                                                                        |       90    0%  |             90  |        9  |
+|  java.lang.System.arraycopy(Object, int, Object, int, int) System.java (native)                                                                      |       81    0%  |             81  |        9  |
+|  havlak.UnionFindNode.setLoop(SimpleLoop)                                                                                                            |       70    0%  |             70  |        7  |
+|  som.Dictionary.<init>(int)                                                                                                                          |       69    0%  |             69  |        7  |
+|  som.IdentityDictionary.<init>()                                                                                                                     |       69    0%  |              0  |        7  |
+|  som.Dictionary.removeAll()                                                                                                                          |       69    0%  |             69  |        7  |
+|  havlak.BasicBlock.getOutEdges()                                                                                                                     |       69    0%  |             69  |        7  |
+|  havlak.HavlakLoopFinder$3.apply(Object)                                                                                                             |       69    0%  |             69  |        7  |
+|  java.io.PrintStream.implWriteln(String) PrintStream.java                                                                                            |       68    0%  |              9  |        7  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                                |       68    0%  |              0  |        7  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                                |       68    0%  |              0  |        7  |
+|  som.Vector.isEmpty()                                                                                                                                |       59    0%  |             59  |        6  |
+|  havlak.SimpleLoop.getParent()                                                                                                                       |       49    0%  |             49  |        5  |
+|  havlak.BasicBlock.addOutEdge(BasicBlock)                                                                                                            |       49    0%  |              0  |        5  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                                                                      |       39    0%  |              0  |        4  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                                                                |       39    0%  |              0  |        4  |
+|  java.io.BufferedOutputStream.implFlush() BufferedOutputStream.java                                                                                  |       39    0%  |              0  |        4  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                                                              |       39    0%  |          < 0.1  |        4  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                                                                    |       39    0%  |              0  |        4  |
+|  java.io.PrintStream.implWrite(byte[], int, int) PrintStream.java                                                                                    |       39    0%  |              0  |        4  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                                                                        |       39    0%  |              0  |        4  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                                                           |       39    0%  |              0  |        4  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                                                                       |       39    0%  |              0  |        4  |
+|  sun.nio.cs.StreamEncoder.lockedFlushBuffer() StreamEncoder.java                                                                                     |       39    0%  |              0  |        4  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                                                            |       39    0%  |              0  |        4  |
+|  havlak.LoopTesterApp.buildConnect(int, int)                                                                                                         |       39    0%  |              0  |        4  |
+|  havlak.UnionFindNode.getLoop()                                                                                                                      |       37    0%  |             37  |        4  |
+|  com.yourkit.probes.builtin.Files.writeOnEnter(FileOutputStream, int) a                                                                              |       29    0%  |              0  |        3  |
+|  com.yourkit.probes.builtin.Files$FileOutputStream_write_arrayRange_Probe.onEnter(FileOutputStream, int) a                                           |       29    0%  |              0  |        3  |
+|  com.yourkit.probes.Table.createRow(int) a                                                                                                           |       29    0%  |              0  |        3  |
+|  com.yourkit.probes.Table.createRow() a                                                                                                              |       29    0%  |             29  |        3  |
+|  som.IdentitySet.lambda$contains$0(Object, Object)                                                                                                   |       29    0%  |             29  |        3  |
+|  som.IdentitySet$$Lambda.0x0000000800100000.test(Object)                                                                                             |       29    0%  |              0  |        3  |
+|  havlak.LoopTesterApp.buildStraight(int, int)                                                                                                        |       29    0%  |              0  |        3  |
+|  havlak.BasicBlock.<init>(int)                                                                                                                       |       29    0%  |              9  |        3  |
+|  com.sun.management.GarbageCollectionNotificationInfo.<init>(CompositeData) GarbageCollectionNotificationInfo.java                                   |       25    0%  |              0  |        1  |
+|  com.sun.management.GarbageCollectionNotificationInfo.from(CompositeData) GarbageCollectionNotificationInfo.java                                     |       25    0%  |              0  |        1  |
+|  com.sun.management.GcInfo.<init>(CompositeData) GcInfo.java                                                                                         |       25    0%  |              0  |        1  |
+|  com.sun.management.GcInfo.from(CompositeData) GcInfo.java                                                                                           |       25    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectionNotifInfoCompositeData.getGcInfo(CompositeData) GarbageCollectionNotifInfoCompositeData.java           |       25    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.createGCNotification(long, String, String, String, GcInfo) GarbageCollectorExtImpl.java         |       25    0%  |              0  |        2  |
+|  com.sun.management.internal.GcInfoCompositeData.getMemoryUsageBeforeGc(CompositeData) GcInfoCompositeData.java                                      |       25    0%  |              0  |        1  |
+|  com.yourkit.am.av.invoke(Object, Object[]) a                                                                                                        |       25    0%  |              0  |        1  |
+|  com.yourkit.probes.GcPauseCounter$GcListener.handleNotification(Notification, Object) a                                                             |       25    0%  |              0  |        1  |
+|  com.yourkit.probes.ReflectionUtilImpl.callMethod1(Class, Object, String, Object, CallStatus) a                                                      |       25    0%  |              0  |        1  |
+|  com.yourkit.runtime.JniMethod.callObjectMethodImpl(Class, Object, long, long, Object[], long[]) a                                                   |       25    0%  |              0  |        1  |
+|  sun.management.MappedMXBeanType$MapMXBeanType.toJavaTypeData(Object) MappedMXBeanType.java                                                          |       25    0%  |             25  |        1  |
+|  sun.management.NotificationEmitterSupport.sendNotification(Notification) NotificationEmitterSupport.java                                            |       25    0%  |              0  |        1  |
+|  havlak.ControlFlowGraph.getNumNodes()                                                                                                               |       19    0%  |              0  |        2  |
+|  havlak.UnionFindNode.getDfsNumber()                                                                                                                 |       19    0%  |             19  |        2  |
+|  java.io.BufferedWriter.flushBuffer() BufferedWriter.java                                                                                            |       18    0%  |              0  |        2  |
+|  java.io.BufferedWriter.implFlushBuffer() BufferedWriter.java                                                                                        |       18    0%  |              0  |        2  |
+|  java.io.OutputStreamWriter.write(char[], int, int) OutputStreamWriter.java                                                                          |       18    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.implWrite(char[], int, int) StreamEncoder.java                                                                             |       18    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.lockedWrite(char[], int, int) StreamEncoder.java                                                                           |       18    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.write(char[], int, int) StreamEncoder.java                                                                                 |       18    0%  |              0  |        2  |
+|  som.Vector.atPut(int, Object)                                                                                                                       |       17    0%  |             17  |        2  |
+|  havlak.ControlFlowGraph.getStartBasicBlock()                                                                                                        |       14    0%  |             14  |        2  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(LambdaForm, MethodType) InvokerBytecodeGenerator.java                              |       12    0%  |              0  |        2  |
+|  java.lang.invoke.LambdaForm.compileToBytecode() LambdaForm.java                                                                                     |       12    0%  |              0  |        2  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                        |       12    0%  |              0  |        2  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java           |       12    0%  |              0  |        2  |
+|  java.lang.System$2.currentCarrierThread() System.java                                                                                               |        9    0%  |              9  |        1  |
+|  jdk.internal.misc.Blocker.begin() Blocker.java                                                                                                      |        9    0%  |              0  |        1  |
+|  jdk.internal.misc.Blocker.currentCarrierThread() Blocker.java                                                                                       |        9    0%  |              0  |        1  |
+|  java.nio.Buffer.<init>(int, int, int, int, MemorySegment) Buffer.java                                                                               |        9    0%  |              0  |        1  |
+|  java.nio.Buffer.limit(int) Buffer.java                                                                                                              |        9    0%  |              9  |        1  |
+|  java.nio.CharBuffer.<init>(int, int, int, int, char[], int, MemorySegment) CharBuffer.java                                                          |        9    0%  |              0  |        1  |
+|  java.nio.CharBuffer.limit(int) CharBuffer.java                                                                                                      |        9    0%  |              0  |        1  |
+|  java.nio.CharBuffer.limit(int) CharBuffer.java                                                                                                      |        9    0%  |              0  |        1  |
+|  java.nio.CharBuffer.wrap(char[], int, int) CharBuffer.java                                                                                          |        9    0%  |              0  |        1  |
+|  java.nio.HeapCharBuffer.<init>(char[], int, int, MemorySegment) HeapCharBuffer.java                                                                 |        9    0%  |              0  |        1  |
+|  havlak.SimpleLoop.getChildren()                                                                                                                     |        9    0%  |              9  |        1  |
+|  java.lang.Integer.getChars(int, int, byte[]) Integer.java                                                                                           |        9    0%  |              9  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, long, Object, int, Object) DirectMethodHandle$Holder                                |        9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x0000000800104c00.invoke(Object, long, Object, int) LambdaForm$MH                                                   |        9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x0000000800111800.invoke(Object, long, Object, Object, int) LambdaForm$MH                                           |        9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x0000000800112400.invoke(Object, long, Object, Object, int, long) LambdaForm$MH                                     |        9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x0000000800115000.invoke(Object, Object, int, long) LambdaForm$MH                                                   |        9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x0000000800115800.linkToTargetMethod(Object, int, long, Object) LambdaForm$MH                                       |        9    0%  |              0  |        1  |
+|  java.lang.StringConcatHelper.prepend(long, byte[], int) StringConcatHelper.java                                                                     |        9    0%  |              0  |        1  |
+|  java.lang.StringConcatHelper.prepend(long, byte[], int, String) StringConcatHelper.java                                                             |        9    0%  |              0  |        1  |
+|  java.lang.Object.getClass() Object.java (native)                                                                                                    |        9    0%  |              9  |        1  |
+|  som.Dictionary.splitBucket(Dictionary$Entry[], int, Dictionary$Entry)                                                                               |        9    0%  |              9  |        1  |
+|  java.nio.CharBuffer.arrayOffset() CharBuffer.java                                                                                                   |        8    0%  |              8  |        1  |
+|  java.nio.charset.CharsetEncoder.encode(CharBuffer, ByteBuffer, boolean) CharsetEncoder.java                                                         |        8    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implWrite(CharBuffer) StreamEncoder.java                                                                                   |        8    0%  |              0  |        1  |
+|  sun.nio.cs.US_ASCII$Encoder.encodeArrayLoop(CharBuffer, ByteBuffer) US_ASCII.java                                                                   |        8    0%  |              0  |        1  |
+|  sun.nio.cs.US_ASCII$Encoder.encodeLoop(CharBuffer, ByteBuffer) US_ASCII.java                                                                        |        8    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(MemberName) DirectMethodHandle.java                                                                        |        7    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(byte, Class, MemberName, Class) DirectMethodHandle.java                                                    |        7    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(Class, MemberName) DirectMethodHandle.java                                                                 |        7    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.makePreparedLambdaForm(MethodType, int) DirectMethodHandle.java                                                 |        7    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MethodType, int) DirectMethodHandle.java                                                     |        7    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName) DirectMethodHandle.java                                                          |        7    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName, boolean) DirectMethodHandle.java                                                 |        7    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.addMethod() InvokerBytecodeGenerator.java                                                                 |        7    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.emitReturn(LambdaForm$Name) InvokerBytecodeGenerator.java                                                 |        7    0%  |              7  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCodeBytes() InvokerBytecodeGenerator.java                                               |        7    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers.basicInvoker() Invokers.java                                                                                              |        7    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers.callSiteForm(MethodType, boolean) Invokers.java                                                                           |        7    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers.linkToTargetMethod(MethodType) Invokers.java                                                                              |        7    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$Name.<init>(MethodType, Object[]) LambdaForm.java                                                                       |        7    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$NamedFunction.<init>(MethodType) LambdaForm.java                                                                        |        7    0%  |              0  |        1  |
+|  java.lang.ClassLoader.defineClass0(ClassLoader, Class, String, byte[], int, int, ProtectionDomain, boolean, int, Object) ClassLoader.java (native)  |        5    0%  |              0  |        1  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                      |        5    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle.<init>(MethodType, LambdaForm) BoundMethodHandle.java                                                            |        5    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle.bindSingle(MethodType, LambdaForm, Object) BoundMethodHandle.java                                                |        5    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_L.<init>(MethodType, LambdaForm, Object) BoundMethodHandle.java                                          |        5    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_L.make(MethodType, LambdaForm, Object) BoundMethodHandle.java                                            |        5    0%  |              0  |        1  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                   |        5    0%  |              0  |        1  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder               |        5    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                   |        5    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.loadMethod(byte[]) InvokerBytecodeGenerator.java                                                          |        5    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                             |        5    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.prepare() LambdaForm.java                                                                                               |        5    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x0000000800111400.<clinit>() LambdaForm$MH                                                                          |        5    0%  |              5  |        1  |
+|  java.lang.invoke.MethodHandle.<init>(MethodType, LambdaForm) MethodHandle.java                                                                      |        5    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.argumentsWithCombiner(boolean, MethodHandle, int, MethodHandle, int[]) MethodHandles.java                            |        5    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.filterArgumentsWithCombiner(MethodHandle, int, MethodHandle, int[]) MethodHandles.java                               |        5    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(boolean, Object) MethodHandles.java                                                  |        5    0%  |              0  |        1  |
+|  java.lang.invoke.SimpleMethodHandle.copyWithExtendL(MethodType, LambdaForm, Object) SimpleMethodHandle.java                                         |        5    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.filterInPrependers(MethodHandle, String[], Class[]) StringConcatFactory.java                                   |        5    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, String[]) StringConcatFactory.java                                            |        5    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java   |        5    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.prepender(String, Class, String, Class) StringConcatFactory.java                                               |        5    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.prepender(int, String[], Class[], int) StringConcatFactory.java                                                |        5    0%  |              0  |        1  |
+|  java.lang.System$2.defineClass(ClassLoader, Class, String, byte[], ProtectionDomain, boolean, int, Object) System.java                              |        5    0%  |              0  |        1  |
+|  havlak.ControlFlowGraph.addEdge(BasicBlockEdge)                                                                                                     |        4    0%  |              4  |        1  |
+|  java.lang.invoke.Invokers$Holder.linkToTargetMethod(Object, Object, Object) Invokers$Holder                                                         |        0    0%  |              0  |        1  |
+|  sun.management.GarbageCollectorImpl.getObjectName() GarbageCollectorImpl.java                                                                       |        0    0%  |              0  |        1  |
+|  sun.management.Util.newObjectName(String, String) Util.java                                                                                         |        0    0%  |              0  |        1  |
++------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 19, 2025 11:32:50

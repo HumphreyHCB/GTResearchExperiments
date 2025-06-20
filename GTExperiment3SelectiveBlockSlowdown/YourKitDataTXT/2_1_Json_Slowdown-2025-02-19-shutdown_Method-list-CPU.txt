@@ -1,0 +1,198 @@
+Method list (CPU)
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                       Method                                                                        |   Time (ms)    |  Own Time (ms)  |  Samples  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                             |  37,592   99%  |              0  |    3,932  |
+|  Run.runBenchmark()                                                                                                                                 |  37,592   99%  |          < 0.1  |    3,932  |
+|  Run.doRuns(Benchmark)                                                                                                                              |  37,582   99%  |              0  |    3,931  |
+|  Run.measure(Benchmark, int)                                                                                                                        |  37,582   99%  |              0  |    3,931  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                                  |  37,541   99%  |          < 0.1  |    3,924  |
+|  Json.benchmark()                                                                                                                                   |  37,522   99%  |              0  |    3,921  |
+|  json.JsonPureStringParser.parse()                                                                                                                  |  37,522   99%  |              9  |    3,921  |
+|  json.JsonPureStringParser.readObject()                                                                                                             |  37,512   99%  |            118  |    3,920  |
+|  json.JsonPureStringParser.readValue()                                                                                                              |  37,512   99%  |            748  |    3,920  |
+|  json.JsonPureStringParser.readArray()                                                                                                              |  37,475   99%  |            337  |    3,916  |
+|  json.JsonPureStringParser.readStringInternal()                                                                                                     |  12,976   34%  |          1,137  |    1,358  |
+|  java.lang.String.equals(Object) String.java                                                                                                        |  11,785   31%  |         11,785  |    1,235  |
+|  json.JsonPureStringParser.read()                                                                                                                   |  11,081   29%  |          2,718  |    1,164  |
+|  json.JsonPureStringParser.readString()                                                                                                             |   8,840   23%  |             49  |      920  |
+|  som.Vector.append(Object)                                                                                                                          |   6,388   17%  |          6,348  |      664  |
+|  json.JsonArray.add(JsonValue)                                                                                                                      |   6,177   16%  |              0  |      640  |
+|  java.lang.Character.toString(char) Character.java                                                                                                  |   5,516   15%  |              0  |      585  |
+|  java.lang.String.valueOf(char) String.java                                                                                                         |   5,516   15%  |          2,539  |      585  |
+|  json.JsonPureStringParser.readNumber()                                                                                                             |   5,005   13%  |            121  |      524  |
+|  json.JsonPureStringParser.readChar(String)                                                                                                         |   4,779   13%  |            281  |      504  |
+|  json.JsonPureStringParser.skipWhiteSpace()                                                                                                         |   4,750   13%  |            128  |      489  |
+|  json.JsonPureStringParser.isWhiteSpace()                                                                                                           |   4,621   12%  |            951  |      475  |
+|  json.JsonPureStringParser.endCapture()                                                                                                             |   4,425   12%  |            281  |      462  |
+|  json.JsonPureStringParser.readName()                                                                                                               |   4,334   11%  |             49  |      458  |
+|  json.JsonPureStringParser.subStringFromTo(int, int)                                                                                                |   4,143   11%  |            809  |      432  |
+|  json.JsonPureStringParser.readDigit()                                                                                                              |   3,321    9%  |            367  |      348  |
+|  java.lang.StringLatin1.toBytes(char) StringLatin1.java                                                                                             |   2,976    8%  |          2,976  |      317  |
+|  json.JsonPureStringParser.isDigit()                                                                                                                |   2,048    5%  |            237  |      216  |
+|  json.JsonPureStringParser.readNull()                                                                                                               |   1,357    4%  |             29  |      145  |
+|  json.JsonPureStringParser.readRequiredChar(String)                                                                                                 |   1,126    3%  |             16  |      120  |
+|  java.lang.AbstractStringBuilder.append(char) AbstractStringBuilder.java                                                                            |   1,096    3%  |            656  |      115  |
+|  java.lang.StringBuilder.append(char) StringBuilder.java                                                                                            |   1,096    3%  |              0  |      115  |
+|  java.lang.StringBuilder.toString() StringBuilder.java                                                                                              |   1,021    3%  |            692  |      106  |
+|  java.lang.String.charAt(int) String.java                                                                                                           |   1,002    3%  |          < 0.1  |      103  |
+|  som.Vector.<init>(int)                                                                                                                             |     804    2%  |            804  |       85  |
+|  som.Vector.<init>()                                                                                                                                |     804    2%  |              0  |       85  |
+|  java.lang.String.isLatin1() String.java                                                                                                            |     666    2%  |            666  |       67  |
+|  java.lang.AbstractStringBuilder.<init>(int) AbstractStringBuilder.java                                                                             |     569    2%  |            569  |       60  |
+|  java.lang.StringBuilder.<init>(int) StringBuilder.java                                                                                             |     569    2%  |              0  |       60  |
+|  json.JsonArray.<init>()                                                                                                                            |     555    1%  |             49  |       58  |
+|  java.lang.String.hashCode() String.java                                                                                                            |     495    1%  |            336  |       54  |
+|  java.lang.StringLatin1.charAt(byte[], int) StringLatin1.java                                                                                       |     424    1%  |            280  |       45  |
+|  json.JsonObject.<init>()                                                                                                                           |     423    1%  |             19  |       44  |
+|  java.lang.String.<init>(AbstractStringBuilder, Void) String.java                                                                                   |     328    1%  |          < 0.1  |       34  |
+|  java.lang.String.<init>(StringBuilder) String.java                                                                                                 |     328    1%  |              0  |       34  |
+|  json.JsonObject.add(String, JsonValue)                                                                                                             |     270    1%  |              0  |       30  |
+|  java.lang.AbstractStringBuilder.ensureCapacityInternal(int) AbstractStringBuilder.java                                                             |     264    1%  |            264  |       28  |
+|  java.util.Arrays.copyOfRange(byte[], int, int) Arrays.java                                                                                         |     228    1%  |              9  |       24  |
+|  java.lang.AbstractStringBuilder.isLatin1() AbstractStringBuilder.java                                                                              |     225    1%  |            225  |       23  |
+|  java.lang.Object.clone() Object.java (native)                                                                                                      |     218    1%  |            218  |       23  |
+|  json.JsonPureStringParser.readExponent()                                                                                                           |     195    1%  |              0  |       21  |
+|  java.lang.String.length() String.java                                                                                                              |     186    0%  |            156  |       19  |
+|  java.lang.String.checkIndex(int, int) String.java                                                                                                  |     144    0%  |              0  |       16  |
+|  jdk.internal.util.Preconditions.checkIndex(int, int, BiFunction) Preconditions.java                                                                |     144    0%  |            144  |       16  |
+|  json.JsonPureStringParser.readFraction()                                                                                                           |     128    0%  |              0  |       13  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.createGCNotification(long, String, String, String, GcInfo) GarbageCollectorExtImpl.java        |     117    0%  |              0  |        4  |
+|  json.JsonPureStringParser.readTrue()                                                                                                               |     108    0%  |              0  |       12  |
+|  json.JsonObject$HashIndexTable.<init>()                                                                                                            |     104    0%  |            104  |       10  |
+|  com.sun.management.GarbageCollectionNotificationInfo.<init>(CompositeData) GarbageCollectionNotificationInfo.java                                  |     101    0%  |              0  |        3  |
+|  com.sun.management.GarbageCollectionNotificationInfo.from(CompositeData) GarbageCollectionNotificationInfo.java                                    |     101    0%  |              0  |        3  |
+|  com.sun.management.internal.GarbageCollectionNotifInfoCompositeData.getGcInfo(CompositeData) GarbageCollectionNotifInfoCompositeData.java          |     101    0%  |             18  |        3  |
+|  com.yourkit.am.av.invoke(Object, Object[]) a                                                                                                       |     101    0%  |              0  |        3  |
+|  com.yourkit.probes.GcPauseCounter$GcListener.handleNotification(Notification, Object) a                                                            |     101    0%  |              0  |        3  |
+|  com.yourkit.probes.ReflectionUtilImpl.callMethod1(Class, Object, String, Object, CallStatus) a                                                     |     101    0%  |              0  |        3  |
+|  com.yourkit.runtime.JniMethod.callObjectMethodImpl(Class, Object, long, long, Object[], long[]) a                                                  |     101    0%  |              0  |        3  |
+|  sun.management.NotificationEmitterSupport.sendNotification(Notification) NotificationEmitterSupport.java                                           |     101    0%  |              0  |        3  |
+|  com.sun.management.GcInfo.<init>(CompositeData) GcInfo.java                                                                                        |      83    0%  |              0  |        2  |
+|  com.sun.management.GcInfo.from(CompositeData) GcInfo.java                                                                                          |      83    0%  |              0  |        2  |
+|  com.sun.management.internal.GcInfoCompositeData.getMemoryUsageAfterGc(CompositeData) GcInfoCompositeData.java                                      |      83    0%  |              0  |        2  |
+|  java.util.LinkedHashMap$LinkedValueIterator.next() LinkedHashMap.java                                                                              |      83    0%  |             83  |        1  |
+|  sun.management.MappedMXBeanType$MapMXBeanType.toJavaTypeData(Object) MappedMXBeanType.java                                                         |      83    0%  |              0  |        2  |
+|  java.lang.StringLatin1.hashCode(byte[]) StringLatin1.java                                                                                          |      69    0%  |             69  |        8  |
+|  json.JsonObject$HashIndexTable.add(String, int)                                                                                                    |      59    0%  |             19  |        6  |
+|  java.lang.AbstractStringBuilder.getValue() AbstractStringBuilder.java                                                                              |      49    0%  |             49  |        5  |
+|  json.JsonPureStringParser.startCapture()                                                                                                           |      49    0%  |             49  |        5  |
+|  Run.printResult(long, int)                                                                                                                         |      40    0%  |              0  |        7  |
+|  json.JsonObject$HashIndexTable.hashSlotFor(String)                                                                                                 |      39    0%  |              9  |        4  |
+|  java.util.Arrays.copyOf(Object[], int) Arrays.java                                                                                                 |      39    0%  |              0  |        4  |
+|  java.lang.Object.getClass() Object.java (native)                                                                                                   |      29    0%  |             29  |        3  |
+|  json.JsonObject$HashIndexTable.stringHash(String)                                                                                                  |      29    0%  |              9  |        3  |
+|  java.lang.String.coder() String.java                                                                                                               |      29    0%  |             29  |        3  |
+|  java.io.PrintStream.implWriteln(String) PrintStream.java                                                                                           |      23    0%  |          < 0.1  |        4  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                               |      23    0%  |              0  |        4  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                               |      23    0%  |              0  |        4  |
+|  json.JsonPureStringParser.readFalse()                                                                                                              |      19    0%  |          < 0.1  |        2  |
+|  Json.verifyResult(Object)                                                                                                                          |      18    0%  |              9  |        3  |
+|  java.io.BufferedWriter.flushBuffer() BufferedWriter.java                                                                                           |      18    0%  |              0  |        3  |
+|  java.io.BufferedWriter.implFlushBuffer() BufferedWriter.java                                                                                       |      18    0%  |              0  |        3  |
+|  java.io.OutputStreamWriter.write(char[], int, int) OutputStreamWriter.java                                                                         |      18    0%  |              0  |        3  |
+|  java.nio.charset.CharsetEncoder.encode(CharBuffer, ByteBuffer, boolean) CharsetEncoder.java                                                        |      18    0%  |              8  |        3  |
+|  sun.nio.cs.StreamEncoder.implWrite(char[], int, int) StreamEncoder.java                                                                            |      18    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.implWrite(CharBuffer) StreamEncoder.java                                                                                  |      18    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.lockedWrite(char[], int, int) StreamEncoder.java                                                                          |      18    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.write(char[], int, int) StreamEncoder.java                                                                                |      18    0%  |              0  |        3  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                     |      17    0%  |              0  |        3  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                  |      17    0%  |              0  |        3  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder              |      17    0%  |              0  |        3  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                  |      17    0%  |              0  |        3  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                            |      17    0%  |              0  |        3  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                       |      17    0%  |              0  |        3  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java          |      17    0%  |              0  |        3  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, String[]) StringConcatFactory.java                                           |      17    0%  |              0  |        3  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java  |      17    0%  |              0  |        3  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, long, Object, Object, Object) DirectMethodHandle$Holder                            |      15    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers$Holder.linkToTargetMethod(Object, Object, Object) Invokers$Holder                                                        |      15    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x00000008000c4400.invoke(Object, long, Object, Object) LambdaForm$MH                                               |      15    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x0000000800143400.invoke(Object, long, Object, Object, Object) LambdaForm$MH                                       |      15    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x0000000800145000.invoke(Object, Object, Object) LambdaForm$MH                                                     |      15    0%  |              0  |        1  |
+|  java.lang.StringConcatHelper.prepend(long, byte[], String, String) StringConcatHelper.java                                                         |      15    0%  |              0  |        1  |
+|  java.lang.StringConcatHelper.prepend(long, byte[], String) StringConcatHelper.java                                                                 |      15    0%  |             15  |        1  |
+|  sun.management.GarbageCollectorImpl.getObjectName() GarbageCollectorImpl.java                                                                      |      15    0%  |              0  |        1  |
+|  sun.management.Util.newObjectName(String, String) Util.java                                                                                        |      15    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.argumentsWithCombiner(boolean, MethodHandle, int, MethodHandle, int[]) MethodHandles.java                           |      14    0%  |              0  |        2  |
+|  java.lang.invoke.MethodHandles.filterArgumentsWithCombiner(MethodHandle, int, MethodHandle, int[]) MethodHandles.java                              |      14    0%  |              0  |        2  |
+|  java.lang.invoke.StringConcatFactory.filterInPrependers(MethodHandle, String[], Class[]) StringConcatFactory.java                                  |      14    0%  |              0  |        2  |
+|  java.lang.invoke.StringConcatFactory.prepender(int, String[], Class[], int) StringConcatFactory.java                                               |      14    0%  |              0  |        2  |
+|  java.lang.invoke.MethodType.hashCode() MethodType.java                                                                                             |      12    0%  |             12  |        2  |
+|  java.lang.invoke.MethodType.insertParameterTypes(int, Class[]) MethodType.java                                                                     |      12    0%  |              0  |        2  |
+|  java.lang.invoke.MethodType.makeImpl(Class, Class[], boolean) MethodType.java                                                                      |      12    0%  |              0  |        2  |
+|  java.nio.Buffer.position(int) Buffer.java                                                                                                          |       9    0%  |              9  |        1  |
+|  java.nio.ByteBuffer.position(int) ByteBuffer.java                                                                                                  |       9    0%  |              0  |        1  |
+|  java.util.Arrays.copyOf(Object[], int, Class) Arrays.java                                                                                          |       9    0%  |              9  |        1  |
+|  sun.nio.cs.US_ASCII$Encoder.encodeArrayLoop(CharBuffer, ByteBuffer) US_ASCII.java                                                                  |       9    0%  |              0  |        2  |
+|  sun.nio.cs.US_ASCII$Encoder.encodeLoop(CharBuffer, ByteBuffer) US_ASCII.java                                                                       |       9    0%  |              0  |        2  |
+|  java.lang.invoke.DirectMethodHandle.make(byte, Class, MemberName, Class) DirectMethodHandle.java                                                   |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(Class, MemberName) DirectMethodHandle.java                                                                |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(MemberName) DirectMethodHandle.java                                                                       |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.makePreparedLambdaForm(MethodType, int) DirectMethodHandle.java                                                |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName, boolean) DirectMethodHandle.java                                                |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MethodType, int) DirectMethodHandle.java                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName) DirectMethodHandle.java                                                         |       9    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers.basicInvoker() Invokers.java                                                                                             |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$Name.<init>(MethodType, Object[]) LambdaForm.java                                                                      |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$NamedFunction.<init>(MethodType) LambdaForm.java                                                                       |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.filterArgumentsForm(int, MethodType, int[]) LambdaFormEditor.java                                                |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.makeArgumentCombinationForm(int, MethodType, int[], boolean, boolean) LambdaFormEditor.java                      |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.invokerType() MethodType.java                                                                                          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.methodType(Class, Class[], boolean) MethodType.java                                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType$ConcurrentWeakInternSet.get(Object) MethodType.java                                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodTypeForm.canonicalize(MethodType, int) MethodTypeForm.java                                                                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodTypeForm.findForm(MethodType) MethodTypeForm.java                                                                           |       9    0%  |              0  |        1  |
+|  java.util.concurrent.ConcurrentHashMap.get(Object) ConcurrentHashMap.java                                                                          |       9    0%  |              0  |        1  |
+|  Run.reportBenchmark()                                                                                                                              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, long) DirectMethodHandle$Holder                                            |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x00000008000c4c00.invoke(Object, long) LambdaForm$MH                                                               |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x000000080014a000.invoke(Object, Object, int, long) LambdaForm$MH                                                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$MH.0x000000080014a800.linkToTargetMethod(Object, int, long, Object) LambdaForm$MH                                      |       9    0%  |              0  |        1  |
+|  java.lang.StringConcatHelper.newArray(long) StringConcatHelper.java                                                                                |       9    0%  |              0  |        1  |
+|  java.lang.StringConcatHelper.newArrayWithSuffix(String, long) StringConcatHelper.java                                                              |       9    0%  |              0  |        1  |
+|  jdk.internal.misc.Unsafe.allocateUninitializedArray(Class, int) Unsafe.java                                                                        |       9    0%  |              0  |        1  |
+|  jdk.internal.misc.Unsafe.allocateUninitializedArray0(Class, int) Unsafe.java                                                                       |       9    0%  |              9  |        1  |
+|  json.JsonObject.get(String)                                                                                                                        |       8    0%  |              0  |        1  |
+|  json.JsonObject.indexOf(String)                                                                                                                    |       8    0%  |              0  |        1  |
+|  json.JsonObject$HashIndexTable.get(String)                                                                                                         |       8    0%  |              8  |        1  |
+|  com.yourkit.probes.builtin.Files$FileOutputStream_write_arrayRange_Probe.onExit(int, Throwable) a                                                  |       4    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                                                                     |       4    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                                                               |       4    0%  |              0  |        1  |
+|  java.io.BufferedOutputStream.implFlush() BufferedOutputStream.java                                                                                 |       4    0%  |              0  |        1  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                                                             |       4    0%  |              0  |        1  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                                                                   |       4    0%  |              0  |        1  |
+|  java.io.PrintStream.implWrite(byte[], int, int) PrintStream.java                                                                                   |       4    0%  |              0  |        1  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                                                                       |       4    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                                                          |       4    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                                                                      |       4    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.lockedFlushBuffer() StreamEncoder.java                                                                                    |       4    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                                                           |       4    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle.<init>(MethodType, LambdaForm) BoundMethodHandle.java                                                           |       4    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_L.copyWithExtendL(MethodType, LambdaForm, Object) BoundMethodHandle.java                                |       4    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LL.<init>(MethodType, LambdaForm, Object, Object) java/lang/invoke/BoundMethodHandle$Species_LL         |       4    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LL.make(MethodType, LambdaForm, Object, Object) java/lang/invoke/BoundMethodHandle$Species_LL           |       4    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object) DirectMethodHandle$Holder                          |       4    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(LambdaForm, MethodType) InvokerBytecodeGenerator.java                             |       4    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.loadMethod(byte[]) InvokerBytecodeGenerator.java                                                         |       4    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.compileToBytecode() LambdaForm.java                                                                                    |       4    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.prepare() LambdaForm.java                                                                                              |       4    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandle.<init>(MethodType, LambdaForm) MethodHandle.java                                                                     |       4    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.makeHiddenClassDefiner(String, byte[], Set, ClassFileDumper) MethodHandles.java                              |       4    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup$ClassFile.<init>(String, int, byte[]) MethodHandles.java                                                     |       4    0%  |              4  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup$ClassFile.newInstanceNoCheck(String, byte[]) MethodHandles.java                                              |       4    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.dropArguments(MethodHandle, int, Class) MethodHandles.java                                                          |       2    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.dropArgumentsTrusted(MethodHandle, int, Class[]) MethodHandles.java                                                 |       2    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType$ConcurrentWeakInternSet.add(Object) MethodType.java                                                                    |       2    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType$ConcurrentWeakInternSet$WeakEntry.<init>(Object, ReferenceQueue) MethodType.java                                       |       2    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.filterAndFoldInMixers(MethodHandle, long, Class[]) StringConcatFactory.java                                   |       2    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.foldInLastMixers(MethodHandle, long, int, Class[], int) StringConcatFactory.java                              |       2    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.mixer(Class, Class, Class) StringConcatFactory.java                                                           |       2    0%  |              0  |        1  |
+|  java.lang.reflect.Method.invoke(Object, Object[]) Method.java                                                                                      |       0    0%  |              0  |        1  |
+|  jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Object, Object[]) DirectMethodHandleAccessor.java                                           |       0    0%  |              0  |        1  |
+|  json.JsonArray.size()                                                                                                                              |       0    0%  |              0  |        1  |
+|  sun.management.MappedMXBeanType$CompositeDataMXBeanType.toJavaTypeData(Object) MappedMXBeanType.java                                               |       0    0%  |              0  |        1  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 19, 2025 11:32:35

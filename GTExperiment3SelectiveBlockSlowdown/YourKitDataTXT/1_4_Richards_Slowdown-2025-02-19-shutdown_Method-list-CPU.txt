@@ -1,0 +1,130 @@
+Method list (CPU)
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                         Method                                                                          |   Time (ms)    |  Own Time (ms)  |  Samples  |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                                 |  38,270  100%  |              0  |    4,012  |
+|  Run.runBenchmark()                                                                                                                                     |  38,270  100%  |              0  |    4,012  |
+|  Run.doRuns(Benchmark)                                                                                                                                  |  38,260   99%  |              0  |    4,011  |
+|  Run.measure(Benchmark, int)                                                                                                                            |  38,260   99%  |          < 0.1  |    4,011  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                                      |  38,240   99%  |              9  |    4,009  |
+|  Richards.benchmark()                                                                                                                                   |  38,230   99%  |              9  |    4,008  |
+|  richards.Scheduler.start()                                                                                                                             |  38,210   99%  |          < 0.1  |    4,006  |
+|  richards.Scheduler.schedule()                                                                                                                          |  38,162   99%  |          6,312  |    4,000  |
+|  richards.TaskControlBlock.runTask()                                                                                                                    |  23,210   61%  |          6,269  |    2,446  |
+|  richards.Scheduler$HandlerProcessFunction.apply(Packet, RBObject)                                                                                      |   8,290   22%  |          3,406  |      872  |
+|  richards.TaskState.isTaskHoldingOrWaiting()                                                                                                            |   7,842   20%  |          7,842  |      812  |
+|  richards.Scheduler$DeviceProcessFunction.apply(Packet, RBObject)                                                                                       |   4,253   11%  |          1,873  |      448  |
+|  richards.Scheduler.queuePacket(Packet)                                                                                                                 |   3,698   10%  |            580  |      388  |
+|  richards.Scheduler$IdleProcessFunction.apply(Packet, RBObject)                                                                                         |   2,283    6%  |          1,022  |      239  |
+|  richards.TaskControlBlock.addInputAndCheckPriority(Packet, TaskControlBlock)                                                                           |   1,635    4%  |          1,187  |      171  |
+|  richards.Scheduler.findTask(int)                                                                                                                       |   1,166    3%  |          1,166  |      124  |
+|  richards.Scheduler$WorkerProcessFunction.apply(Packet, RBObject)                                                                                       |   1,158    3%  |            737  |      120  |
+|  richards.Packet.setLink(Packet)                                                                                                                        |     936    2%  |            936  |      100  |
+|  richards.RBObject.append(Packet, Packet)                                                                                                               |     929    2%  |            356  |       97  |
+|  richards.Scheduler.release(int)                                                                                                                        |     760    2%  |            100  |       83  |
+|  richards.TaskState.isWaitingWithPacket()                                                                                                               |     725    2%  |            725  |       75  |
+|  richards.Scheduler.holdSelf()                                                                                                                          |     696    2%  |            605  |       75  |
+|  richards.DeviceTaskDataRecord.setPending(Packet)                                                                                                       |     594    2%  |            594  |       60  |
+|  richards.HandlerTaskDataRecord.workInAdd(Packet)                                                                                                       |     584    2%  |            198  |       60  |
+|  richards.TaskControlBlock.getLink()                                                                                                                    |     543    1%  |            543  |       59  |
+|  richards.HandlerTaskDataRecord.deviceInAdd(Packet)                                                                                                     |     494    1%  |            308  |       51  |
+|  richards.HandlerTaskDataRecord.deviceIn(Packet)                                                                                                        |     440    1%  |            440  |       45  |
+|  richards.IdleTaskDataRecord.setControl(int)                                                                                                            |     359    1%  |            359  |       37  |
+|  richards.Packet.getDatum()                                                                                                                             |     359    1%  |            359  |       39  |
+|  richards.HandlerTaskDataRecord.deviceIn()                                                                                                              |     351    1%  |            351  |       36  |
+|  richards.TaskControlBlock.getIdentity()                                                                                                                |     344    1%  |            344  |       35  |
+|  richards.TaskState.setTaskHolding(boolean)                                                                                                             |     319    1%  |            319  |       36  |
+|  richards.HandlerTaskDataRecord.workIn(Packet)                                                                                                          |     218    1%  |            218  |       23  |
+|  richards.Packet.getIdentity()                                                                                                                          |     201    1%  |            201  |       20  |
+|  richards.TaskState.running()                                                                                                                           |     139    0%  |            139  |       17  |
+|  richards.IdleTaskDataRecord.setCount(int)                                                                                                              |     130    0%  |            130  |       14  |
+|  richards.Packet.setIdentity(int)                                                                                                                       |     110    0%  |            110  |       11  |
+|  richards.Packet.setDatum(int)                                                                                                                          |     109    0%  |            109  |       11  |
+|  richards.TaskState.packetPending()                                                                                                                     |      89    0%  |             89  |        9  |
+|  richards.TaskState.setPacketPending(boolean)                                                                                                           |      88    0%  |             88  |        9  |
+|  richards.DeviceTaskDataRecord.getPending()                                                                                                             |      38    0%  |             38  |        4  |
+|  richards.Packet.getData()                                                                                                                              |      29    0%  |             29  |        3  |
+|  richards.HandlerTaskDataRecord.workIn()                                                                                                                |      19    0%  |             19  |        2  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                                                                         |      19    0%  |              0  |        2  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                                                                   |      19    0%  |              0  |        2  |
+|  java.io.BufferedOutputStream.implFlush() BufferedOutputStream.java                                                                                     |      19    0%  |              0  |        2  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                                                                 |      19    0%  |          < 0.1  |        2  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                                                                       |      19    0%  |              0  |        2  |
+|  java.io.PrintStream.implWrite(byte[], int, int) PrintStream.java                                                                                       |      19    0%  |              0  |        2  |
+|  java.io.PrintStream.implWriteln(String) PrintStream.java                                                                                               |      19    0%  |              0  |        2  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                                   |      19    0%  |              0  |        2  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                                                                           |      19    0%  |              0  |        2  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                                   |      19    0%  |              0  |        2  |
+|  Run.printResult(long, int)                                                                                                                             |      19    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                                                              |      19    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                                                                          |      19    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.lockedFlushBuffer() StreamEncoder.java                                                                                        |      19    0%  |              0  |        2  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                                                               |      19    0%  |              0  |        2  |
+|  richards.Packet.getLink()                                                                                                                              |      17    0%  |             17  |        2  |
+|  richards.TaskState.createWaitingWithPacket()                                                                                                           |      10    0%  |             10  |        1  |
+|  richards.Scheduler.createIdler(int, int, Packet, TaskState)                                                                                            |       9    0%  |              9  |        1  |
+|  richards.TaskState.createRunning()                                                                                                                     |       9    0%  |              9  |        1  |
+|  com.yourkit.probes.builtin.Files.writeOnEnter(FileOutputStream, int) a                                                                                 |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.builtin.Files$FileOutputStream_write_arrayRange_Probe.onEnter(FileOutputStream, int) a                                              |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.Table.createRow(int) a                                                                                                              |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.Table.createRow() a                                                                                                                 |       9    0%  |              9  |        1  |
+|  richards.IdleTaskDataRecord.getControl()                                                                                                               |       9    0%  |              9  |        1  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                         |       9    0%  |              0  |        2  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                      |       9    0%  |              0  |        2  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(byte, Class, MemberName, Class) DirectMethodHandle.java                                                       |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(MemberName) DirectMethodHandle.java                                                                           |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(Class, MemberName) DirectMethodHandle.java                                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.makePreparedLambdaForm(MethodType, int) DirectMethodHandle.java                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName, boolean) DirectMethodHandle.java                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MethodType, int) DirectMethodHandle.java                                                        |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName) DirectMethodHandle.java                                                             |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                      |       9    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers.basicInvoker() Invokers.java                                                                                                 |       9    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                                |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$Name.<init>(MethodType, Object[]) LambdaForm.java                                                                          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm$NamedFunction.<init>(MethodType) LambdaForm.java                                                                           |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.filterArgumentsForm(int, MethodType, int[]) LambdaFormEditor.java                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.makeArgumentCombinationForm(int, MethodType, int[], boolean, boolean) LambdaFormEditor.java                          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                           |       9    0%  |              0  |        2  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java              |       9    0%  |              0  |        2  |
+|  java.lang.invoke.MethodHandles.argumentsWithCombiner(boolean, MethodHandle, int, MethodHandle, int[]) MethodHandles.java                               |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.filterArgumentsWithCombiner(MethodHandle, int, MethodHandle, int[]) MethodHandles.java                                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.insertParameterTypes(int, Class[]) MethodType.java                                                                         |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.invokerType() MethodType.java                                                                                              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.makeImpl(Class, Class[], boolean) MethodType.java                                                                          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodType.methodType(Class, Class[], boolean) MethodType.java                                                                        |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodTypeForm.<init>(MethodType) MethodTypeForm.java                                                                                 |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodTypeForm.canonicalize(MethodType, int) MethodTypeForm.java                                                                      |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodTypeForm.findForm(MethodType) MethodTypeForm.java                                                                               |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.filterInPrependers(MethodHandle, String[], Class[]) StringConcatFactory.java                                      |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, String[]) StringConcatFactory.java                                               |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java      |       9    0%  |              0  |        1  |
+|  richards.Scheduler.createHandler(int, int, Packet, TaskState)                                                                                          |       9    0%  |              0  |        1  |
+|  richards.Scheduler.createTask(int, int, Packet, TaskState, ProcessFunction, RBObject)                                                                  |       9    0%  |              0  |        1  |
+|  richards.TaskControlBlock.<init>(TaskControlBlock, int, int, Packet, TaskState, ProcessFunction, RBObject)                                             |       9    0%  |              9  |        1  |
+|  Run.reportBenchmark()                                                                                                                                  |       9    0%  |              0  |        1  |
+|  sun.invoke.util.Wrapper.isIntegral() Wrapper.java                                                                                                      |       9    0%  |              0  |        1  |
+|  sun.invoke.util.Wrapper.isNumeric() Wrapper.java                                                                                                       |       9    0%  |              9  |        1  |
+|  sun.invoke.util.Wrapper.isSubwordOrInt() Wrapper.java                                                                                                  |       9    0%  |              0  |        1  |
+|  richards.WorkerTaskDataRecord.getCount()                                                                                                               |       9    0%  |              9  |        1  |
+|  richards.Scheduler.<init>()                                                                                                                            |       9    0%  |              9  |        1  |
+|  com.yourkit.probes.builtin.Processes$FileOutputStream_write_arrayRange_Probe.onEnter(FileOutputStream, int) a                                          |       9    0%  |              0  |        1  |
+|  richards.Scheduler.createWorker(int, int, Packet, TaskState)                                                                                           |       7    0%  |              2  |        2  |
+|  richards.Scheduler$WorkerProcessFunction.<init>(Scheduler)                                                                                             |       4    0%  |              4  |        1  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.getAllPoolNames() GarbageCollectorExtImpl.java                                                     |       0    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.getGcInfoBuilder() GarbageCollectorExtImpl.java                                                    |       0    0%  |              0  |        1  |
+|  java.lang.ClassLoader.defineClass0(ClassLoader, Class, String, byte[], int, int, ProtectionDomain, boolean, int, Object) ClassLoader.java (native)     |       0    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder              |       0    0%  |              0  |        1  |
+|  java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite() InnerClassLambdaMetafactory.java                                                          |       0    0%  |              0  |        1  |
+|  java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass() InnerClassLambdaMetafactory.java                                                     |       0    0%  |              0  |        1  |
+|  java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass() InnerClassLambdaMetafactory.java                                                         |       0    0%  |              0  |        1  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                        |       0    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaMetafactory.metafactory(MethodHandles$Lookup, String, MethodType, MethodType, MethodHandle, MethodType) LambdaMetafactory.java  |       0    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(boolean, Object) MethodHandles.java                                                     |       0    0%  |              0  |        1  |
+|  java.lang.System$2.defineClass(ClassLoader, Class, String, byte[], ProtectionDomain, boolean, int, Object) System.java                                 |       0    0%  |              0  |        1  |
+|  sun.management.ManagementFactoryHelper.getAllMemoryPoolNames() ManagementFactoryHelper.java                                                            |       0    0%  |              0  |        1  |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 19, 2025 11:32:00

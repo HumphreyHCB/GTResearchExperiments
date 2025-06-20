@@ -1,0 +1,104 @@
+Method list (CPU)
+
++------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                                        Method                                                                        |   Time (ms)    |  Own Time (ms)  |  Samples  |
++------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                                                              |  94,095   99%  |              0  |    9,667  |
+|  Run.runBenchmark()                                                                                                                                  |  94,095   99%  |          < 0.1  |    9,667  |
+|  Run.doRuns(Benchmark)                                                                                                                               |  94,085   99%  |              0  |    9,666  |
+|  Run.measure(Benchmark, int)                                                                                                                         |  94,085   99%  |              9  |    9,666  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                                                                   |  94,035   99%  |              9  |    9,661  |
+|  List.benchmark()                                                                                                                                    |  94,015   99%  |             14  |    9,659  |
+|  List.tail(List$Element, List$Element, List$Element)                                                                                                 |  93,427   99%  |          8,318  |    9,599  |
+|  List.isShorterThan(List$Element, List$Element)                                                                                                      |  82,753   88%  |         47,010  |    8,505  |
+|  List$Element.getNext()                                                                                                                              |  38,097   40%  |         38,097  |    3,908  |
+|  List.makeList(int)                                                                                                                                  |     493    1%  |            383  |       50  |
+|  java.lang.Integer.valueOf(int) Integer.java                                                                                                         |     109    0%  |            109  |       11  |
+|  List$Element.length()                                                                                                                               |      79    0%  |             79  |        8  |
+|  com.sun.management.GarbageCollectionNotificationInfo.<init>(CompositeData) GarbageCollectionNotificationInfo.java                                   |      43    0%  |              0  |        1  |
+|  com.sun.management.GarbageCollectionNotificationInfo.from(CompositeData) GarbageCollectionNotificationInfo.java                                     |      43    0%  |              0  |        1  |
+|  com.sun.management.GcInfo.<init>(CompositeData) GcInfo.java                                                                                         |      43    0%  |              0  |        1  |
+|  com.sun.management.GcInfo.from(CompositeData) GcInfo.java                                                                                           |      43    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectionNotifInfoCompositeData.getGcInfo(CompositeData) GarbageCollectionNotifInfoCompositeData.java           |      43    0%  |              0  |        1  |
+|  com.sun.management.internal.GarbageCollectorExtImpl.createGCNotification(long, String, String, String, GcInfo) GarbageCollectorExtImpl.java         |      43    0%  |              0  |        1  |
+|  com.sun.management.internal.GcInfoCompositeData.getEndTime(CompositeData) GcInfoCompositeData.java                                                  |      43    0%  |             43  |        1  |
+|  com.yourkit.am.av.invoke(Object, Object[]) a                                                                                                        |      43    0%  |              0  |        1  |
+|  com.yourkit.probes.GcPauseCounter$GcListener.handleNotification(Notification, Object) a                                                             |      43    0%  |              0  |        1  |
+|  com.yourkit.probes.ReflectionUtilImpl.callMethod1(Class, Object, String, Object, CallStatus) a                                                      |      43    0%  |              0  |        1  |
+|  com.yourkit.runtime.JniMethod.callObjectMethodImpl(Class, Object, long, long, Object[], long[]) a                                                   |      43    0%  |              0  |        1  |
+|  sun.management.NotificationEmitterSupport.sendNotification(Notification) NotificationEmitterSupport.java                                            |      43    0%  |              0  |        1  |
+|  Run.printResult(long, int)                                                                                                                          |      39    0%  |          < 0.1  |        4  |
+|  com.yourkit.probes.builtin.Files.writeOnEnter(FileOutputStream, int) a                                                                              |      29    0%  |              0  |        3  |
+|  com.yourkit.probes.builtin.Files$FileOutputStream_write_arrayRange_Probe.onEnter(FileOutputStream, int) a                                           |      29    0%  |              0  |        3  |
+|  com.yourkit.probes.Table.createRow(int) a                                                                                                           |      29    0%  |              0  |        3  |
+|  com.yourkit.probes.Table.createRow() a                                                                                                              |      29    0%  |             29  |        3  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                                                                      |      29    0%  |              0  |        3  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                                                                |      29    0%  |              0  |        3  |
+|  java.io.BufferedOutputStream.implFlush() BufferedOutputStream.java                                                                                  |      29    0%  |              0  |        3  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                                                              |      29    0%  |              0  |        3  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                                                                    |      29    0%  |              0  |        3  |
+|  java.io.PrintStream.implWrite(byte[], int, int) PrintStream.java                                                                                    |      29    0%  |              0  |        3  |
+|  java.io.PrintStream.implWriteln(String) PrintStream.java                                                                                            |      29    0%  |              0  |        3  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                                                                |      29    0%  |              0  |        3  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                                                                        |      29    0%  |              0  |        3  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                                                                |      29    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                                                           |      29    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                                                                       |      29    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.lockedFlushBuffer() StreamEncoder.java                                                                                     |      29    0%  |              0  |        3  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                                                            |      29    0%  |              0  |        3  |
+|  java.lang.invoke.BootstrapMethodInvoker.invoke(Class, MethodHandle, String, Object, Object, Class) BootstrapMethodInvoker.java                      |      19    0%  |              0  |        2  |
+|  java.lang.invoke.CallSite.makeSite(MethodHandle, String, MethodType, Object, Class) CallSite.java                                                   |      19    0%  |              0  |        2  |
+|  java.lang.invoke.DelegatingMethodHandle$Holder.delegate(Object, Object, Object, Object, Object, Object) DelegatingMethodHandle$Holder               |      19    0%  |              0  |        2  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object, Object) DirectMethodHandle$Holder                   |      19    0%  |              0  |        2  |
+|  java.lang.invoke.Invokers$Holder.invokeExact_MT(Object, Object, Object, Object, Object, Object, Object) Invokers$Holder                             |      19    0%  |              0  |        2  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSite(Object, Object, Object, Object, Object, Object[]) MethodHandleNatives.java                        |      19    0%  |              0  |        2  |
+|  java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(Class, MethodHandle, String, MethodType, Object, Object[]) MethodHandleNatives.java           |      19    0%  |              0  |        2  |
+|  java.lang.invoke.StringConcatFactory.filterAndFoldInMixers(MethodHandle, long, Class[]) StringConcatFactory.java                                    |      19    0%  |              0  |        2  |
+|  java.lang.invoke.StringConcatFactory.foldInLastMixers(MethodHandle, long, int, Class[], int) StringConcatFactory.java                               |      19    0%  |              0  |        2  |
+|  java.lang.invoke.StringConcatFactory.generateMHInlineCopy(MethodType, String[]) StringConcatFactory.java                                            |      19    0%  |              0  |        2  |
+|  java.lang.invoke.StringConcatFactory.makeConcatWithConstants(MethodHandles$Lookup, String, MethodType, String, Object[]) StringConcatFactory.java   |      19    0%  |              0  |        2  |
+|  List.verifyResult(Object)                                                                                                                           |       9    0%  |              9  |        1  |
+|  java.lang.ClassLoader.defineClass0(ClassLoader, Class, String, byte[], int, int, ProtectionDomain, boolean, int, Object) ClassLoader.java (native)  |       9    0%  |              9  |        1  |
+|  java.lang.invoke.BoundMethodHandle.<init>(MethodType, LambdaForm) BoundMethodHandle.java                                                            |       9    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LL.<init>(MethodType, LambdaForm, Object, Object) java/lang/invoke/BoundMethodHandle$Species_LL          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LL.copyWith(MethodType, LambdaForm) java/lang/invoke/BoundMethodHandle$Species_LL                        |       9    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$Species_LL.make(MethodType, LambdaForm, Object, Object) java/lang/invoke/BoundMethodHandle$Species_LL            |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(Object, Object, Object, Object, Object) DirectMethodHandle$Holder                           |       9    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(LambdaForm, MethodType) InvokerBytecodeGenerator.java                              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.InvokerBytecodeGenerator.loadMethod(byte[]) InvokerBytecodeGenerator.java                                                          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.compileToBytecode() LambdaForm.java                                                                                     |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaForm.prepare() LambdaForm.java                                                                                               |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandle.<init>(MethodType, LambdaForm) MethodHandle.java                                                                      |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.dropArguments(MethodHandle, int, Class, Class) MethodHandles.java                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.dropArgumentsTrusted(MethodHandle, int, Class[]) MethodHandles.java                                                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(boolean, Object) MethodHandles.java                                                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.StringConcatFactory.mixer(Class, Class, Class, Class) StringConcatFactory.java                                                     |       9    0%  |              0  |        1  |
+|  java.lang.System$2.defineClass(ClassLoader, Class, String, byte[], ProtectionDomain, boolean, int, Object) System.java                              |       9    0%  |              0  |        1  |
+|  Run.reportBenchmark()                                                                                                                               |       9    0%  |              0  |        1  |
+|  java.lang.Class.getPackageName() Class.java                                                                                                         |       9    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle.bindArgumentJ(int, long) BoundMethodHandle.java                                                                  |       9    0%  |              0  |        1  |
+|  java.lang.invoke.BoundMethodHandle$SpeciesData.extendWith(LambdaForm$BasicType) BoundMethodHandle.java                                              |       9    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer.findSpecies(Object) ClassSpecializer.java                                                                         |       9    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.findFactories(Class, List) ClassSpecializer.java                                                          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.findFactory(Class, List) ClassSpecializer.java                                                            |       9    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.linkSpeciesDataToCode(ClassSpecializer$SpeciesData, Class) ClassSpecializer.java                          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.ClassSpecializer$Factory.loadSpecies(ClassSpecializer$SpeciesData) ClassSpecializer.java                                           |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.make(byte, Class, MemberName, Class) DirectMethodHandle.java                                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName) DirectMethodHandle.java                                                          |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.preparedLambdaForm(MemberName, boolean) DirectMethodHandle.java                                                 |       9    0%  |              0  |        1  |
+|  java.lang.invoke.DirectMethodHandle.shouldBeInitialized(MemberName) DirectMethodHandle.java                                                         |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.bindArgumentForm(int) LambdaFormEditor.java                                                                       |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.bindArgumentJ(BoundMethodHandle, int, long) LambdaFormEditor.java                                                 |       9    0%  |              0  |        1  |
+|  java.lang.invoke.LambdaFormEditor.newSpeciesData(LambdaForm$BasicType) LambdaFormEditor.java                                                        |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.insertArgumentPrimitive(BoundMethodHandle, int, Class, Object) MethodHandles.java                                    |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles.insertArguments(MethodHandle, int, Object[]) MethodHandles.java                                                      |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.findStatic(Class, String, MethodType) MethodHandles.java                                                      |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.getDirectMethod(byte, Class, MemberName, MethodHandles$Lookup) MethodHandles.java                             |       9    0%  |              0  |        1  |
+|  java.lang.invoke.MethodHandles$Lookup.getDirectMethodCommon(byte, Class, MemberName, boolean, boolean, MethodHandles$Lookup) MethodHandles.java     |       9    0%  |              0  |        1  |
+|  java.lang.String.lastIndexOf(int) String.java                                                                                                       |       9    0%  |              0  |        1  |
+|  java.lang.String.lastIndexOf(int, int) String.java                                                                                                  |       9    0%  |              9  |        1  |
+|  sun.invoke.util.VerifyAccess.isSamePackage(Class, Class) VerifyAccess.java                                                                          |       9    0%  |              0  |        1  |
+|  java.lang.management.MemoryUsage.<init>(long, long, long, long) MemoryUsage.java                                                                    |       0    0%  |              0  |        1  |
++------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 19, 2025 11:32:26

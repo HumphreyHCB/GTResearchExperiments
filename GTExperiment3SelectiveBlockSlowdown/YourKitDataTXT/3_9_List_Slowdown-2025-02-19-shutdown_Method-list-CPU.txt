@@ -1,0 +1,52 @@
+Method list (CPU)
+
++-------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|                                                   Method                                                    |   Time (ms)    |  Own Time (ms)  |  Samples  |
++-------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+|  Harness.main(String[])                                                                                     |  91,452  100%  |              0  |    9,428  |
+|  Run.doRuns(Benchmark)                                                                                      |  91,452  100%  |              0  |    9,428  |
+|  Run.measure(Benchmark, int)                                                                                |  91,452  100%  |              0  |    9,428  |
+|  Run.runBenchmark()                                                                                         |  91,452  100%  |              0  |    9,428  |
+|  Benchmark.innerBenchmarkLoop(int)                                                                          |  91,382   99%  |              9  |    9,421  |
+|  List.benchmark()                                                                                           |  91,372   99%  |             39  |    9,420  |
+|  List.tail(List$Element, List$Element, List$Element)                                                        |  90,800   99%  |         11,538  |    9,360  |
+|  List.isShorterThan(List$Element, List$Element)                                                             |  75,140   82%  |         39,099  |    7,753  |
+|  List$Element.getNext()                                                                                     |  40,161   44%  |         40,161  |    4,137  |
+|  List.makeList(int)                                                                                         |     462    1%  |            343  |       48  |
+|  java.lang.Integer.valueOf(int) Integer.java                                                                |     138    0%  |            138  |       14  |
+|  java.io.PrintStream.implWriteln(String) PrintStream.java                                                   |      69    0%  |              9  |        7  |
+|  java.io.PrintStream.println(String) PrintStream.java                                                       |      69    0%  |              0  |        7  |
+|  java.io.PrintStream.writeln(String) PrintStream.java                                                       |      69    0%  |              0  |        7  |
+|  Run.printResult(long, int)                                                                                 |      69    0%  |              0  |        7  |
+|  List$Element.length()                                                                                      |      49    0%  |             49  |        6  |
+|  java.io.OutputStreamWriter.flushBuffer() OutputStreamWriter.java                                           |      49    0%  |              0  |        5  |
+|  sun.nio.cs.StreamEncoder.flushBuffer() StreamEncoder.java                                                  |      49    0%  |              0  |        5  |
+|  sun.nio.cs.StreamEncoder.implFlushBuffer() StreamEncoder.java                                              |      49    0%  |              0  |        5  |
+|  sun.nio.cs.StreamEncoder.lockedFlushBuffer() StreamEncoder.java                                            |      49    0%  |              0  |        5  |
+|  sun.nio.cs.StreamEncoder.writeBytes() StreamEncoder.java                                                   |      49    0%  |          < 0.1  |        5  |
+|  com.yourkit.probes.builtin.Files.writeOnEnter(FileOutputStream, int) a                                     |      39    0%  |              0  |        4  |
+|  com.yourkit.probes.builtin.Files$FileOutputStream_write_arrayRange_Probe.onEnter(FileOutputStream, int) a  |      39    0%  |              0  |        4  |
+|  java.io.BufferedOutputStream.flush() BufferedOutputStream.java                                             |      39    0%  |              0  |        4  |
+|  java.io.BufferedOutputStream.flushBuffer() BufferedOutputStream.java                                       |      39    0%  |              0  |        4  |
+|  java.io.BufferedOutputStream.implFlush() BufferedOutputStream.java                                         |      39    0%  |              0  |        4  |
+|  java.io.FileOutputStream.write(byte[], int, int) FileOutputStream.java                                     |      39    0%  |              0  |        4  |
+|  java.io.PrintStream.implWrite(byte[], int, int) PrintStream.java                                           |      39    0%  |              0  |        4  |
+|  java.io.PrintStream.write(byte[], int, int) PrintStream.java                                               |      39    0%  |              0  |        4  |
+|  com.yourkit.probes.Table.createRow() a                                                                     |      29    0%  |             29  |        3  |
+|  com.yourkit.probes.Table.createRow(int) a                                                                  |      29    0%  |              0  |        3  |
+|  java.io.BufferedWriter.flushBuffer() BufferedWriter.java                                                   |       9    0%  |              0  |        1  |
+|  java.io.BufferedWriter.implFlushBuffer() BufferedWriter.java                                               |       9    0%  |              0  |        1  |
+|  java.io.OutputStreamWriter.write(char[], int, int) OutputStreamWriter.java                                 |       9    0%  |              0  |        1  |
+|  java.nio.CharBuffer.<init>(int, int, int, int, char[], int, MemorySegment) CharBuffer.java                 |       9    0%  |              9  |        1  |
+|  java.nio.CharBuffer.wrap(char[], int, int) CharBuffer.java                                                 |       9    0%  |              0  |        1  |
+|  java.nio.HeapCharBuffer.<init>(char[], int, int, MemorySegment) HeapCharBuffer.java                        |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.implWrite(char[], int, int) StreamEncoder.java                                    |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.lockedWrite(char[], int, int) StreamEncoder.java                                  |       9    0%  |              0  |        1  |
+|  sun.nio.cs.StreamEncoder.write(char[], int, int) StreamEncoder.java                                        |       9    0%  |              0  |        1  |
+|  java.nio.ByteBuffer.array() ByteBuffer.java                                                                |       9    0%  |              9  |        1  |
+|  com.yourkit.probes.IntColumn.setValue(int, int) a                                                          |       9    0%  |              9  |        1  |
+|  com.yourkit.probes.IntColumn.setValueIfPositive(int, int) a                                                |       9    0%  |              0  |        1  |
+|  com.yourkit.probes.TableIntBytes.setBytes(int, int) a                                                      |       9    0%  |              0  |        1  |
++-------------------------------------------------------------------------------------------------------------+----------------+-----------------+-----------+
+
+Generated by YourKit Java Profiler 2024.9-b163 February 19, 2025 11:34:14
