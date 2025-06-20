@@ -1,0 +1,2233 @@
+--- Execution profile ---
+Total samples       : 8966
+unknown_Java        : 248 (2.77%)
+not_walkable_Java   : 2 (0.02%)
+
+--- 2480019322 ns (2.77%), 248 samples
+  [ 0] Towers.moveDisks
+  [ 1] [unknown_Java]
+
+--- 50005350 ns (0.06%), 5 samples
+  [ 0] Towers.buildTowerAt
+  [ 1] Towers.benchmark
+  [ 2] Benchmark.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 30017738 ns (0.03%), 3 samples
+  [ 0] clear_page_erms_[k]
+  [ 1] clear_huge_page_[k]
+  [ 2] __do_huge_pmd_anonymous_page_[k]
+  [ 3] __handle_mm_fault_[k]
+  [ 4] handle_mm_fault_[k]
+  [ 5] do_user_addr_fault_[k]
+  [ 6] exc_page_fault_[k]
+  [ 7] asm_exc_page_fault_[k]
+  [ 8] ObjAllocator::initialize
+  [ 9] MemAllocator::allocate
+  [10] InstanceKlass::allocate_instance
+  [11] JVMCIRuntime::new_instance_common
+  [12] Towers.pushDisk
+  [13] Towers.buildTowerAt
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 30005874 ns (0.03%), 3 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.popDiskFrom
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.benchmark
+  [11] Benchmark.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 30003952 ns (0.03%), 3 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 30002995 ns (0.03%), 3 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 30002800 ns (0.03%), 3 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 30000437 ns (0.03%), 3 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 30000381 ns (0.03%), 3 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 30000371 ns (0.03%), 3 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 30000325 ns (0.03%), 3 samples
+  [ 0] Towers.moveTopDisk
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 30000308 ns (0.03%), 3 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 30000216 ns (0.03%), 3 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 30000212 ns (0.03%), 3 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 30000147 ns (0.03%), 3 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 29999963 ns (0.03%), 3 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 29999962 ns (0.03%), 3 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 29999754 ns (0.03%), 3 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.popDiskFrom
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 29998973 ns (0.03%), 3 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 29998795 ns (0.03%), 3 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 29997210 ns (0.03%), 3 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.benchmark
+  [11] Benchmark.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 29993139 ns (0.03%), 3 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.benchmark
+  [12] Benchmark.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 20011449 ns (0.02%), 2 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 20011160 ns (0.02%), 2 samples
+  [ 0] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 1] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 2] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 3] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 4] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 5] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 6] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 7] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 8] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 9] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [10] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [11] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [12] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [13] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [14] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [15] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [16] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [17] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [18] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [19] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [20] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [21] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [22] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [23] JNIEnv_::CallNonvirtualObjectMethod
+  [24] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [25] JVMCIRuntime::compile_method
+  [26] CompileBroker::invoke_compiler_on_method
+  [27] CompileBroker::compiler_thread_loop
+  [28] JavaThread::thread_main_inner
+  [29] Thread::call_run
+  [30] thread_native_entry
+  [31] start_thread
+
+--- 20010932 ns (0.02%), 2 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 20009830 ns (0.02%), 2 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 20009346 ns (0.02%), 2 samples
+  [ 0] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 1] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 2] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 3] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 4] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 5] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 6] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 7] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 8] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 9] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [10] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [11] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [12] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [13] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [14] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [15] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [16] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [17] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [18] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [19] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [20] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [21] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [22] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [23] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [24] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [25] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [26] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [27] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [28] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [29] JNIEnv_::CallNonvirtualObjectMethod
+  [30] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [31] JVMCIRuntime::compile_method
+  [32] CompileBroker::invoke_compiler_on_method
+  [33] CompileBroker::compiler_thread_loop
+  [34] JavaThread::thread_main_inner
+  [35] Thread::call_run
+  [36] thread_native_entry
+  [37] start_thread
+
+--- 20008814 ns (0.02%), 2 samples
+  [ 0] Interpreter
+  [ 1] [not_walkable_Java]
+
+--- 20007817 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.moveDisks
+  [16] Towers.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 20007803 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20007021 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 20006904 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.moveDisks
+  [16] Towers.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 20006581 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20006257 ns (0.02%), 2 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 20005846 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20005765 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20005551 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20005551 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.moveDisks
+  [16] Towers.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 20005302 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20004920 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20004884 ns (0.02%), 2 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 20004883 ns (0.02%), 2 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 20004805 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20004742 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20004675 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 20004556 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20004442 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20004388 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20004368 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.moveDisks
+  [16] Towers.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 20004171 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20004129 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20004024 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20003877 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20003849 ns (0.02%), 2 samples
+  [ 0] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 1] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 2] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 3] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 4] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 5] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 6] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 7] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 8] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 9] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [10] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [11] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [12] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [13] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [14] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [15] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [16] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [17] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [18] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [19] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [20] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [21] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [22] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [23] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [24] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [25] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [26] JNIEnv_::CallNonvirtualObjectMethod
+  [27] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [28] JVMCIRuntime::compile_method
+  [29] CompileBroker::invoke_compiler_on_method
+  [30] CompileBroker::compiler_thread_loop
+  [31] JavaThread::thread_main_inner
+  [32] Thread::call_run
+  [33] thread_native_entry
+  [34] start_thread
+
+--- 20003842 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 20003750 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20003583 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20003517 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20003511 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.benchmark
+  [ 9] Benchmark.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 20003272 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20003119 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.moveDisks
+  [16] Towers.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 20003107 ns (0.02%), 2 samples
+  [ 0] Towers.moveTopDisk
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20003061 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.moveDisks
+  [16] Towers.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 20003035 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.moveDisks
+  [16] Towers.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 20003031 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 20002955 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20002871 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20002856 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 20002836 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20002828 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 20002800 ns (0.02%), 2 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 20002760 ns (0.02%), 2 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.benchmark
+  [12] Benchmark.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 20002758 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.benchmark
+  [12] Benchmark.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 20002725 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20002725 ns (0.02%), 2 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 20002724 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20002702 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20002683 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20002628 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 20002575 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20002570 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.moveDisks
+  [16] Towers.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 20002532 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.moveDisks
+  [16] Towers.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 20002500 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20002497 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20002350 ns (0.02%), 2 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 20002227 ns (0.02%), 2 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.benchmark
+  [11] Benchmark.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 20002105 ns (0.02%), 2 samples
+  [ 0] Towers.moveTopDisk
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20001928 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.popDiskFrom
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20001747 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 20001735 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20001712 ns (0.02%), 2 samples
+  [ 0] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 1] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 2] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 3] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 4] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 5] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 6] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 7] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 8] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 9] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [10] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [11] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [12] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [13] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [14] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [15] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [16] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [17] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [18] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [19] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [20] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [21] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [22] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [23] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [24] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [25] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [26] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [27] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [28] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [29] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [30] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [31] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [32] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [33] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [34] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [35] JNIEnv_::CallNonvirtualObjectMethod
+  [36] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [37] JVMCIRuntime::compile_method
+  [38] CompileBroker::invoke_compiler_on_method
+  [39] CompileBroker::compiler_thread_loop
+  [40] JavaThread::thread_main_inner
+  [41] Thread::call_run
+  [42] thread_native_entry
+  [43] start_thread
+
+--- 20001693 ns (0.02%), 2 samples
+  [ 0] Towers.popDiskFrom
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20001509 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.moveDisks
+  [16] Towers.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 20001484 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 20001482 ns (0.02%), 2 samples
+  [ 0] Towers.moveTopDisk
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20001462 ns (0.02%), 2 samples
+  [ 0] Towers.moveTopDisk
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 20001402 ns (0.02%), 2 samples
+  [ 0] Towers$TowersDisk.setNext
+  [ 1] Towers.pushDisk
+  [ 2] Towers.moveTopDisk
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.moveDisks
+  [16] Towers.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 20001364 ns (0.02%), 2 samples
+  [ 0] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 1] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 2] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 3] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 4] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 5] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 6] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 7] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 8] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 9] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [10] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [11] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [12] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [13] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [14] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [15] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [16] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [17] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [18] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [19] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [20] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [21] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [22] JNIEnv_::CallNonvirtualObjectMethod
+  [23] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [24] JVMCIRuntime::compile_method
+  [25] CompileBroker::invoke_compiler_on_method
+  [26] CompileBroker::compiler_thread_loop
+  [27] JavaThread::thread_main_inner
+  [28] Thread::call_run
+  [29] thread_native_entry
+  [30] start_thread
+
+--- 20001274 ns (0.02%), 2 samples
+  [ 0] Towers.pushDisk
+  [ 1] Towers.moveTopDisk
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.moveDisks
+  [13] Towers.moveDisks
+  [14] Towers.moveDisks
+  [15] Towers.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 20001224 ns (0.02%), 2 samples
+  [ 0] Towers.moveDisks
+  [ 1] Towers.moveDisks
+  [ 2] Towers.moveDisks
+  [ 3] Towers.moveDisks
+  [ 4] Towers.moveDisks
+  [ 5] Towers.moveDisks
+  [ 6] Towers.moveDisks
+  [ 7] Towers.moveDisks
+  [ 8] Towers.moveDisks
+  [ 9] Towers.moveDisks
+  [10] Towers.moveDisks
+  [11] Towers.moveDisks
+  [12] Towers.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+          ns  percent  samples  top
+  ----------  -------  -------  ---
+ 27470303559   30.64%     2747  Towers.popDiskFrom
+ 18530227957   20.67%     1853  Towers.moveDisks
+ 18060111270   20.14%     1806  Towers.pushDisk
+ 16300123003   18.18%     1630  Towers$TowersDisk.setNext
+  7460140809    8.32%      746  Towers.moveTopDisk
+  1370048172    1.53%      137  Towers$TowersDisk.getSize
+   250033416    0.28%       25  /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+    50032483    0.06%        5  clear_page_erms_[k]
+    50005350    0.06%        5  Towers.buildTowerAt
+    20008814    0.02%        2  Interpreter
+    10269818    0.01%        1  __clock_gettime_2
+    10016686    0.01%        1  java.lang.invoke.LambdaFormBuffer.startEdit
+    10008311    0.01%        1  java.util.Objects.equals
+    10005131    0.01%        1  _raw_spin_lock_[k]
+    10004042    0.01%        1  SymbolTable::lookup_shared
+    10001583    0.01%        1  java.nio.Buffer.<init>
+    10001065    0.01%        1  java.io.BufferedWriter.implFlushBuffer
+    10000867    0.01%        1  G1CardTable::g1_mark_as_young
+    10000659    0.01%        1  c2v_notifyCompilerPhaseEvent
+     9999842    0.01%        1  c2v_hasNeverInlineDirective

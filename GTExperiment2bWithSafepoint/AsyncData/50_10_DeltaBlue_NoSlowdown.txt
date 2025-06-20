@@ -1,0 +1,1687 @@
+--- Execution profile ---
+Total samples       : 11562
+unknown_Java        : 216 (1.87%)
+not_walkable_Java   : 4 (0.03%)
+
+--- 25949634792 ns (22.44%), 2595 samples
+  [ 0] java.util.Vector$Itr.next
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.chainTest
+  [ 3] DeltaBlue.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 20879845663 ns (18.06%), 2088 samples
+  [ 0] java.util.Vector$Itr.next
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.chainTest
+  [ 3] DeltaBlue.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 3201540878 ns (2.77%), 320 samples
+  [ 0] G1ParScanThreadState::trim_queue_to_threshold
+  [ 1] G1ParScanThreadState::steal_and_trim_queue
+  [ 2] G1ParEvacuateFollowersClosure::do_void
+  [ 3] G1EvacuateRegionsTask::evacuate_live_objects
+  [ 4] G1EvacuateRegionsBaseTask::work
+  [ 5] WorkerThread::run
+  [ 6] Thread::call_run
+  [ 7] thread_native_entry
+  [ 8] start_thread
+
+--- 2879982983 ns (2.49%), 288 samples
+  [ 0] deltablue.Plan.execute
+  [ 1] deltablue.Planner.chainTest
+  [ 2] DeltaBlue.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 2600136698 ns (2.25%), 260 samples
+  [ 0] deltablue.EqualityConstraint.execute
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.chainTest
+  [ 3] DeltaBlue.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 2459883642 ns (2.13%), 246 samples
+  [ 0] deltablue.Plan.execute
+  [ 1] deltablue.Planner.chainTest
+  [ 2] DeltaBlue.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 2090162366 ns (1.81%), 209 samples
+  [ 0] deltablue.Plan.execute
+  [ 1] deltablue.Planner.chainTest
+  [ 2] DeltaBlue.innerBenchmarkLoop
+  [ 3] Run.measure
+  [ 4] Run.doRuns
+  [ 5] Run.runBenchmark
+  [ 6] Harness.main
+
+--- 1709924928 ns (1.48%), 171 samples
+  [ 0] java.util.Vector$Itr.next
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 1539950007 ns (1.33%), 154 samples
+  [ 0] java.util.Vector$Itr.next
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 1300041648 ns (1.12%), 130 samples
+  [ 0] java.util.Vector$Itr.next
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 1189966490 ns (1.03%), 119 samples
+  [ 0] java.util.Vector$Itr.next
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 1179948932 ns (1.02%), 118 samples
+  [ 0] deltablue.EqualityConstraint.execute
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.chainTest
+  [ 3] DeltaBlue.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 1109991019 ns (0.96%), 111 samples
+  [ 0] deltablue.EqualityConstraint.execute
+  [ 1] [unknown_Java]
+
+--- 1019992926 ns (0.88%), 102 samples
+  [ 0] java.util.Vector.elementData
+  [ 1] java.util.Vector$Itr.next
+  [ 2] deltablue.Plan.execute
+  [ 3] deltablue.Planner.chainTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 989977727 ns (0.86%), 99 samples
+  [ 0] java.util.Vector$Itr.next
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 959985970 ns (0.83%), 96 samples
+  [ 0] deltablue.EqualityConstraint.execute
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.chainTest
+  [ 3] DeltaBlue.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 929999179 ns (0.80%), 93 samples
+  [ 0] java.util.Vector$Itr.checkForComodification
+  [ 1] java.util.Vector$Itr.next
+  [ 2] deltablue.Plan.execute
+  [ 3] deltablue.Planner.chainTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 889985410 ns (0.77%), 89 samples
+  [ 0] java.util.Vector$Itr.next
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.chainTest
+  [ 3] DeltaBlue.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 879949963 ns (0.76%), 88 samples
+  [ 0] java.util.Vector$Itr.next
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 870155457 ns (0.75%), 87 samples
+  [ 0] java.util.Vector$Itr.next
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 860163020 ns (0.74%), 86 samples
+  [ 0] java.util.Vector$Itr.next
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 820021947 ns (0.71%), 82 samples
+  [ 0] deltablue.EqualityConstraint.execute
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.chainTest
+  [ 3] DeltaBlue.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 769990291 ns (0.67%), 77 samples
+  [ 0] java.util.Vector.elementData
+  [ 1] java.util.Vector$Itr.next
+  [ 2] deltablue.Plan.execute
+  [ 3] deltablue.Planner.chainTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 710054850 ns (0.61%), 71 samples
+  [ 0] deltablue.ScaleConstraint.execute
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 630010822 ns (0.54%), 63 samples
+  [ 0] deltablue.ScaleConstraint.execute
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 600396895 ns (0.52%), 60 samples
+  [ 0] void OopOopIterateBackwardsDispatch<G1ScanEvacuatedObjClosure>::Table::oop_oop_iterate_backwards<InstanceKlass, narrowOop>
+  [ 1] G1ParScanThreadState::trim_queue_to_threshold
+  [ 2] G1ParScanThreadState::steal_and_trim_queue
+  [ 3] G1ParEvacuateFollowersClosure::do_void
+  [ 4] G1EvacuateRegionsTask::evacuate_live_objects
+  [ 5] G1EvacuateRegionsBaseTask::work
+  [ 6] WorkerThread::run
+  [ 7] Thread::call_run
+  [ 8] thread_native_entry
+  [ 9] start_thread
+
+--- 550088223 ns (0.48%), 55 samples
+  [ 0] deltablue.Plan.execute
+  [ 1] deltablue.Planner.change
+  [ 2] deltablue.Planner.projectionTest
+  [ 3] DeltaBlue.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 500002490 ns (0.43%), 50 samples
+  [ 0] deltablue.Planner$$Lambda.0x00007f5b580097d8.apply
+  [ 1] som.Vector.forEach
+  [ 2] deltablue.Planner.addConstraintsConsumingTo
+  [ 3] deltablue.Planner.makePlan
+  [ 4] deltablue.Planner.extractPlanFromConstraints
+  [ 5] deltablue.Planner.change
+  [ 6] deltablue.Planner.projectionTest
+  [ 7] DeltaBlue.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 479951247 ns (0.42%), 48 samples
+  [ 0] deltablue.Planner$$Lambda.0x00007f5b580097d8.apply
+  [ 1] som.Vector.forEach
+  [ 2] deltablue.Planner.addConstraintsConsumingTo
+  [ 3] deltablue.Planner.addPropagate
+  [ 4] deltablue.AbstractConstraint.satisfy
+  [ 5] deltablue.Planner.incrementalAdd
+  [ 6] deltablue.AbstractConstraint.addConstraint
+  [ 7] deltablue.UnaryConstraint.<init>
+  [ 8] deltablue.EditConstraint.<init>
+  [ 9] deltablue.Planner.change
+  [10] deltablue.Planner.projectionTest
+  [11] DeltaBlue.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 460042489 ns (0.40%), 46 samples
+  [ 0] java.util.Vector$Itr.next
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 400023605 ns (0.35%), 40 samples
+  [ 0] deltablue.Planner$$Lambda.0x00007f5b5800a968.apply
+  [ 1] som.Vector.forEach
+  [ 2] deltablue.Planner.removePropagateFrom
+  [ 3] deltablue.Planner.incrementalRemove
+  [ 4] deltablue.AbstractConstraint.destroyConstraint
+  [ 5] deltablue.Planner.change
+  [ 6] deltablue.Planner.projectionTest
+  [ 7] DeltaBlue.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 390132053 ns (0.34%), 39 samples
+  [ 0] G1ParScanThreadState::trim_queue_to_threshold
+  [ 1] G1ParEvacuateFollowersClosure::do_void
+  [ 2] G1EvacuateRegionsTask::evacuate_live_objects
+  [ 3] G1EvacuateRegionsBaseTask::work
+  [ 4] WorkerThread::run
+  [ 5] Thread::call_run
+  [ 6] thread_native_entry
+  [ 7] start_thread
+
+--- 369972513 ns (0.32%), 37 samples
+  [ 0] deltablue.Planner.addPropagate
+  [ 1] deltablue.AbstractConstraint.satisfy
+  [ 2] deltablue.Planner.incrementalAdd
+  [ 3] deltablue.AbstractConstraint.addConstraint
+  [ 4] deltablue.UnaryConstraint.<init>
+  [ 5] deltablue.EditConstraint.<init>
+  [ 6] deltablue.Planner.change
+  [ 7] deltablue.Planner.projectionTest
+  [ 8] DeltaBlue.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 350003926 ns (0.30%), 35 samples
+  [ 0] java.util.Vector$Itr.next
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 330082606 ns (0.29%), 33 samples
+  [ 0] deltablue.Plan.execute
+  [ 1] deltablue.Planner.change
+  [ 2] deltablue.Planner.projectionTest
+  [ 3] DeltaBlue.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 330003068 ns (0.29%), 33 samples
+  [ 0] deltablue.Planner$$Lambda.0x00007f5b5800a968.apply
+  [ 1] som.Vector.forEach
+  [ 2] deltablue.Planner.removePropagateFrom
+  [ 3] deltablue.Planner.incrementalRemove
+  [ 4] deltablue.AbstractConstraint.destroyConstraint
+  [ 5] deltablue.Planner.change
+  [ 6] deltablue.Planner.projectionTest
+  [ 7] DeltaBlue.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 300034520 ns (0.26%), 30 samples
+  [ 0] deltablue.Planner$$Lambda.0x00007f5b580097d8.apply
+  [ 1] som.Vector.forEach
+  [ 2] deltablue.Planner.addConstraintsConsumingTo
+  [ 3] deltablue.Planner.addPropagate
+  [ 4] deltablue.AbstractConstraint.satisfy
+  [ 5] deltablue.Planner.incrementalAdd
+  [ 6] deltablue.AbstractConstraint.addConstraint
+  [ 7] deltablue.UnaryConstraint.<init>
+  [ 8] deltablue.EditConstraint.<init>
+  [ 9] deltablue.Planner.change
+  [10] deltablue.Planner.projectionTest
+  [11] DeltaBlue.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 300009141 ns (0.26%), 30 samples
+  [ 0] deltablue.BinaryConstraint.getOutput
+  [ 1] [unknown_Java]
+
+--- 299992719 ns (0.26%), 30 samples
+  [ 0] som.Vector.lambda$remove$0
+  [ 1] som.Vector$$Lambda.0x00007f5b5800a748.apply
+  [ 2] som.Vector.forEach
+  [ 3] som.Vector.remove
+  [ 4] deltablue.Variable.removeConstraint
+  [ 5] deltablue.UnaryConstraint.removeFromGraph
+  [ 6] deltablue.Planner.incrementalRemove
+  [ 7] deltablue.AbstractConstraint.destroyConstraint
+  [ 8] deltablue.Planner.change
+  [ 9] deltablue.Planner.projectionTest
+  [10] DeltaBlue.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 290043662 ns (0.25%), 29 samples
+  [ 0] deltablue.Planner$$Lambda.0x00007f5b580097d8.apply
+  [ 1] som.Vector.forEach
+  [ 2] deltablue.Planner.addConstraintsConsumingTo
+  [ 3] deltablue.Planner.makePlan
+  [ 4] deltablue.Planner.extractPlanFromConstraints
+  [ 5] deltablue.Planner.change
+  [ 6] deltablue.Planner.projectionTest
+  [ 7] DeltaBlue.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 269946532 ns (0.23%), 27 samples
+  [ 0] java.util.Vector.add
+  [ 1] deltablue.Plan.append
+  [ 2] deltablue.Planner.makePlan
+  [ 3] deltablue.Planner.extractPlanFromConstraints
+  [ 4] deltablue.Planner.change
+  [ 5] deltablue.Planner.projectionTest
+  [ 6] DeltaBlue.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 260040804 ns (0.22%), 26 samples
+  [ 0] deltablue.Plan.execute
+  [ 1] deltablue.Planner.change
+  [ 2] deltablue.Planner.projectionTest
+  [ 3] DeltaBlue.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 260008826 ns (0.22%), 26 samples
+  [ 0] deltablue.Planner.removePropagateFrom
+  [ 1] deltablue.Planner.incrementalRemove
+  [ 2] deltablue.AbstractConstraint.destroyConstraint
+  [ 3] deltablue.Planner.change
+  [ 4] deltablue.Planner.projectionTest
+  [ 5] DeltaBlue.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 249992505 ns (0.22%), 25 samples
+  [ 0] java.util.Vector.add
+  [ 1] deltablue.Plan.append
+  [ 2] deltablue.Planner.makePlan
+  [ 3] deltablue.Planner.extractPlanFromConstraints
+  [ 4] deltablue.Planner.change
+  [ 5] deltablue.Planner.projectionTest
+  [ 6] DeltaBlue.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 240020889 ns (0.21%), 24 samples
+  [ 0] java.util.Vector.add
+  [ 1] deltablue.Plan.append
+  [ 2] deltablue.Planner.makePlan
+  [ 3] deltablue.Planner.extractPlanFromConstraints
+  [ 4] deltablue.Planner.change
+  [ 5] deltablue.Planner.projectionTest
+  [ 6] DeltaBlue.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 230057836 ns (0.20%), 23 samples
+  [ 0] G1ParScanThreadState::steal_and_trim_queue
+  [ 1] G1ParEvacuateFollowersClosure::do_void
+  [ 2] G1EvacuateRegionsTask::evacuate_live_objects
+  [ 3] G1EvacuateRegionsBaseTask::work
+  [ 4] WorkerThread::run
+  [ 5] Thread::call_run
+  [ 6] thread_native_entry
+  [ 7] start_thread
+
+--- 230057030 ns (0.20%), 23 samples
+  [ 0] deltablue.ScaleConstraint.execute
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 230017300 ns (0.20%), 23 samples
+  [ 0] java.util.Vector.add
+  [ 1] deltablue.Plan.append
+  [ 2] deltablue.Planner.makePlan
+  [ 3] deltablue.Planner.extractPlanFromConstraints
+  [ 4] deltablue.Planner.change
+  [ 5] deltablue.Planner.projectionTest
+  [ 6] DeltaBlue.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 220026510 ns (0.19%), 22 samples
+  [ 0] deltablue.ScaleConstraint.execute
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 219946860 ns (0.19%), 22 samples
+  [ 0] java.util.Vector.add
+  [ 1] deltablue.Plan.append
+  [ 2] deltablue.Planner.makePlan
+  [ 3] deltablue.Planner.extractPlanFromConstraints
+  [ 4] deltablue.Planner.chainTest
+  [ 5] DeltaBlue.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 210030721 ns (0.18%), 21 samples
+  [ 0] deltablue.ScaleConstraint.execute
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 210012000 ns (0.18%), 21 samples
+  [ 0] deltablue.ScaleConstraint.execute
+  [ 1] deltablue.Plan.execute
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 209983394 ns (0.18%), 21 samples
+  [ 0] java.util.Vector.add
+  [ 1] deltablue.Plan.append
+  [ 2] deltablue.Planner.makePlan
+  [ 3] deltablue.Planner.extractPlanFromConstraints
+  [ 4] deltablue.Planner.chainTest
+  [ 5] DeltaBlue.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 200047444 ns (0.17%), 20 samples
+  [ 0] deltablue.ScaleConstraint.recalculate
+  [ 1] deltablue.Planner.lambda$removePropagateFrom$5
+  [ 2] deltablue.Planner$$Lambda.0x00007f5b5800ab88.apply
+  [ 3] deltablue.Planner.lambda$constraintsConsuming$3
+  [ 4] deltablue.Planner$$Lambda.0x00007f5b5800ada8.apply
+  [ 5] som.Vector.forEach
+  [ 6] deltablue.Planner.constraintsConsuming
+  [ 7] deltablue.Planner.removePropagateFrom
+  [ 8] deltablue.Planner.incrementalRemove
+  [ 9] deltablue.AbstractConstraint.destroyConstraint
+  [10] deltablue.Planner.change
+  [11] deltablue.Planner.projectionTest
+  [12] DeltaBlue.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 200004375 ns (0.17%), 20 samples
+  [ 0] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 1] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 2] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 3] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 4] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 5] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 6] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 7] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 8] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 9] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [10] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [11] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [12] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [13] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [14] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [15] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [16] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [17] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [18] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [19] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [20] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [21] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [22] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [23] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [24] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [25] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [26] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [27] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [28] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [29] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [30] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [31] JNIEnv_::CallNonvirtualObjectMethod
+  [32] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [33] JVMCIRuntime::compile_method
+  [34] CompileBroker::invoke_compiler_on_method
+  [35] CompileBroker::compiler_thread_loop
+  [36] JavaThread::thread_main_inner
+  [37] Thread::call_run
+  [38] thread_native_entry
+  [39] start_thread
+
+--- 199989626 ns (0.17%), 20 samples
+  [ 0] deltablue.Plan.execute
+  [ 1] deltablue.Planner.change
+  [ 2] deltablue.Planner.projectionTest
+  [ 3] DeltaBlue.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 199972445 ns (0.17%), 20 samples
+  [ 0] som.Vector.lambda$remove$0
+  [ 1] som.Vector$$Lambda.0x00007f5b5800a748.apply
+  [ 2] som.Vector.forEach
+  [ 3] som.Vector.remove
+  [ 4] deltablue.Variable.removeConstraint
+  [ 5] deltablue.UnaryConstraint.removeFromGraph
+  [ 6] deltablue.Planner.incrementalRemove
+  [ 7] deltablue.AbstractConstraint.destroyConstraint
+  [ 8] deltablue.Planner.change
+  [ 9] deltablue.Planner.projectionTest
+  [10] DeltaBlue.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 190037685 ns (0.16%), 19 samples
+  [ 0] deltablue.Planner.removePropagateFrom
+  [ 1] deltablue.Planner.incrementalRemove
+  [ 2] deltablue.AbstractConstraint.destroyConstraint
+  [ 3] deltablue.Planner.change
+  [ 4] deltablue.Planner.projectionTest
+  [ 5] DeltaBlue.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 190030663 ns (0.16%), 19 samples
+  [ 0] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 1] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 2] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 3] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 4] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 5] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 6] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 7] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 8] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 9] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [10] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [11] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [12] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [13] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [14] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [15] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [16] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [17] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [18] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [19] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [20] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [21] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [22] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [23] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [24] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [25] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [26] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [27] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [28] JNIEnv_::CallNonvirtualObjectMethod
+  [29] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [30] JVMCIRuntime::compile_method
+  [31] CompileBroker::invoke_compiler_on_method
+  [32] CompileBroker::compiler_thread_loop
+  [33] JavaThread::thread_main_inner
+  [34] Thread::call_run
+  [35] thread_native_entry
+  [36] start_thread
+
+--- 190003660 ns (0.16%), 19 samples
+  [ 0] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 1] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 2] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 3] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 4] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 5] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 6] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 7] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 8] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 9] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [10] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [11] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [12] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [13] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [14] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [15] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [16] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [17] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [18] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [19] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [20] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [21] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [22] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [23] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [24] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [25] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [26] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [27] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [28] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [29] JNIEnv_::CallNonvirtualObjectMethod
+  [30] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [31] JVMCIRuntime::compile_method
+  [32] CompileBroker::invoke_compiler_on_method
+  [33] CompileBroker::compiler_thread_loop
+  [34] JavaThread::thread_main_inner
+  [35] Thread::call_run
+  [36] thread_native_entry
+  [37] start_thread
+
+--- 190001020 ns (0.16%), 19 samples
+  [ 0] deltablue.Plan.execute
+  [ 1] deltablue.Planner.change
+  [ 2] deltablue.Planner.projectionTest
+  [ 3] DeltaBlue.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 189997620 ns (0.16%), 19 samples
+  [ 0] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 1] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 2] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 3] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 4] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 5] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 6] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 7] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 8] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 9] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [10] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [11] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [12] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [13] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [14] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [15] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [16] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [17] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [18] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [19] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [20] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [21] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [22] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [23] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [24] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [25] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [26] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [27] JNIEnv_::CallNonvirtualObjectMethod
+  [28] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [29] JVMCIRuntime::compile_method
+  [30] CompileBroker::invoke_compiler_on_method
+  [31] CompileBroker::compiler_thread_loop
+  [32] JavaThread::thread_main_inner
+  [33] Thread::call_run
+  [34] thread_native_entry
+  [35] start_thread
+
+--- 180000327 ns (0.16%), 18 samples
+  [ 0] deltablue.ScaleConstraint.execute
+  [ 1] [unknown_Java]
+
+--- 170041667 ns (0.15%), 17 samples
+  [ 0] deltablue.Plan.execute
+  [ 1] deltablue.Planner.change
+  [ 2] deltablue.Planner.projectionTest
+  [ 3] DeltaBlue.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 170020867 ns (0.15%), 17 samples
+  [ 0] deltablue.ScaleConstraint.recalculate
+  [ 1] deltablue.Planner.lambda$removePropagateFrom$5
+  [ 2] deltablue.Planner$$Lambda.0x00007f5b5800ab88.apply
+  [ 3] deltablue.Planner.lambda$constraintsConsuming$3
+  [ 4] deltablue.Planner$$Lambda.0x00007f5b5800ada8.apply
+  [ 5] som.Vector.forEach
+  [ 6] deltablue.Planner.constraintsConsuming
+  [ 7] deltablue.Planner.removePropagateFrom
+  [ 8] deltablue.Planner.incrementalRemove
+  [ 9] deltablue.AbstractConstraint.destroyConstraint
+  [10] deltablue.Planner.change
+  [11] deltablue.Planner.projectionTest
+  [12] DeltaBlue.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 170019203 ns (0.15%), 17 samples
+  [ 0] java.util.Vector$Itr.checkForComodification
+  [ 1] java.util.Vector$Itr.next
+  [ 2] deltablue.Plan.execute
+  [ 3] deltablue.Planner.change
+  [ 4] deltablue.Planner.projectionTest
+  [ 5] DeltaBlue.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 160041570 ns (0.14%), 16 samples
+  [ 0] jdk.internal.misc.Unsafe.allocateInstance
+  [ 1] java.lang.invoke.DirectMethodHandle.allocateInstance
+  [ 2] java.lang.invoke.DirectMethodHandle$Holder.newInvokeSpecial
+  [ 3] java.lang.invoke.Invokers$Holder.linkToTargetMethod
+  [ 4] deltablue.AbstractConstraint.inputsKnown
+  [ 5] deltablue.Planner.makePlan
+  [ 6] deltablue.Planner.extractPlanFromConstraints
+  [ 7] deltablue.Planner.change
+  [ 8] deltablue.Planner.projectionTest
+  [ 9] DeltaBlue.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 159988089 ns (0.14%), 16 samples
+  [ 0] deltablue.Planner.makePlan
+  [ 1] deltablue.Planner.extractPlanFromConstraints
+  [ 2] deltablue.Planner.change
+  [ 3] deltablue.Planner.projectionTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 159962110 ns (0.14%), 16 samples
+  [ 0] deltablue.ScaleConstraint.recalculate
+  [ 1] deltablue.Planner.addPropagate
+  [ 2] deltablue.AbstractConstraint.satisfy
+  [ 3] deltablue.Planner.incrementalAdd
+  [ 4] deltablue.AbstractConstraint.addConstraint
+  [ 5] deltablue.UnaryConstraint.<init>
+  [ 6] deltablue.EditConstraint.<init>
+  [ 7] deltablue.Planner.change
+  [ 8] deltablue.Planner.projectionTest
+  [ 9] DeltaBlue.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 150056401 ns (0.13%), 15 samples
+  [ 0] deltablue.Planner.projectionTest
+  [ 1] DeltaBlue.innerBenchmarkLoop
+  [ 2] Run.measure
+  [ 3] Run.doRuns
+  [ 4] Run.runBenchmark
+  [ 5] Harness.main
+
+--- 150038001 ns (0.13%), 15 samples
+  [ 0] deltablue.Planner$$Lambda.0x00007f5b580097d8.apply
+  [ 1] som.Vector.forEach
+  [ 2] deltablue.Planner.addConstraintsConsumingTo
+  [ 3] deltablue.Planner.addPropagate
+  [ 4] deltablue.AbstractConstraint.satisfy
+  [ 5] deltablue.Planner.incrementalAdd
+  [ 6] deltablue.Planner.lambda$incrementalRemove$0
+  [ 7] deltablue.Planner$$Lambda.0x00007f5b5800b258.apply
+  [ 8] som.Vector.forEach
+  [ 9] deltablue.Planner.incrementalRemove
+  [10] deltablue.AbstractConstraint.destroyConstraint
+  [11] deltablue.Planner.chainTest
+  [12] DeltaBlue.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 150036606 ns (0.13%), 15 samples
+  [ 0] som.Vector.forEach
+  [ 1] deltablue.Planner.removePropagateFrom
+  [ 2] deltablue.Planner.incrementalRemove
+  [ 3] deltablue.AbstractConstraint.destroyConstraint
+  [ 4] deltablue.Planner.change
+  [ 5] deltablue.Planner.projectionTest
+  [ 6] DeltaBlue.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 150032186 ns (0.13%), 15 samples
+  [ 0] itable stub
+  [ 1] som.Vector.forEach
+  [ 2] deltablue.Planner.addConstraintsConsumingTo
+  [ 3] deltablue.Planner.addPropagate
+  [ 4] deltablue.AbstractConstraint.satisfy
+  [ 5] deltablue.Planner.incrementalAdd
+  [ 6] deltablue.AbstractConstraint.addConstraint
+  [ 7] deltablue.UnaryConstraint.<init>
+  [ 8] deltablue.EditConstraint.<init>
+  [ 9] deltablue.Planner.chainTest
+  [10] DeltaBlue.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 150018848 ns (0.13%), 15 samples
+  [ 0] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 1] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 2] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 3] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 4] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 5] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 6] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 7] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 8] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 9] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [10] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [11] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [12] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [13] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [14] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [15] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [16] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [17] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [18] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [19] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [20] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [21] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [22] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [23] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [24] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [25] JNIEnv_::CallNonvirtualObjectMethod
+  [26] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [27] JVMCIRuntime::compile_method
+  [28] CompileBroker::invoke_compiler_on_method
+  [29] CompileBroker::compiler_thread_loop
+  [30] JavaThread::thread_main_inner
+  [31] Thread::call_run
+  [32] thread_native_entry
+  [33] start_thread
+
+--- 150010265 ns (0.13%), 15 samples
+  [ 0] jdk.internal.misc.Unsafe.allocateInstance
+  [ 1] java.lang.invoke.DirectMethodHandle.allocateInstance
+  [ 2] java.lang.invoke.DirectMethodHandle$Holder.newInvokeSpecial
+  [ 3] java.lang.invoke.Invokers$Holder.linkToTargetMethod
+  [ 4] deltablue.AbstractConstraint.inputsKnown
+  [ 5] deltablue.Planner.makePlan
+  [ 6] deltablue.Planner.extractPlanFromConstraints
+  [ 7] deltablue.Planner.change
+  [ 8] deltablue.Planner.projectionTest
+  [ 9] DeltaBlue.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 150004325 ns (0.13%), 15 samples
+  [ 0] java.util.Vector.elementData
+  [ 1] java.util.Vector$Itr.next
+  [ 2] deltablue.Plan.execute
+  [ 3] deltablue.Planner.change
+  [ 4] deltablue.Planner.projectionTest
+  [ 5] DeltaBlue.innerBenchmarkLoop
+  [ 6] Run.measure
+  [ 7] Run.doRuns
+  [ 8] Run.runBenchmark
+  [ 9] Harness.main
+
+--- 149974907 ns (0.13%), 15 samples
+  [ 0] som.Vector.lambda$remove$0
+  [ 1] som.Vector$$Lambda.0x00007f5b5800a748.apply
+  [ 2] som.Vector.forEach
+  [ 3] som.Vector.remove
+  [ 4] deltablue.Variable.removeConstraint
+  [ 5] deltablue.UnaryConstraint.removeFromGraph
+  [ 6] deltablue.AbstractConstraint.destroyConstraint
+  [ 7] deltablue.Planner.change
+  [ 8] deltablue.Planner.projectionTest
+  [ 9] DeltaBlue.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 140031509 ns (0.12%), 14 samples
+  [ 0] deltablue.ScaleConstraint.recalculate
+  [ 1] deltablue.Planner.addPropagate
+  [ 2] deltablue.AbstractConstraint.satisfy
+  [ 3] deltablue.Planner.incrementalAdd
+  [ 4] deltablue.AbstractConstraint.addConstraint
+  [ 5] deltablue.UnaryConstraint.<init>
+  [ 6] deltablue.EditConstraint.<init>
+  [ 7] deltablue.Planner.change
+  [ 8] deltablue.Planner.projectionTest
+  [ 9] DeltaBlue.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 140022047 ns (0.12%), 14 samples
+  [ 0] itable stub
+  [ 1] som.Vector.forEach
+  [ 2] deltablue.Planner.addConstraintsConsumingTo
+  [ 3] deltablue.Planner.addPropagate
+  [ 4] deltablue.AbstractConstraint.satisfy
+  [ 5] deltablue.Planner.incrementalAdd
+  [ 6] deltablue.AbstractConstraint.addConstraint
+  [ 7] deltablue.UnaryConstraint.<init>
+  [ 8] deltablue.StayConstraint.<init>
+  [ 9] deltablue.Planner.chainTest
+  [10] DeltaBlue.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 140011461 ns (0.12%), 14 samples
+  [ 0] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 1] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 2] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 3] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 4] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 5] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 6] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 7] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 8] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 9] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [10] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [11] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [12] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [13] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [14] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [15] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [16] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [17] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [18] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [19] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [20] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [21] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [22] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [23] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [24] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [25] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [26] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [27] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [28] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [29] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [30] JNIEnv_::CallNonvirtualObjectMethod
+  [31] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [32] JVMCIRuntime::compile_method
+  [33] CompileBroker::invoke_compiler_on_method
+  [34] CompileBroker::compiler_thread_loop
+  [35] JavaThread::thread_main_inner
+  [36] Thread::call_run
+  [37] thread_native_entry
+  [38] start_thread
+
+--- 139985303 ns (0.12%), 14 samples
+  [ 0] deltablue.Planner.addPropagate
+  [ 1] deltablue.AbstractConstraint.satisfy
+  [ 2] deltablue.Planner.incrementalAdd
+  [ 3] deltablue.AbstractConstraint.addConstraint
+  [ 4] deltablue.UnaryConstraint.<init>
+  [ 5] deltablue.EditConstraint.<init>
+  [ 6] deltablue.Planner.change
+  [ 7] deltablue.Planner.projectionTest
+  [ 8] DeltaBlue.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 130039210 ns (0.11%), 13 samples
+  [ 0] deltablue.Planner$$Lambda.0x00007f5b580097d8.apply
+  [ 1] som.Vector.forEach
+  [ 2] deltablue.Planner.addConstraintsConsumingTo
+  [ 3] deltablue.Planner.addPropagate
+  [ 4] deltablue.AbstractConstraint.satisfy
+  [ 5] deltablue.Planner.incrementalAdd
+  [ 6] deltablue.AbstractConstraint.addConstraint
+  [ 7] deltablue.UnaryConstraint.<init>
+  [ 8] deltablue.EditConstraint.<init>
+  [ 9] deltablue.Planner.chainTest
+  [10] DeltaBlue.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 130010004 ns (0.11%), 13 samples
+  [ 0] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 1] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 2] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 3] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 4] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 5] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 6] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 7] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 8] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 9] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [10] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [11] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [12] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [13] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [14] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [15] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [16] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [17] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [18] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [19] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [20] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [21] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [22] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [23] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [24] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [25] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [26] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [27] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [28] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [29] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [30] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [31] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [32] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [33] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [34] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [35] JNIEnv_::CallNonvirtualObjectMethod
+  [36] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [37] JVMCIRuntime::compile_method
+  [38] CompileBroker::invoke_compiler_on_method
+  [39] CompileBroker::compiler_thread_loop
+  [40] JavaThread::thread_main_inner
+  [41] Thread::call_run
+  [42] thread_native_entry
+  [43] start_thread
+
+--- 129986025 ns (0.11%), 13 samples
+  [ 0] deltablue.Plan.execute
+  [ 1] deltablue.Planner.change
+  [ 2] deltablue.Planner.projectionTest
+  [ 3] DeltaBlue.innerBenchmarkLoop
+  [ 4] Run.measure
+  [ 5] Run.doRuns
+  [ 6] Run.runBenchmark
+  [ 7] Harness.main
+
+--- 120043781 ns (0.10%), 12 samples
+  [ 0] deltablue.AbstractConstraint.satisfy
+  [ 1] deltablue.Planner.incrementalAdd
+  [ 2] deltablue.AbstractConstraint.addConstraint
+  [ 3] deltablue.UnaryConstraint.<init>
+  [ 4] deltablue.EditConstraint.<init>
+  [ 5] deltablue.Planner.chainTest
+  [ 6] DeltaBlue.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 120030560 ns (0.10%), 12 samples
+  [ 0] som.Vector.lambda$remove$0
+  [ 1] som.Vector$$Lambda.0x00007f5b5800a748.apply
+  [ 2] som.Vector.forEach
+  [ 3] som.Vector.remove
+  [ 4] deltablue.Variable.removeConstraint
+  [ 5] deltablue.UnaryConstraint.removeFromGraph
+  [ 6] deltablue.AbstractConstraint.destroyConstraint
+  [ 7] deltablue.Planner.change
+  [ 8] deltablue.Planner.projectionTest
+  [ 9] DeltaBlue.innerBenchmarkLoop
+  [10] Run.measure
+  [11] Run.doRuns
+  [12] Run.runBenchmark
+  [13] Harness.main
+
+--- 120024679 ns (0.10%), 12 samples
+  [ 0] deltablue.BinaryConstraint.isSatisfied
+  [ 1] [unknown_Java]
+
+--- 120023615 ns (0.10%), 12 samples
+  [ 0] deltablue.Planner$$Lambda.0x00007f5b580097d8.apply
+  [ 1] som.Vector.forEach
+  [ 2] deltablue.Planner.addConstraintsConsumingTo
+  [ 3] deltablue.Planner.addPropagate
+  [ 4] deltablue.AbstractConstraint.satisfy
+  [ 5] deltablue.Planner.incrementalAdd
+  [ 6] deltablue.AbstractConstraint.addConstraint
+  [ 7] deltablue.UnaryConstraint.<init>
+  [ 8] deltablue.StayConstraint.<init>
+  [ 9] deltablue.Planner.chainTest
+  [10] DeltaBlue.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 120017078 ns (0.10%), 12 samples
+  [ 0] deltablue.Strength.weakest
+  [ 1] deltablue.ScaleConstraint.recalculate
+  [ 2] deltablue.Planner.lambda$removePropagateFrom$5
+  [ 3] deltablue.Planner$$Lambda.0x00007f5b5800ab88.apply
+  [ 4] deltablue.Planner.lambda$constraintsConsuming$3
+  [ 5] deltablue.Planner$$Lambda.0x00007f5b5800ada8.apply
+  [ 6] som.Vector.forEach
+  [ 7] deltablue.Planner.constraintsConsuming
+  [ 8] deltablue.Planner.removePropagateFrom
+  [ 9] deltablue.Planner.incrementalRemove
+  [10] deltablue.AbstractConstraint.destroyConstraint
+  [11] deltablue.Planner.change
+  [12] deltablue.Planner.projectionTest
+  [13] DeltaBlue.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 120009307 ns (0.10%), 12 samples
+  [ 0] deltablue.Planner.projectionTest
+  [ 1] DeltaBlue.innerBenchmarkLoop
+  [ 2] Run.measure
+  [ 3] Run.doRuns
+  [ 4] Run.runBenchmark
+  [ 5] Harness.main
+
+--- 119994281 ns (0.10%), 12 samples
+  [ 0] deltablue.Planner$$Lambda.0x00007f5b5800a968.apply
+  [ 1] som.Vector.forEach
+  [ 2] deltablue.Planner.removePropagateFrom
+  [ 3] deltablue.Planner.incrementalRemove
+  [ 4] deltablue.AbstractConstraint.destroyConstraint
+  [ 5] deltablue.Planner.chainTest
+  [ 6] DeltaBlue.innerBenchmarkLoop
+  [ 7] Run.measure
+  [ 8] Run.doRuns
+  [ 9] Run.runBenchmark
+  [10] Harness.main
+
+--- 119994216 ns (0.10%), 12 samples
+  [ 0] itable stub
+  [ 1] som.Vector.forEach
+  [ 2] deltablue.Planner.addConstraintsConsumingTo
+  [ 3] deltablue.Planner.addPropagate
+  [ 4] deltablue.AbstractConstraint.satisfy
+  [ 5] deltablue.Planner.incrementalAdd
+  [ 6] deltablue.AbstractConstraint.addConstraint
+  [ 7] deltablue.UnaryConstraint.<init>
+  [ 8] deltablue.EditConstraint.<init>
+  [ 9] deltablue.Planner.change
+  [10] deltablue.Planner.projectionTest
+  [11] DeltaBlue.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 110036249 ns (0.10%), 11 samples
+  [ 0] deltablue.Planner.lambda$chainTest$7
+  [ 1] deltablue.Planner$$Lambda.0x00007f5b58007000.apply
+  [ 2] java.util.Arrays.setAll
+  [ 3] deltablue.Planner.chainTest
+  [ 4] DeltaBlue.innerBenchmarkLoop
+  [ 5] Run.measure
+  [ 6] Run.doRuns
+  [ 7] Run.runBenchmark
+  [ 8] Harness.main
+
+--- 110021704 ns (0.10%), 11 samples
+  [ 0] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 1] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 2] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 3] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 4] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 5] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 6] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 7] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 8] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 9] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [10] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [11] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [12] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [13] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [14] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [15] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [16] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [17] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [18] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [19] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [20] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [21] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [22] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [23] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [24] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [25] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [26] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [27] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [28] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [29] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [30] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [31] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [32] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [33] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [34] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [35] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [36] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [37] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [38] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [39] JNIEnv_::CallNonvirtualObjectMethod
+  [40] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [41] JVMCIRuntime::compile_method
+  [42] CompileBroker::invoke_compiler_on_method
+  [43] CompileBroker::compiler_thread_loop
+  [44] JavaThread::thread_main_inner
+  [45] Thread::call_run
+  [46] thread_native_entry
+  [47] start_thread
+
+--- 110016713 ns (0.10%), 11 samples
+  [ 0] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 1] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 2] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 3] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 4] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 5] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 6] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 7] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 8] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [ 9] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [10] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [11] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [12] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [13] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [14] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [15] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [16] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [17] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [18] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [19] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [20] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [21] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [22] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [23] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [24] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [25] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [26] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [27] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [28] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [29] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [30] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [31] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [32] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [33] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [34] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [35] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [36] /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  [37] JNIEnv_::CallNonvirtualObjectMethod
+  [38] JVMCIEnv::call_HotSpotJVMCIRuntime_compileMethod
+  [39] JVMCIRuntime::compile_method
+  [40] CompileBroker::invoke_compiler_on_method
+  [41] CompileBroker::compiler_thread_loop
+  [42] JavaThread::thread_main_inner
+  [43] Thread::call_run
+  [44] thread_native_entry
+  [45] start_thread
+
+--- 110011556 ns (0.10%), 11 samples
+  [ 0] java.util.Vector.add
+  [ 1] java.util.Vector.add
+  [ 2] deltablue.Plan.append
+  [ 3] deltablue.Planner.makePlan
+  [ 4] deltablue.Planner.extractPlanFromConstraints
+  [ 5] deltablue.Planner.change
+  [ 6] deltablue.Planner.projectionTest
+  [ 7] DeltaBlue.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 110009709 ns (0.10%), 11 samples
+  [ 0] som.Vector.with
+  [ 1] deltablue.Planner.addPropagate
+  [ 2] deltablue.AbstractConstraint.satisfy
+  [ 3] deltablue.Planner.incrementalAdd
+  [ 4] deltablue.AbstractConstraint.addConstraint
+  [ 5] deltablue.ScaleConstraint.<init>
+  [ 6] deltablue.Planner.projectionTest
+  [ 7] DeltaBlue.innerBenchmarkLoop
+  [ 8] Run.measure
+  [ 9] Run.doRuns
+  [10] Run.runBenchmark
+  [11] Harness.main
+
+--- 110004736 ns (0.10%), 11 samples
+  [ 0] deltablue.Planner.addPropagate
+  [ 1] deltablue.AbstractConstraint.satisfy
+  [ 2] deltablue.Planner.incrementalAdd
+  [ 3] deltablue.AbstractConstraint.addConstraint
+  [ 4] deltablue.UnaryConstraint.<init>
+  [ 5] deltablue.EditConstraint.<init>
+  [ 6] deltablue.Planner.change
+  [ 7] deltablue.Planner.projectionTest
+  [ 8] DeltaBlue.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+--- 100024779 ns (0.09%), 10 samples
+  [ 0] itable stub
+  [ 1] som.Vector.forEach
+  [ 2] deltablue.Planner.addConstraintsConsumingTo
+  [ 3] deltablue.Planner.addPropagate
+  [ 4] deltablue.AbstractConstraint.satisfy
+  [ 5] deltablue.Planner.incrementalAdd
+  [ 6] deltablue.Planner.lambda$incrementalRemove$0
+  [ 7] deltablue.Planner$$Lambda.0x00007f5b5800b258.apply
+  [ 8] som.Vector.forEach
+  [ 9] deltablue.Planner.incrementalRemove
+  [10] deltablue.AbstractConstraint.destroyConstraint
+  [11] deltablue.Planner.chainTest
+  [12] DeltaBlue.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 100014748 ns (0.09%), 10 samples
+  [ 0] deltablue.AbstractConstraint.lambda$inputsKnown$0
+  [ 1] deltablue.AbstractConstraint$$Lambda.0x00007f5b5800a530.test
+  [ 2] deltablue.BinaryConstraint.inputsHasOne
+  [ 3] deltablue.AbstractConstraint.inputsKnown
+  [ 4] deltablue.Planner.makePlan
+  [ 5] deltablue.Planner.extractPlanFromConstraints
+  [ 6] deltablue.Planner.change
+  [ 7] deltablue.Planner.projectionTest
+  [ 8] DeltaBlue.innerBenchmarkLoop
+  [ 9] Run.measure
+  [10] Run.doRuns
+  [11] Run.runBenchmark
+  [12] Harness.main
+
+          ns  percent  samples  top
+  ----------  -------  -------  ---
+ 57939643197   50.11%     5794  java.util.Vector$Itr.next
+  9470274249    8.19%      947  deltablue.Plan.execute
+  6700083638    5.79%      670  deltablue.EqualityConstraint.execute
+  3641704673    3.15%      364  G1ParScanThreadState::trim_queue_to_threshold
+  3070240199    2.66%      307  /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+  2650238169    2.29%      265  deltablue.ScaleConstraint.execute
+  2650226406    2.29%      265  deltablue.Planner$$Lambda.0x00007f5b580097d8.apply
+  2460107781    2.13%      246  som.Vector.forEach
+  2300042929    1.99%      230  java.util.Vector.elementData
+  1780092184    1.54%      178  deltablue.Planner.addPropagate
+  1679931339    1.45%      168  java.util.Vector.add
+  1280026205    1.11%      128  java.util.Vector$Itr.checkForComodification
+  1280019006    1.11%      128  som.Vector.append
+  1200016472    1.04%      120  deltablue.BinaryConstraint.getOutput
+  1120091073    0.97%      112  deltablue.ScaleConstraint.recalculate
+   889943423    0.77%       89  som.Vector.lambda$remove$0
+   870108781    0.75%       87  jdk.internal.misc.Unsafe.allocateInstance
+   850020954    0.74%       85  deltablue.Planner$$Lambda.0x00007f5b5800a968.apply
+   840168356    0.73%       84  deltablue.AbstractConstraint.satisfy
+   840081311    0.73%       84  deltablue.BinaryConstraint.isSatisfied
+   790100185    0.68%       79  itable stub
+   730428964    0.63%       73  void OopOopIterateBackwardsDispatch<G1ScanEvacuatedObjClosure>::Table::oop_oop_iterate_backwards<InstanceKlass, narrowOop>
+   650010222    0.56%       65  som.Vector.<init>
+   640084947    0.55%       64  deltablue.Planner.removePropagateFrom
+   629959508    0.54%       63  deltablue.Planner.makePlan
+   500067744    0.43%       50  deltablue.Planner.projectionTest
+   489996009    0.42%       49  deltablue.Planner.lambda$addConstraintsConsumingTo$2
+   350026284    0.30%       35  deltablue.Strength.weakest
+   320059898    0.28%       32  deltablue.BinaryConstraint.chooseMethod
+   310028793    0.27%       31  som.Vector.with
+   300015685    0.26%       30  deltablue.BinaryConstraint.recalculate
+   289986222    0.25%       29  som.Vector.removeFirst
+   280051330    0.24%       28  deltablue.Variable.setWalkStrength
+   230057836    0.20%       23  G1ParScanThreadState::steal_and_trim_queue
+   229990289    0.20%       23  deltablue.AbstractConstraint$$Lambda.0x00007f5b580095c0.apply
+   220074293    0.19%       22  deltablue.Variable.<init>
+   200023326    0.17%       20  deltablue.BinaryConstraint.inputsDo
+   189982393    0.16%       19  oop_disjoint_arraycopy
+   169989469    0.15%       17  deltablue.BinaryConstraint.inputsHasOne
+   160034604    0.14%       16  deltablue.Planner$$Lambda.0x00007f5b5800ada8.apply
+   160017103    0.14%       16  deltablue.ScaleConstraint.<init>
+   150019616    0.13%       15  deltablue.AbstractConstraint.lambda$inputsKnown$0
+   130046821    0.11%       13  deltablue.Variable.setDeterminedBy
+   130019581    0.11%       13  deltablue.Planner.lambda$constraintsConsuming$3
+   130012906    0.11%       13  deltablue.Variable.setStay
+   129997684    0.11%       13  som.IdentityDictionary$IdEntry.match
+   129991323    0.11%       13  deltablue.Variable.setMark
+   120017416    0.10%       12  deltablue.Variable.setValue
+   120011718    0.10%       12  deltablue.Variable.value
+   120004247    0.10%       12  deltablue.Planner.lambda$removePropagateFrom$4
+   110036249    0.10%       11  deltablue.Planner.lambda$chainTest$7
+   110016949    0.10%       11  deltablue.Planner.incrementalAdd
+   110008293    0.10%       11  deltablue.Variable.getDeterminedBy
+   109987340    0.10%       11  deltablue.Variable.getValue
+   100034106    0.09%       10  java.util.Arrays.setAll
+   100017097    0.09%       10  deltablue.Variable.getConstraints
+    99980701    0.09%       10  java.util.Arrays.copyOf
+    90020672    0.08%        9  som.Vector.isEmpty
+    90016408    0.08%        9  deltablue.Planner.addConstraintsConsumingTo
+    80011096    0.07%        8  deltablue.Variable.getWalkStrength
+    80004907    0.07%        8  som.Vector$$Lambda.0x00007f5b5800a748.apply
+    79999075    0.07%        8  deltablue.Planner.lambda$removePropagateFrom$5
+    79972613    0.07%        8  __memset_avx2_unaligned_erms
+    70019361    0.06%        7  deltablue.Planner.chainTest
+    70015105    0.06%        7  deltablue.BinaryConstraint.markUnsatisfied
+    70005198    0.06%        7  deltablue.UnaryConstraint.recalculate
+    60084833    0.05%        6  clear_page_erms_[k]
+    60023309    0.05%        6  deltablue.Strength.of
+    50003529    0.04%        5  deltablue.UnaryConstraint.getOutput
+    49996665    0.04%        5  vtable stub
+    49991740    0.04%        5  som.Dictionary.at
+    40004175    0.03%        4  Interpreter
+    40002487    0.03%        4  void G1ScanCardClosure::do_oop_work<narrowOop>
+    39994903    0.03%        4  deltablue.BinaryConstraint.<init>
+    39986639    0.03%        4  deltablue.AbstractConstraint.inputsKnown
+    30042587    0.03%        3  _raw_spin_unlock_irqrestore_[k]
+    30037057    0.03%        3  FreeListAllocator::reset
+    30015399    0.03%        3  deltablue.Planner.newMark
+    30000949    0.03%        3  /usr/lib64/libz.so.1.2.11
+    29999583    0.03%        3  deltablue.Strength.stronger
+    20096569    0.02%        2  __GI___libc_malloc
+    20032058    0.02%        2  _int_malloc
+    20012701    0.02%        2  __memmove_sse2_unaligned_erms
+    20011837    0.02%        2  vma_alloc_folio_[k]
+    20008294    0.02%        2  do_user_addr_fault_[k]
+    20005776    0.02%        2  deltablue.Variable.getMark
+    20003283    0.02%        2  zap_pte_range_[k]
+    20002196    0.02%        2  som.Dictionary.hash
+    20001154    0.02%        2  deltablue.ScaleConstraint.addToGraph
+    20000486    0.02%        2  java.io.FilterOutputStream.close
+    19998227    0.02%        2  deltablue.AbstractConstraint.destroyConstraint
+    19997438    0.02%        2  aci_CopyRight
+    19995752    0.02%        2  som.Vector.remove
+    19995079    0.02%        2  deltablue.Variable.addConstraint
+    19992961    0.02%        2  __tls_get_addr
+    19985914    0.02%        2  FreeCSetClosure::do_heap_region
+    10175870    0.01%        1  do_futex_[k]
+    10152494    0.01%        1  __condvar_cancel_waiting
+    10117856    0.01%        1  syscall_exit_to_user_mode_prepare_[k]
+    10107022    0.01%        1  G1MMUTracker::when_sec
+    10092472    0.01%        1  G1ConcurrentRefine::RemSetSamplingClosure::do_heap_region
+    10092033    0.01%        1  G1RedirtyCardsQueueSet::all_completed_buffers
+    10078363    0.01%        1  DerivedPointerTable::clear
+    10027450    0.01%        1  G1RootProcessor::process_vm_roots
+    10017721    0.01%        1  jdk.internal.org.objectweb.asm.Frame.pop
+    10012173    0.01%        1  CompositeElapsedCounterSource::seconds
+    10010921    0.01%        1  syscall_enter_from_user_mode_[k]
+    10010024    0.01%        1  HeapRegionManager::par_iterate
+    10009775    0.01%        1  blkcg_maybe_throttle_current_[k]
+    10009204    0.01%        1  InstanceKlass::find_method_index
+    10009148    0.01%        1  release_pages_[k]
+    10007802    0.01%        1  deflate
+    10006409    0.01%        1  get_mem_cgroup_from_mm_[k]
+    10005997    0.01%        1  mas_next_slot_[k]
+    10005940    0.01%        1  java_lang_ClassLoader::non_reflection_class_loader
+    10004923    0.01%        1  I2C/C2I adapters(0xb)
+    10004820    0.01%        1  mem_cgroup_handle_over_high_[k]
+    10004620    0.01%        1  HSpaceCounters::update_used
+    10004496    0.01%        1  jdk.internal.org.objectweb.asm.MethodWriter.computeAllFrames
+    10004424    0.01%        1  memchr_[k]
+    10003902    0.01%        1  ___pthread_mutex_trylock
+    10003509    0.01%        1  jdk.internal.org.objectweb.asm.Symbol.<init>
+    10003364    0.01%        1  java.util.zip.GZIPOutputStream.writeTrailer
+    10003350    0.01%        1  sem_post@GLIBC_2.2.5
+    10002940    0.01%        1  c2v_getResolvedJavaType0
+    10002908    0.01%        1  __condvar_dec_grefs
+    10002784    0.01%        1  ClassLoaderData::holder
+    10002456    0.01%        1  HeapRegionClaimer::claim_region
+    10002444    0.01%        1  jdk.internal.org.objectweb.asm.SymbolTable$Entry.<init>
+    10002132    0.01%        1  som.Dictionary.getBucketIdx
+    10001950    0.01%        1  filldir64_[k]
+    10001815    0.01%        1  G1Allocator::unsafe_max_tlab_alloc
+    10001733    0.01%        1  JVMCIEnv::get_jvmci_type
+    10001704    0.01%        1  InstanceKlass::allocate_objArray
+    10001682    0.01%        1  rebalance_domains_[k]
+    10001596    0.01%        1  __tls_get_addr@plt
+    10001410    0.01%        1  c2v_lookupType
+    10001387    0.01%        1  java.util.ArrayList.grow
+    10001345    0.01%        1  klassVtable::update_inherited_vtable
+    10001295    0.01%        1  deltablue.AbstractConstraint.<init>
+    10001216    0.01%        1  frame::sender
+    10000935    0.01%        1  jdk.internal.ref.CleanerImpl$PhantomCleanableRef.performCleanup
+    10000663    0.01%        1  Dictionary::find
+    10000618    0.01%        1  JVMCIEnv::has_pending_exception
+    10000611    0.01%        1  jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass
+    10000604    0.01%        1  ThreadInVMfromNative::ThreadInVMfromNative
+    10000593    0.01%        1  [vdso]
+    10000561    0.01%        1  c2v_getMaxCallTargetOffset
+    10000490    0.01%        1  java.util.zip.ZipFile.getEntry
+    10000481    0.01%        1  ClassLoaderData::is_alive
+    10000317    0.01%        1  java.lang.String.getBytes
+    10000177    0.01%        1  ObjectLookup::find_index
+    10000112    0.01%        1  java.lang.String.isLatin1
+    10000097    0.01%        1  jdk.internal.misc.Unsafe.checkSize
+     9999886    0.01%        1  JNIJVMCI::HotSpotConstantPool::is_instance
+     9999670    0.01%        1  java.lang.ref.Cleaner.register
+     9999167    0.01%        1  Symbol::as_C_string
+     9998943    0.01%        1  jdk.internal.misc.Unsafe.copyMemory
+     9998302    0.01%        1  HandleArea::oops_do
+     9997902    0.01%        1  java.io.PrintStream.writeln
+     9997404    0.01%        1  java.util.zip.GZIPOutputStream.write
+     9996006    0.01%        1  Java_java_util_zip_Deflater_deflateBytesBytes
+     9995570    0.01%        1  Rdtsc::elapsed_counter
+     9995337    0.01%        1  java.util.zip.Deflater.setInput
+     9995070    0.01%        1  java.io.DataOutputStream.writeUTF
+     9994554    0.01%        1  G1CardSet::reset_table_scanner
+     9993697    0.01%        1  SystemDictionary::check_signature_loaders
+     9991636    0.01%        1  load_balance_[k]
+     9987641    0.01%        1  HeapRegionManager::allocate_free_region
+     9984668    0.01%        1  __GI___pthread_cond_timedwait
+     9981756    0.01%        1  G1ScanHRForRegionClosure::scan_heap_roots
+     9976275    0.01%        1  void OopOopIterateDispatch<G1ScanCardClosure>::Table::oop_oop_iterate<InstanceKlass, narrowOop>

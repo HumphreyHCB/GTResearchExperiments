@@ -1,0 +1,2351 @@
+--- Execution profile ---
+Total samples       : 3464
+unknown_Java        : 48 (1.39%)
+not_walkable_Java   : 2 (0.06%)
+
+--- 530012807 ns (1.53%), 53 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readStringInternal
+  [ 5] json.JsonPureStringParser.readString
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 519957223 ns (1.50%), 52 samples
+  [ 0] java.lang.String.valueOf
+  [ 1] java.lang.Character.toString
+  [ 2] json.JsonPureStringParser.read
+  [ 3] json.JsonPureStringParser.readStringInternal
+  [ 4] json.JsonPureStringParser.readName
+  [ 5] json.JsonPureStringParser.readObject
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 470040864 ns (1.36%), 47 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.readStringInternal
+  [ 2] json.JsonPureStringParser.readName
+  [ 3] json.JsonPureStringParser.readObject
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.parse
+  [12] Json.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 460031947 ns (1.33%), 46 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.readChar
+  [ 2] json.JsonPureStringParser.readArray
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readObject
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readObject
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.parse
+  [13] Json.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 440010922 ns (1.27%), 44 samples
+  [ 0] java.lang.String.valueOf
+  [ 1] java.lang.Character.toString
+  [ 2] json.JsonPureStringParser.read
+  [ 3] json.JsonPureStringParser.readStringInternal
+  [ 4] json.JsonPureStringParser.readString
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readObject
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.parse
+  [13] Json.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 400043651 ns (1.15%), 40 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.readStringInternal
+  [ 2] json.JsonPureStringParser.readString
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readObject
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readObject
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.parse
+  [15] Json.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 389995997 ns (1.13%), 39 samples
+  [ 0] som.Vector.append
+  [ 1] json.JsonArray.add
+  [ 2] json.JsonPureStringParser.readArray
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readObject
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readObject
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.parse
+  [13] Json.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 370021259 ns (1.07%), 37 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readStringInternal
+  [ 5] json.JsonPureStringParser.readName
+  [ 6] json.JsonPureStringParser.readObject
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readObject
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.parse
+  [15] Json.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 369995086 ns (1.07%), 37 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.readStringInternal
+  [ 2] json.JsonPureStringParser.readString
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readObject
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.parse
+  [11] Json.benchmark
+  [12] Benchmark.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 359990918 ns (1.04%), 36 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.read
+  [ 2] json.JsonPureStringParser.readStringInternal
+  [ 3] json.JsonPureStringParser.readString
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.parse
+  [12] Json.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 359974195 ns (1.04%), 36 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.read
+  [ 2] json.JsonPureStringParser.readStringInternal
+  [ 3] json.JsonPureStringParser.readName
+  [ 4] json.JsonPureStringParser.readObject
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readObject
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.parse
+  [13] Json.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 330022237 ns (0.95%), 33 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readStringInternal
+  [ 5] json.JsonPureStringParser.readString
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 320003425 ns (0.92%), 32 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.readStringInternal
+  [ 2] json.JsonPureStringParser.readString
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readObject
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.parse
+  [11] Json.benchmark
+  [12] Benchmark.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 309990491 ns (0.89%), 31 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isDigit
+  [ 2] json.JsonPureStringParser.readDigit
+  [ 3] json.JsonPureStringParser.readNumber
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 309984579 ns (0.89%), 31 samples
+  [ 0] java.lang.String.valueOf
+  [ 1] java.lang.Character.toString
+  [ 2] json.JsonPureStringParser.read
+  [ 3] json.JsonPureStringParser.readStringInternal
+  [ 4] json.JsonPureStringParser.readString
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readObject
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readArray
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.readObject
+  [15] json.JsonPureStringParser.readValue
+  [16] json.JsonPureStringParser.parse
+  [17] Json.benchmark
+  [18] Benchmark.innerBenchmarkLoop
+  [19] Run.measure
+  [20] Run.doRuns
+  [21] Run.runBenchmark
+  [22] Harness.main
+
+--- 269974034 ns (0.78%), 27 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.readStringInternal
+  [ 2] json.JsonPureStringParser.readName
+  [ 3] json.JsonPureStringParser.readObject
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.parse
+  [12] Json.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 260027356 ns (0.75%), 26 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.read
+  [ 2] json.JsonPureStringParser.readStringInternal
+  [ 3] json.JsonPureStringParser.readString
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readObject
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readObject
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.parse
+  [16] Json.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 249992661 ns (0.72%), 25 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isWhiteSpace
+  [ 2] json.JsonPureStringParser.skipWhiteSpace
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readObject
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 220031078 ns (0.64%), 22 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.readStringInternal
+  [ 2] json.JsonPureStringParser.readString
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readObject
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readObject
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.parse
+  [15] Json.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 210023891 ns (0.61%), 21 samples
+  [ 0] json.JsonPureStringParser.read
+  [ 1] json.JsonPureStringParser.readStringInternal
+  [ 2] json.JsonPureStringParser.readName
+  [ 3] json.JsonPureStringParser.readObject
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.parse
+  [12] Json.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 210006508 ns (0.61%), 21 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isWhiteSpace
+  [ 2] json.JsonPureStringParser.skipWhiteSpace
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readObject
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 209972430 ns (0.61%), 21 samples
+  [ 0] java.lang.AbstractStringBuilder.<init>
+  [ 1] java.lang.StringBuilder.<init>
+  [ 2] json.JsonPureStringParser.subStringFromTo
+  [ 3] json.JsonPureStringParser.endCapture
+  [ 4] json.JsonPureStringParser.readStringInternal
+  [ 5] json.JsonPureStringParser.readString
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 199980602 ns (0.58%), 20 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readChar
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readObject
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readObject
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.parse
+  [16] Json.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 180018713 ns (0.52%), 18 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readChar
+  [ 5] json.JsonPureStringParser.readRequiredChar
+  [ 6] json.JsonPureStringParser.readNull
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readObject
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readArray
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.readArray
+  [15] json.JsonPureStringParser.readValue
+  [16] json.JsonPureStringParser.readObject
+  [17] json.JsonPureStringParser.readValue
+  [18] json.JsonPureStringParser.parse
+  [19] Json.benchmark
+  [20] Benchmark.innerBenchmarkLoop
+  [21] Run.measure
+  [22] Run.doRuns
+  [23] Run.runBenchmark
+  [24] Harness.main
+
+--- 180004330 ns (0.52%), 18 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isWhiteSpace
+  [ 2] json.JsonPureStringParser.skipWhiteSpace
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readObject
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 170018752 ns (0.49%), 17 samples
+  [ 0] som.Vector.<init>
+  [ 1] som.Vector.<init>
+  [ 2] json.JsonObject.<init>
+  [ 3] json.JsonPureStringParser.readObject
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.parse
+  [12] Json.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 161131510 ns (0.47%), 16 samples
+  [ 0] G1ParScanThreadState::trim_queue_to_threshold
+  [ 1] G1ParScanThreadState::steal_and_trim_queue
+  [ 2] G1ParEvacuateFollowersClosure::do_void
+  [ 3] G1EvacuateRegionsTask::evacuate_live_objects
+  [ 4] G1EvacuateRegionsBaseTask::work
+  [ 5] WorkerThread::run
+  [ 6] Thread::call_run
+  [ 7] thread_native_entry
+  [ 8] start_thread
+
+--- 160011248 ns (0.46%), 16 samples
+  [ 0] java.lang.String.isLatin1
+  [ 1] java.lang.String.charAt
+  [ 2] json.JsonPureStringParser.subStringFromTo
+  [ 3] json.JsonPureStringParser.endCapture
+  [ 4] json.JsonPureStringParser.readStringInternal
+  [ 5] json.JsonPureStringParser.readString
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 160003773 ns (0.46%), 16 samples
+  [ 0] som.Vector.<init>
+  [ 1] som.Vector.<init>
+  [ 2] json.JsonArray.<init>
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readObject
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 160003363 ns (0.46%), 16 samples
+  [ 0] jbyte_disjoint_arraycopy
+  [ 1] java.lang.StringBuilder.toString
+  [ 2] json.JsonPureStringParser.subStringFromTo
+  [ 3] json.JsonPureStringParser.endCapture
+  [ 4] json.JsonPureStringParser.readStringInternal
+  [ 5] json.JsonPureStringParser.readString
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 159988125 ns (0.46%), 16 samples
+  [ 0] som.Vector.<init>
+  [ 1] som.Vector.<init>
+  [ 2] json.JsonObject.<init>
+  [ 3] json.JsonPureStringParser.readObject
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.parse
+  [12] Json.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 150006899 ns (0.43%), 15 samples
+  [ 0] json.JsonPureStringParser.read
+  [ 1] json.JsonPureStringParser.readStringInternal
+  [ 2] json.JsonPureStringParser.readString
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readObject
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.parse
+  [11] Json.benchmark
+  [12] Benchmark.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 150002383 ns (0.43%), 15 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readChar
+  [ 5] json.JsonPureStringParser.readRequiredChar
+  [ 6] json.JsonPureStringParser.readNull
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readObject
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readArray
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.readArray
+  [15] json.JsonPureStringParser.readValue
+  [16] json.JsonPureStringParser.readObject
+  [17] json.JsonPureStringParser.readValue
+  [18] json.JsonPureStringParser.parse
+  [19] Json.benchmark
+  [20] Benchmark.innerBenchmarkLoop
+  [21] Run.measure
+  [22] Run.doRuns
+  [23] Run.runBenchmark
+  [24] Harness.main
+
+--- 149999380 ns (0.43%), 15 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isDigit
+  [ 2] json.JsonPureStringParser.readDigit
+  [ 3] json.JsonPureStringParser.readNumber
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 140016120 ns (0.40%), 14 samples
+  [ 0] json.JsonPureStringParser.readValue
+  [ 1] json.JsonPureStringParser.readArray
+  [ 2] json.JsonPureStringParser.readValue
+  [ 3] json.JsonPureStringParser.readObject
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.parse
+  [12] Json.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 140004486 ns (0.40%), 14 samples
+  [ 0] java.lang.String.isLatin1
+  [ 1] java.lang.String.charAt
+  [ 2] json.JsonPureStringParser.subStringFromTo
+  [ 3] json.JsonPureStringParser.endCapture
+  [ 4] json.JsonPureStringParser.readStringInternal
+  [ 5] json.JsonPureStringParser.readName
+  [ 6] json.JsonPureStringParser.readObject
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readObject
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.parse
+  [15] Json.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 140002172 ns (0.40%), 14 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isDigit
+  [ 2] json.JsonPureStringParser.readDigit
+  [ 3] json.JsonPureStringParser.readNumber
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 139997052 ns (0.40%), 14 samples
+  [ 0] json.JsonPureStringParser.read
+  [ 1] json.JsonPureStringParser.readStringInternal
+  [ 2] json.JsonPureStringParser.readString
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readObject
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readObject
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.parse
+  [15] Json.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 130013526 ns (0.38%), 13 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isDigit
+  [ 2] json.JsonPureStringParser.readDigit
+  [ 3] json.JsonPureStringParser.readNumber
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 130013306 ns (0.38%), 13 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isDigit
+  [ 2] json.JsonPureStringParser.readDigit
+  [ 3] json.JsonPureStringParser.readNumber
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 130007070 ns (0.38%), 13 samples
+  [ 0] som.Vector.append
+  [ 1] json.JsonArray.add
+  [ 2] json.JsonPureStringParser.readArray
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readObject
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.parse
+  [ 9] Json.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 130005050 ns (0.38%), 13 samples
+  [ 0] java.lang.String.valueOf
+  [ 1] java.lang.Character.toString
+  [ 2] json.JsonPureStringParser.read
+  [ 3] json.JsonPureStringParser.readChar
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readObject
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readObject
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.parse
+  [15] Json.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 129999027 ns (0.38%), 13 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isDigit
+  [ 2] json.JsonPureStringParser.readDigit
+  [ 3] json.JsonPureStringParser.readNumber
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 129998577 ns (0.38%), 13 samples
+  [ 0] json.JsonPureStringParser.readStringInternal
+  [ 1] json.JsonPureStringParser.readName
+  [ 2] json.JsonPureStringParser.readObject
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readObject
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.parse
+  [11] Json.benchmark
+  [12] Benchmark.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 129998571 ns (0.38%), 13 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.readChar
+  [ 2] json.JsonPureStringParser.readArray
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readObject
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.parse
+  [ 9] Json.benchmark
+  [10] Benchmark.innerBenchmarkLoop
+  [11] Run.measure
+  [12] Run.doRuns
+  [13] Run.runBenchmark
+  [14] Harness.main
+
+--- 129995134 ns (0.38%), 13 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isWhiteSpace
+  [ 2] json.JsonPureStringParser.skipWhiteSpace
+  [ 3] json.JsonPureStringParser.readObject
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.parse
+  [12] Json.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 129992075 ns (0.38%), 13 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isWhiteSpace
+  [ 2] json.JsonPureStringParser.skipWhiteSpace
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readObject
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 120020698 ns (0.35%), 12 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isWhiteSpace
+  [ 2] json.JsonPureStringParser.skipWhiteSpace
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readObject
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 120005595 ns (0.35%), 12 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readChar
+  [ 5] json.JsonPureStringParser.readObject
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 120005531 ns (0.35%), 12 samples
+  [ 0] jbyte_disjoint_arraycopy
+  [ 1] java.lang.StringBuilder.toString
+  [ 2] json.JsonPureStringParser.subStringFromTo
+  [ 3] json.JsonPureStringParser.endCapture
+  [ 4] json.JsonPureStringParser.readStringInternal
+  [ 5] json.JsonPureStringParser.readName
+  [ 6] json.JsonPureStringParser.readObject
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readObject
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.parse
+  [15] Json.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 120004820 ns (0.35%), 12 samples
+  [ 0] java.lang.String.hashCode
+  [ 1] json.JsonPureStringParser.readValue
+  [ 2] json.JsonPureStringParser.readObject
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readObject
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.parse
+  [11] Json.benchmark
+  [12] Benchmark.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 120002030 ns (0.35%), 12 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readStringInternal
+  [ 5] json.JsonPureStringParser.readString
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 120001547 ns (0.35%), 12 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readNull
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readObject
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readArray
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.readObject
+  [15] json.JsonPureStringParser.readValue
+  [16] json.JsonPureStringParser.parse
+  [17] Json.benchmark
+  [18] Benchmark.innerBenchmarkLoop
+  [19] Run.measure
+  [20] Run.doRuns
+  [21] Run.runBenchmark
+  [22] Harness.main
+
+--- 120000483 ns (0.35%), 12 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.read
+  [ 2] json.JsonPureStringParser.readNull
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readObject
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readObject
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.parse
+  [15] Json.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 120000442 ns (0.35%), 12 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readStringInternal
+  [ 5] json.JsonPureStringParser.readString
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 119999908 ns (0.35%), 12 samples
+  [ 0] java.lang.String.valueOf
+  [ 1] java.lang.Character.toString
+  [ 2] json.JsonPureStringParser.read
+  [ 3] json.JsonPureStringParser.readChar
+  [ 4] json.JsonPureStringParser.readObject
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readObject
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.parse
+  [13] Json.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 119999278 ns (0.35%), 12 samples
+  [ 0] java.lang.AbstractStringBuilder.<init>
+  [ 1] java.lang.StringBuilder.<init>
+  [ 2] json.JsonPureStringParser.subStringFromTo
+  [ 3] json.JsonPureStringParser.endCapture
+  [ 4] json.JsonPureStringParser.readStringInternal
+  [ 5] json.JsonPureStringParser.readString
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 119989135 ns (0.35%), 12 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isDigit
+  [ 2] json.JsonPureStringParser.readDigit
+  [ 3] json.JsonPureStringParser.readNumber
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 119988723 ns (0.35%), 12 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.read
+  [ 2] json.JsonPureStringParser.readChar
+  [ 3] json.JsonPureStringParser.readObject
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.parse
+  [12] Json.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 119987143 ns (0.35%), 12 samples
+  [ 0] json.JsonPureStringParser.read
+  [ 1] json.JsonPureStringParser.readChar
+  [ 2] json.JsonPureStringParser.readArray
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readObject
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readObject
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.parse
+  [13] Json.benchmark
+  [14] Benchmark.innerBenchmarkLoop
+  [15] Run.measure
+  [16] Run.doRuns
+  [17] Run.runBenchmark
+  [18] Harness.main
+
+--- 110009840 ns (0.32%), 11 samples
+  [ 0] som.Vector.<init>
+  [ 1] som.Vector.<init>
+  [ 2] json.JsonArray.<init>
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readObject
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readObject
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.parse
+  [16] Json.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 110009696 ns (0.32%), 11 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readChar
+  [ 5] json.JsonPureStringParser.readRequiredChar
+  [ 6] json.JsonPureStringParser.readNull
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readObject
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readArray
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.readArray
+  [15] json.JsonPureStringParser.readValue
+  [16] json.JsonPureStringParser.readObject
+  [17] json.JsonPureStringParser.readValue
+  [18] json.JsonPureStringParser.parse
+  [19] Json.benchmark
+  [20] Benchmark.innerBenchmarkLoop
+  [21] Run.measure
+  [22] Run.doRuns
+  [23] Run.runBenchmark
+  [24] Harness.main
+
+--- 109999995 ns (0.32%), 11 samples
+  [ 0] java.lang.AbstractStringBuilder.<init>
+  [ 1] java.lang.StringBuilder.<init>
+  [ 2] json.JsonPureStringParser.subStringFromTo
+  [ 3] json.JsonPureStringParser.endCapture
+  [ 4] json.JsonPureStringParser.readNumber
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readObject
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readArray
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.readArray
+  [15] json.JsonPureStringParser.readValue
+  [16] json.JsonPureStringParser.readObject
+  [17] json.JsonPureStringParser.readValue
+  [18] json.JsonPureStringParser.parse
+  [19] Json.benchmark
+  [20] Benchmark.innerBenchmarkLoop
+  [21] Run.measure
+  [22] Run.doRuns
+  [23] Run.runBenchmark
+  [24] Harness.main
+
+--- 109998884 ns (0.32%), 11 samples
+  [ 0] json.JsonPureStringParser.readStringInternal
+  [ 1] json.JsonPureStringParser.readString
+  [ 2] json.JsonPureStringParser.readValue
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readObject
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 109997738 ns (0.32%), 11 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readChar
+  [ 5] json.JsonPureStringParser.readObject
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 109996157 ns (0.32%), 11 samples
+  [ 0] jbyte_disjoint_arraycopy
+  [ 1] java.lang.StringBuilder.toString
+  [ 2] json.JsonPureStringParser.subStringFromTo
+  [ 3] json.JsonPureStringParser.endCapture
+  [ 4] json.JsonPureStringParser.readNumber
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readObject
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readArray
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.readArray
+  [15] json.JsonPureStringParser.readValue
+  [16] json.JsonPureStringParser.readObject
+  [17] json.JsonPureStringParser.readValue
+  [18] json.JsonPureStringParser.parse
+  [19] Json.benchmark
+  [20] Benchmark.innerBenchmarkLoop
+  [21] Run.measure
+  [22] Run.doRuns
+  [23] Run.runBenchmark
+  [24] Harness.main
+
+--- 109994477 ns (0.32%), 11 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.readChar
+  [ 2] json.JsonPureStringParser.readObject
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readObject
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.parse
+  [11] Json.benchmark
+  [12] Benchmark.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 100014914 ns (0.29%), 10 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readStringInternal
+  [ 5] json.JsonPureStringParser.readName
+  [ 6] json.JsonPureStringParser.readObject
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readObject
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.parse
+  [15] Json.benchmark
+  [16] Benchmark.innerBenchmarkLoop
+  [17] Run.measure
+  [18] Run.doRuns
+  [19] Run.runBenchmark
+  [20] Harness.main
+
+--- 100011955 ns (0.29%), 10 samples
+  [ 0] java.lang.Object.clone
+  [ 1] java.util.Arrays.copyOfRange
+  [ 2] java.lang.String.<init>
+  [ 3] java.lang.String.<init>
+  [ 4] java.lang.StringBuilder.toString
+  [ 5] json.JsonPureStringParser.subStringFromTo
+  [ 6] json.JsonPureStringParser.endCapture
+  [ 7] json.JsonPureStringParser.readStringInternal
+  [ 8] json.JsonPureStringParser.readString
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readObject
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.readArray
+  [15] json.JsonPureStringParser.readValue
+  [16] json.JsonPureStringParser.readArray
+  [17] json.JsonPureStringParser.readValue
+  [18] json.JsonPureStringParser.readObject
+  [19] json.JsonPureStringParser.readValue
+  [20] json.JsonPureStringParser.parse
+  [21] Json.benchmark
+  [22] Benchmark.innerBenchmarkLoop
+  [23] Run.measure
+  [24] Run.doRuns
+  [25] Run.runBenchmark
+  [26] Harness.main
+
+--- 100010912 ns (0.29%), 10 samples
+  [ 0] json.JsonPureStringParser.readDigit
+  [ 1] json.JsonPureStringParser.readNumber
+  [ 2] json.JsonPureStringParser.readValue
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readObject
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readObject
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.parse
+  [16] Json.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 100005512 ns (0.29%), 10 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readChar
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 100005256 ns (0.29%), 10 samples
+  [ 0] java.lang.StringLatin1.toBytes
+  [ 1] java.lang.String.valueOf
+  [ 2] java.lang.Character.toString
+  [ 3] json.JsonPureStringParser.read
+  [ 4] json.JsonPureStringParser.readDigit
+  [ 5] json.JsonPureStringParser.readNumber
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readArray
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.readObject
+  [18] json.JsonPureStringParser.readValue
+  [19] json.JsonPureStringParser.parse
+  [20] Json.benchmark
+  [21] Benchmark.innerBenchmarkLoop
+  [22] Run.measure
+  [23] Run.doRuns
+  [24] Run.runBenchmark
+  [25] Harness.main
+
+--- 100004974 ns (0.29%), 10 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.read
+  [ 2] json.JsonPureStringParser.readStringInternal
+  [ 3] json.JsonPureStringParser.readString
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readObject
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 100004445 ns (0.29%), 10 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.read
+  [ 2] json.JsonPureStringParser.readChar
+  [ 3] json.JsonPureStringParser.readObject
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.parse
+  [12] Json.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 100003849 ns (0.29%), 10 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isWhiteSpace
+  [ 2] json.JsonPureStringParser.skipWhiteSpace
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readObject
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.parse
+  [10] Json.benchmark
+  [11] Benchmark.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 100003075 ns (0.29%), 10 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.read
+  [ 2] json.JsonPureStringParser.readChar
+  [ 3] json.JsonPureStringParser.readRequiredChar
+  [ 4] json.JsonPureStringParser.readNull
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readObject
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readArray
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.readObject
+  [15] json.JsonPureStringParser.readValue
+  [16] json.JsonPureStringParser.parse
+  [17] Json.benchmark
+  [18] Benchmark.innerBenchmarkLoop
+  [19] Run.measure
+  [20] Run.doRuns
+  [21] Run.runBenchmark
+  [22] Harness.main
+
+--- 100002241 ns (0.29%), 10 samples
+  [ 0] json.JsonPureStringParser.subStringFromTo
+  [ 1] [unknown_Java]
+
+--- 90019161 ns (0.26%), 9 samples
+  [ 0] json.JsonPureStringParser.subStringFromTo
+  [ 1] json.JsonPureStringParser.endCapture
+  [ 2] json.JsonPureStringParser.readStringInternal
+  [ 3] json.JsonPureStringParser.readString
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.parse
+  [12] Json.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 90015335 ns (0.26%), 9 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.readChar
+  [ 2] json.JsonPureStringParser.readExponent
+  [ 3] json.JsonPureStringParser.readNumber
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 90011413 ns (0.26%), 9 samples
+  [ 0] json.JsonPureStringParser.readValue
+  [ 1] json.JsonPureStringParser.readArray
+  [ 2] json.JsonPureStringParser.readValue
+  [ 3] json.JsonPureStringParser.readObject
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.parse
+  [12] Json.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 90011227 ns (0.26%), 9 samples
+  [ 0] json.JsonPureStringParser.readChar
+  [ 1] json.JsonPureStringParser.readArray
+  [ 2] json.JsonPureStringParser.readValue
+  [ 3] json.JsonPureStringParser.readObject
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.parse
+  [12] Json.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 89999584 ns (0.26%), 9 samples
+  [ 0] java.lang.String.isLatin1
+  [ 1] java.lang.String.charAt
+  [ 2] json.JsonPureStringParser.subStringFromTo
+  [ 3] json.JsonPureStringParser.endCapture
+  [ 4] json.JsonPureStringParser.readStringInternal
+  [ 5] json.JsonPureStringParser.readString
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 89998323 ns (0.26%), 9 samples
+  [ 0] json.JsonPureStringParser.subStringFromTo
+  [ 1] json.JsonPureStringParser.endCapture
+  [ 2] json.JsonPureStringParser.readStringInternal
+  [ 3] json.JsonPureStringParser.readString
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readObject
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readObject
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.parse
+  [16] Json.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 89997033 ns (0.26%), 9 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.readValue
+  [ 2] json.JsonPureStringParser.readObject
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readObject
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.parse
+  [11] Json.benchmark
+  [12] Benchmark.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 89993534 ns (0.26%), 9 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isWhiteSpace
+  [ 2] json.JsonPureStringParser.skipWhiteSpace
+  [ 3] json.JsonPureStringParser.readObject
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.parse
+  [12] Json.benchmark
+  [13] Benchmark.innerBenchmarkLoop
+  [14] Run.measure
+  [15] Run.doRuns
+  [16] Run.runBenchmark
+  [17] Harness.main
+
+--- 89988826 ns (0.26%), 9 samples
+  [ 0] json.JsonPureStringParser.subStringFromTo
+  [ 1] json.JsonPureStringParser.endCapture
+  [ 2] json.JsonPureStringParser.readNumber
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readObject
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readArray
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.readObject
+  [15] json.JsonPureStringParser.readValue
+  [16] json.JsonPureStringParser.parse
+  [17] Json.benchmark
+  [18] Benchmark.innerBenchmarkLoop
+  [19] Run.measure
+  [20] Run.doRuns
+  [21] Run.runBenchmark
+  [22] Harness.main
+
+--- 89987880 ns (0.26%), 9 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.read
+  [ 2] json.JsonPureStringParser.readDigit
+  [ 3] json.JsonPureStringParser.readNumber
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 80015403 ns (0.23%), 8 samples
+  [ 0] json.JsonPureStringParser.startCapture
+  [ 1] json.JsonPureStringParser.readNumber
+  [ 2] json.JsonPureStringParser.readValue
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readObject
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readObject
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.parse
+  [16] Json.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 80015070 ns (0.23%), 8 samples
+  [ 0] java.lang.String.isLatin1
+  [ 1] java.lang.String.hashCode
+  [ 2] json.JsonPureStringParser.readValue
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readObject
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+--- 80010090 ns (0.23%), 8 samples
+  [ 0] java.lang.String.isLatin1
+  [ 1] java.lang.String.charAt
+  [ 2] json.JsonPureStringParser.subStringFromTo
+  [ 3] json.JsonPureStringParser.endCapture
+  [ 4] json.JsonPureStringParser.readNumber
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readArray
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readObject
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readArray
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.readArray
+  [15] json.JsonPureStringParser.readValue
+  [16] json.JsonPureStringParser.readObject
+  [17] json.JsonPureStringParser.readValue
+  [18] json.JsonPureStringParser.parse
+  [19] Json.benchmark
+  [20] Benchmark.innerBenchmarkLoop
+  [21] Run.measure
+  [22] Run.doRuns
+  [23] Run.runBenchmark
+  [24] Harness.main
+
+--- 80009482 ns (0.23%), 8 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.read
+  [ 2] json.JsonPureStringParser.readChar
+  [ 3] json.JsonPureStringParser.readRequiredChar
+  [ 4] json.JsonPureStringParser.readNull
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readObject
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.readArray
+  [11] json.JsonPureStringParser.readValue
+  [12] json.JsonPureStringParser.readArray
+  [13] json.JsonPureStringParser.readValue
+  [14] json.JsonPureStringParser.readObject
+  [15] json.JsonPureStringParser.readValue
+  [16] json.JsonPureStringParser.parse
+  [17] Json.benchmark
+  [18] Benchmark.innerBenchmarkLoop
+  [19] Run.measure
+  [20] Run.doRuns
+  [21] Run.runBenchmark
+  [22] Harness.main
+
+--- 80009158 ns (0.23%), 8 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isWhiteSpace
+  [ 2] json.JsonPureStringParser.skipWhiteSpace
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readObject
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.parse
+  [10] Json.benchmark
+  [11] Benchmark.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 80005313 ns (0.23%), 8 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isWhiteSpace
+  [ 2] json.JsonPureStringParser.skipWhiteSpace
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readObject
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readObject
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.parse
+  [16] Json.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 80005195 ns (0.23%), 8 samples
+  [ 0] json.JsonPureStringParser.readDigit
+  [ 1] json.JsonPureStringParser.readNumber
+  [ 2] json.JsonPureStringParser.readValue
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readObject
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readObject
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.parse
+  [16] Json.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 80004133 ns (0.23%), 8 samples
+  [ 0] java.lang.String.valueOf
+  [ 1] java.lang.Character.toString
+  [ 2] json.JsonPureStringParser.read
+  [ 3] json.JsonPureStringParser.readChar
+  [ 4] json.JsonPureStringParser.readRequiredChar
+  [ 5] json.JsonPureStringParser.readNull
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readObject
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readArray
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.readObject
+  [16] json.JsonPureStringParser.readValue
+  [17] json.JsonPureStringParser.parse
+  [18] Json.benchmark
+  [19] Benchmark.innerBenchmarkLoop
+  [20] Run.measure
+  [21] Run.doRuns
+  [22] Run.runBenchmark
+  [23] Harness.main
+
+--- 80003430 ns (0.23%), 8 samples
+  [ 0] json.JsonPureStringParser.readStringInternal
+  [ 1] json.JsonPureStringParser.readString
+  [ 2] json.JsonPureStringParser.readValue
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readObject
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.parse
+  [10] Json.benchmark
+  [11] Benchmark.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 80001720 ns (0.23%), 8 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.read
+  [ 2] json.JsonPureStringParser.readStringInternal
+  [ 3] json.JsonPureStringParser.readString
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readObject
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readArray
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.readObject
+  [14] json.JsonPureStringParser.readValue
+  [15] json.JsonPureStringParser.parse
+  [16] Json.benchmark
+  [17] Benchmark.innerBenchmarkLoop
+  [18] Run.measure
+  [19] Run.doRuns
+  [20] Run.runBenchmark
+  [21] Harness.main
+
+--- 80001499 ns (0.23%), 8 samples
+  [ 0] json.JsonPureStringParser.readValue
+  [ 1] json.JsonPureStringParser.readObject
+  [ 2] json.JsonPureStringParser.readValue
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readArray
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readObject
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.parse
+  [10] Json.benchmark
+  [11] Benchmark.innerBenchmarkLoop
+  [12] Run.measure
+  [13] Run.doRuns
+  [14] Run.runBenchmark
+  [15] Harness.main
+
+--- 80001062 ns (0.23%), 8 samples
+  [ 0] json.JsonPureStringParser.readStringInternal
+  [ 1] json.JsonPureStringParser.readName
+  [ 2] json.JsonPureStringParser.readObject
+  [ 3] json.JsonPureStringParser.readValue
+  [ 4] json.JsonPureStringParser.readArray
+  [ 5] json.JsonPureStringParser.readValue
+  [ 6] json.JsonPureStringParser.readArray
+  [ 7] json.JsonPureStringParser.readValue
+  [ 8] json.JsonPureStringParser.readObject
+  [ 9] json.JsonPureStringParser.readValue
+  [10] json.JsonPureStringParser.parse
+  [11] Json.benchmark
+  [12] Benchmark.innerBenchmarkLoop
+  [13] Run.measure
+  [14] Run.doRuns
+  [15] Run.runBenchmark
+  [16] Harness.main
+
+--- 80000410 ns (0.23%), 8 samples
+  [ 0] java.lang.String.equals
+  [ 1] json.JsonPureStringParser.isWhiteSpace
+  [ 2] json.JsonPureStringParser.skipWhiteSpace
+  [ 3] json.JsonPureStringParser.readArray
+  [ 4] json.JsonPureStringParser.readValue
+  [ 5] json.JsonPureStringParser.readObject
+  [ 6] json.JsonPureStringParser.readValue
+  [ 7] json.JsonPureStringParser.readArray
+  [ 8] json.JsonPureStringParser.readValue
+  [ 9] json.JsonPureStringParser.readArray
+  [10] json.JsonPureStringParser.readValue
+  [11] json.JsonPureStringParser.readObject
+  [12] json.JsonPureStringParser.readValue
+  [13] json.JsonPureStringParser.parse
+  [14] Json.benchmark
+  [15] Benchmark.innerBenchmarkLoop
+  [16] Run.measure
+  [17] Run.doRuns
+  [18] Run.runBenchmark
+  [19] Harness.main
+
+          ns  percent  samples  top
+  ----------  -------  -------  ---
+ 12190301380   35.19%     1219  java.lang.String.equals
+  3440109866    9.93%      344  java.lang.StringLatin1.toBytes
+  2580026396    7.45%      258  json.JsonPureStringParser.read
+  2529967552    7.30%      253  java.lang.String.valueOf
+  1150011115    3.32%      115  json.JsonPureStringParser.subStringFromTo
+  1020013946    2.94%      102  json.JsonPureStringParser.readStringInternal
+   840029756    2.42%       84  java.lang.String.isLatin1
+   830006052    2.40%       83  som.Vector.append
+   760011399    2.19%       76  json.JsonPureStringParser.isWhiteSpace
+   730029360    2.11%       73  json.JsonPureStringParser.readValue
+   680026157    1.96%       68  som.Vector.<init>
+   670044460    1.93%       67  /home/hb478/repos/graal-instrumentation/sdk/mxbuild/linux-amd64/GRAALVM_LIBGRAAL_JAVA21/graalvm-libgraal-openjdk-21.0.2+13.1/lib/libjvmcicompiler.so
+   660058914    1.91%       66  java.lang.AbstractStringBuilder.append
+   560010482    1.62%       56  jbyte_disjoint_arraycopy
+   549972527    1.59%       55  java.lang.AbstractStringBuilder.<init>
+   429977319    1.24%       43  java.lang.String.hashCode
+   330019888    0.95%       33  json.JsonPureStringParser.readChar
+   320007743    0.92%       32  json.JsonPureStringParser.readDigit
+   320007510    0.92%       32  java.lang.Object.clone
+   310031639    0.89%       31  java.lang.AbstractStringBuilder.ensureCapacityInternal
+   280004412    0.81%       28  json.JsonPureStringParser.readArray
+   270010139    0.78%       27  json.JsonPureStringParser.isDigit
+   249997837    0.72%       25  java.lang.StringBuilder.toString
+   220008042    0.64%       22  json.JsonPureStringParser.endCapture
+   219995952    0.63%       22  json.JsonPureStringParser.skipWhiteSpace
+   219980697    0.63%       22  java.lang.AbstractStringBuilder.isLatin1
+   200028797    0.58%       20  java.lang.StringLatin1.charAt
+   181178019    0.52%       18  G1ParScanThreadState::trim_queue_to_threshold
+   130000364    0.38%       13  java.lang.String.length
+   109996524    0.32%       11  jdk.internal.util.Preconditions.checkIndex
+   109996109    0.32%       11  json.JsonPureStringParser.readNumber
+   109995540    0.32%       11  java.lang.StringLatin1.hashCode
+   100015578    0.29%       10  json.JsonPureStringParser.startCapture
+   100015263    0.29%       10  json.JsonPureStringParser.readObject
+    80003314    0.23%        8  json.JsonPureStringParser.readNull
+    79998921    0.23%        8  java.lang.String.coder
+    70002981    0.20%        7  json.JsonArray.<init>
+    60018959    0.17%        6  json.JsonObject$HashIndexTable.<init>
+    59994498    0.17%        6  json.JsonObject.<init>
+    59992791    0.17%        6  json.JsonPureStringParser.readString
+    40295843    0.12%        4  HeapRegionManager::par_iterate
+    40267073    0.12%        4  void OopOopIterateBackwardsDispatch<G1ScanEvacuatedObjClosure>::Table::oop_oop_iterate_backwards<InstanceKlass, narrowOop>
+    30244014    0.09%        3  void WeakProcessor::Task::work<G1STWIsAliveClosure, G1KeepAliveClosure>
+    30006299    0.09%        3  do_user_addr_fault_[k]
+    30002889    0.09%        3  json.JsonPureStringParser.readName
+    20204862    0.06%        2  void QuickSort::inner_sort<true, unsigned int, int (*)(unsigned int, unsigned int)>
+    20179836    0.06%        2  ConstantPool::name_and_type_ref_index_at
+    20160093    0.06%        2  G1MergeHeapRootsTask::G1MergeCardSetClosure::do_heap_region
+    20002020    0.06%        2  json.JsonObject$HashIndexTable.get
+    20001812    0.06%        2  json.JsonObject$HashIndexTable.hashSlotFor
+    20001354    0.06%        2  java.lang.AbstractStringBuilder.length
+    19996532    0.06%        2  json.JsonObject$HashIndexTable.stringHash
+    10104657    0.03%        1  _IO_default_xsputn
+    10101886    0.03%        1  WorkerThreads::run_task
+    10100222    0.03%        1  syscall_enter_from_user_mode_[k]
+    10099988    0.03%        1  __GI___libc_malloc
+    10095867    0.03%        1  plist_add_[k]
+    10095525    0.03%        1  FreeListAllocator::reset
+    10094413    0.03%        1  __x64_sys_futex_[k]
+    10085232    0.03%        1  G1CardSetMemoryManager::flush
+    10082597    0.03%        1  WorkerThread::run
+    10081735    0.03%        1  Method::bcp_from
+    10075658    0.03%        1  HeapRegion::clear_cardtable
+    10073806    0.03%        1  SubTasksDone::try_claim_task
+    10073654    0.03%        1  __memmove_sse2_unaligned_erms
+    10072401    0.03%        1  frame::oops_do_internal
+    10070599    0.03%        1  G1ScanCollectionSetRegionClosure::do_heap_region
+    10067232    0.03%        1  do_syscall_64_[k]
+    10066523    0.03%        1  G1CardSet::reset_table_scanner
+    10065578    0.03%        1  InterpreterFrameClosure::offset_do
+    10063652    0.03%        1  rseq_ip_fixup_[k]
+    10062773    0.03%        1  PLAB::retire
+    10062019    0.03%        1  RelocIterator::advance_over_prefix
+    10060474    0.03%        1  syscall_exit_work_[k]
+    10056326    0.03%        1  CollectedHeap::fill_with_object
+    10051960    0.03%        1  Thread::oops_do_no_frames
+    10048953    0.03%        1  rseq_get_rseq_cs_[k]
+    10042065    0.03%        1  [vdso]
+    10041958    0.03%        1  Assembler::locate_operand
+    10016682    0.03%        1  java.lang.invoke.MemberName.checkForTypeAlias
+    10009811    0.03%        1  memchr_[k]
+    10007455    0.03%        1  java.lang.StringCoding.implEncodeAsciiArray
+    10005398    0.03%        1  clear_page_erms_[k]
+    10005264    0.03%        1  Stub<new_instance_or_null(KlassPointer)Object>
+    10005262    0.03%        1  java.lang.StringLatin1.indexOf
+    10002473    0.03%        1  memcg_slab_post_alloc_hook_[k]
+    10002153    0.03%        1  java.util.Arrays.copyOf
+    10002088    0.03%        1  java.lang.invoke.BoundMethodHandle$Species_L.<init>
+    10001717    0.03%        1  java.io.PrintStream.writeln
+    10001711    0.03%        1  CompLevel CompilationPolicy::common<LoopPredicate>
+    10000974    0.03%        1  G1FromCardCache::clear
+    10000793    0.03%        1  G1BarrierSetRuntime::write_ref_array_post_entry
+    10000140    0.03%        1  Interpreter
+    10000044    0.03%        1  oop_disjoint_arraycopy
+     9999997    0.03%        1  java.lang.AbstractStringBuilder.getValue
+     9999972    0.03%        1  json.JsonObject$HashIndexTable.add
+     9999709    0.03%        1  json.JsonPureStringParser.readRequiredChar
+     9999487    0.03%        1  JVMCIEnv::has_pending_exception
+     9999228    0.03%        1  G1Allocator::unsafe_max_tlab_alloc
+     9999222    0.03%        1  __memcpy_avx_unaligned_erms
+     9998903    0.03%        1  json.JsonPureStringParser.readTrue
+     9997513    0.03%        1  DebugInformationRecorder::find_sharable_decode_offset
+     9993071    0.03%        1  __vfscanf_internal
+     9983811    0.03%        1  Json.benchmark
