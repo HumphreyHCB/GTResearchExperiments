@@ -1,0 +1,43 @@
+Minimizing noise with rebench-denoise failed
+    possibly causing benchmark results to vary more.
+
+    Please make sure `sudo rebench-denoise` can be used without password.
+    To be able to run rebench-denoise without password,
+    add the following to the end of your sudoers file (using visudo):
+        hb478 ALL = (root) NOPASSWD:SETENV: /home/hb478/.local/bin/rebench-denoise
+
+Running Benchmarks: 0.00%
+Running Benchmarks:                                   Json (Runner, Slowdown-150, 100) 1 4	mean:      177.6	time left: 00:13:22: 10.00%
+Running Benchmarks:                                   Json (Runner, Slowdown-150, 100) 1 5	mean:      176.9	time left: 00:11:51: 20.00%
+Running Benchmarks:                                   Json (Runner, Slowdown-150, 100) 1 9	mean:      177.4	time left: 00:10:22: 30.00%
+Running Benchmarks:                                   Json (Runner, Slowdown-150, 100) 1 1	mean:      179.3	time left: 00:08:55: 40.00%
+Running Benchmarks:                                   Json (Runner, Slowdown-150, 100) 1 7	mean:      177.6	time left: 00:07:25: 50.00%
+Running Benchmarks:                                   Json (Runner, Slowdown-150, 100) 1 6	mean:      177.3	time left: 00:05:56: 60.00%
+Running Benchmarks:                                   Json (Runner, Slowdown-150, 100) 1 8	mean:      177.1	time left: 00:04:27: 70.00%
+Running Benchmarks:                                   Json (Runner, Slowdown-150, 100) 1 3	mean:      177.2	time left: 00:02:58: 80.00%
+Running Benchmarks:                                  Json (Runner, Slowdown-150, 100) 1 10	mean:      177.1	time left: 00:01:29: 90.00%
+Running Benchmarks:                                   Json (Runner, Slowdown-150, 100) 1 2	mean:      177.0	time left: 00:00:00: 100.00%
+
+
+------------------------------------------------------------------------------------------------
+  Benchmark   Executor   Suite          Extra   Core   Size   Var   #Samples   Mean (ms)  
+------------------------------------------------------------------------------------------------
+  Json        Runner     Slowdown-150     100      1            1                    500   179  
+  Json        Runner     Slowdown-150     100      1           10                    500   177  
+  Json        Runner     Slowdown-150     100      1            2                    500   177  
+  Json        Runner     Slowdown-150     100      1            3                    500   177  
+  Json        Runner     Slowdown-150     100      1            4                    500   178  
+  Json        Runner     Slowdown-150     100      1            5                    500   177  
+  Json        Runner     Slowdown-150     100      1            6                    500   177  
+  Json        Runner     Slowdown-150     100      1            7                    500   178  
+  Json        Runner     Slowdown-150     100      1            8                    500   177  
+  Json        Runner     Slowdown-150     100      1            9                    500   177  
+------------------------------------------------------------------------------------------------
+Minimizing noise with rebench-denoise failed
+    possibly causing benchmark results to vary more.
+
+    Please make sure `sudo rebench-denoise` can be used without password.
+    To be able to run rebench-denoise without password,
+    add the following to the end of your sudoers file (using visudo):
+        hb478 ALL = (root) NOPASSWD:SETENV: /home/hb478/.local/bin/rebench-denoise
+
