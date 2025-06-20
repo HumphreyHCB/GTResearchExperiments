@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config version="13.0.5">
+  <sessions>
+    <session id="120" name="New session" jvmConfigurationId="100" recordArrayAlloc="false" methodCallRecordingType="async" samplingFrequency="10" autoTuneInstrumentation="false">
+      <filters>
+        <group type="exclusive" name="Default excludes" template="defaultExcludes" />
+      </filters>
+      <triggers>
+        <jvmStart>
+          <actions>
+            <startRecording>
+              <cpu enabled="true" />
+            </startRecording>
+          </actions>
+        </jvmStart>
+        <jvmStop>
+          <actions>
+            <saveSnapshot file="/home/hb478/repos/GTResearchExperiments/GTExperiment2bADHOCWithSafepointANDMissingDebug/JProfilerData/150_6_Towers_NoSlowdown" />
+          </actions>
+        </jvmStop>
+      </triggers>
+    </session>
+  </sessions>
+</config>
